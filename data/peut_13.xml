@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 13 (Kaspar Ursinus Vel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_13</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="peut-1515"
+                  >Iordanes, Gotus: De rebus Gothorum et Pauli Warnefridi historia Longobardiae
+                  libri, Augsburg 1515</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_13">
+         <graphic url="facs/facs_peut_13.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_13" source="#peut-1515" type="text">
+               <pb xml:id="facs_peut_13"/>
+               <head><persName ref="#ursi">Aliud</persName></head>
+               <lg>
+                  <l>Felices animae Regumque Ducumque per arva</l>
+                  <l>Laeta per <placeName ref="#elys">Elysium</placeName> quas iuvat ire nemus.</l>
+                  <l>Vel pro magnanimis quae gaudia carpitis actis</l>
+                  <l>Illustri saturae nectar in arce <persName ref="#iupp">Iovis</persName>.</l>
+                  <l>Vestras perdomitus vires exhorruit orbis,</l>
+                  <l>Litore ab Eoo, litus ad Hesperium.</l>
+                  <l>Indignata licet visa est, tamen inclita nostro</l>
+                  <l>Imperio, imperium ponere <placeName ref="#roma">Roma</placeName> suum.</l>
+                  <l>Si modo quae terris agimus, vos aethere ab alto</l>
+                  <l>Despicitis: magno aut scitis in <placeName ref="#elys">Elysio</placeName>.</l>
+                  <l>Pertentant animos nimirum gaudia vestros:</l>
+                  <l>Iam nova quos caelo diique hominesque beant.</l>
+                  <l>Illi qui propria merito vos sede locarunt:</l>
+                  <l>Hi quoniam aeternant nomina vestra libris.</l>
+                  <l>Nomina per terras, in caelo numina fulgent</l>
+                  <l>Vestra: deos inter Sidereumque genus.</l>
+                  <l>Seraque posteritas quam non ea gloria tangit,</l>
+                  <l>Mirata est vestras, non imitata manus.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#peut_13">
+               <head>Ein weiteres <persName ref="#ursi">&lt;des <forename>Kaspar</forename>
+                     <surname>Ursinus</surname>&gt;</persName></head>
+               <p>Glücklich &lt;sind&gt; die Seelen der Könige und Anführer, denen es gefällt, durch
+                  die heiteren Gefilde &lt;und&gt; durch den elysischen Hain zu gehen oder die ihr
+                  für eure edlen Taten Freuden genießt, die Köstlichkeit gemischter Früchte, auf der
+                  berühmten Burg des Jupiter. Unterworfen erschauderte der Erdkreis vor euren
+                  Kräften, von der Küste im Osten bis zur Küste im Westen. Wenn Rom auch entrüstet
+                  schien, ihre Herrschaft abzulegen, ist sie dennoch durch unsere Herrschaft
+                  berühmt. Wenn ihr nur vom hohen Äther darauf hinabblickt, was wir auf der Erde
+                  treiben, oder wenn ihr &lt;es&gt; im großen Elysium wisst. Zweifellos ergreift
+                  &lt;dann&gt; Freude eure Gemüter: Schon gibt es neue (sic!) die die Götter und die
+                  Menschen mit &lt;der Aufnahme in den&gt; Himmel beschenken. Jene, die euch
+                  verdient an einen unvergänglichen Platz gerückt haben: Denn diese verewigen eure
+                  Namen in &lt;ihren&gt; Büchern. Auf der Erde strahlen eure Namen, im Himmel eure
+                  göttliche Macht: Götter unter dem Sternengeschlecht. Und die spätere Nachwelt, die
+                  dieser Ruhm nicht erreicht, hat den eurigen bewundert, die Schar, die ihm nicht
+                  gleichkam.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

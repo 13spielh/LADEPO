@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 9 (Riccardo Bartolini)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_9</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="peut-1515"
+                  >Iordanes, Gotus: De rebus Gothorum et Pauli Warnefridi historia Longobardiae
+                  libri, Augsburg 1515</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_9">
+         <graphic url="facs/facs_peut_9.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_9" source="#peut-1515" type="text">
+               <pb xml:id="facs_peut_9"/>
+               <head><persName ref="#bart" type="author"><forename>Riccardi</forename>
+                     <surname>Bartolini</surname>
+                     <addName>Perusini</addName></persName> in historiam <persName ref="#iorn"
+                     >Iornandis</persName> de rebus Gothicis carmen ad <persName ref="#peut"
+                        ><forename>Conradum</forename></persName> et ceteros.</head>
+               <lg>
+                  <l>Multum praeclarae debent scriptoribus umbrae</l>
+                  <l>Quorum perpetuat fortia gesta labor.</l>
+                  <l>Nam neque <persName ref="#alex">Alexander</persName> Macedo, neque Porus ad
+                     Indos</l>
+                  <l>Notus: nec dirae <placeName ref="#pers">Persidos</placeName> arma forent.</l>
+                  <l>Iis nisi scriptores Graii, librique dedissent</l>
+                  <l><placeName ref="#auson">Ausonii</placeName>, aeterna posteritate frui.</l>
+                  <l>At qui facta, situm, et tineas abolere virorum,</l>
+                  <l>Non patitur, Ducibus consulit, atque libris.</l>
+                  <l>Ergo tua quoniam cura <persName ref="#peut">Conrade</persName>, Gothorum</l>
+                  <l><persName ref="#iorn">Iornandes</persName>, scripsit qui fera bella Ducum.</l>
+                  <l>Redditur ad vitam rursus: tibi gratia triplex</l>
+                  <l>Debetur: qui non scripta perire sinis.</l>
+                  <l>Nam magnae vivunt iterum umbrae: olimque sepultus</l>
+                  <l><persName ref="#iorn">Iornandes</persName>, studiis quaeque parantur opes.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#peut_9">
+               <head>Ein Lied von <persName ref="#bart"><forename>Riccardo</forename>
+                     <surname>Bartolini</surname>
+                     <addName>aus Perugia</addName></persName> an <persName ref="#peut"
+                        ><forename>Konrad</forename></persName> und die übrigen auf die Geschichte
+                  des <persName ref="#iorn">Iornandes</persName> über die gothischen
+                  Begebenheiten</head>
+               <p>Viel schulden die berühmten Schatten den Schriftstellern, deren Arbeit tapfere
+                  Taten fortleben lässt. Denn weder der Makedone Alexander noch der Weg zu den
+                  Indern: und auch die Waffen des grauenvollen Persiens wären nicht bekannt. Wenn
+                  diesen die griechischen Schriftsteller und die italischen Bücher nicht gewährt
+                  hätten, sich an ewigem Nachleben zu erfreuen. Aber wer nicht zulässt, dass
+                  Schimmel und Motten die Taten der Männer zerstören, der sorgt für
+                  Herrscherpersönlichkeiten und für Bücher. Weil also durch deine Bemühung, Konrad,
+                  Iornandes, der die wilden Kriege der Anführer der Gothen niederschrieb, wieder zum
+                  Leben zurückkehrt: &lt;deshalb&gt; wird dir dreifacher Dank geschuldet: Der du
+                  nicht zulässt, dass Schriften untergehen. Denn die großen Schatten leben wiederum:
+                  Und der einst begrabene Iornandes und alle Reichtümer, die durch &lt;deine&gt;
+                  Bemühungen gewonnen werden.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
