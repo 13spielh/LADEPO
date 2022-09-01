@@ -22,7 +22,7 @@
                 <title>GAMS - Project Title</title>
                 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
                     rel="stylesheet"/>
-                <link rel="stylesheet" type="text/css" href="css/test_03_04.css"/>
+                <link rel="stylesheet" type="text/css" href="css/ladepo.css"/>
                 <link href="css/navbar.css" rel="stylesheet" type="text/css"/>
                 <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="http://gams.uni-graz.at/templates/css/core/iehacks.css" media="screen"/><![endif]-->
                 <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">//</script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">//</script><![endif]-->
