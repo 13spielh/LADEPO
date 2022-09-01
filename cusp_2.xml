@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spießheimer 2 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cusp_2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="cusp-1513"
+                  >Panaegyrici Variorum Autorum et Declamationes Nonnullae perquam eruditae hactenus
+                  non impressae, Wien 1513</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cusp_2">
+         <graphic url="facs/facs_cusp_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cusp_2" source="#cusp-1513" type="text">
+               <pb xml:id="facs_cusp_2"/>
+               <head><persName ref="#gund" type="author"><forename>Philippus</forename>
+                     <surname>Gundelius</surname>
+                     <addName>Boius</addName></persName>. Ad <persName ref="#lect"
+                     >lectorem</persName>.</head>
+               <lg>
+                  <l>Caesareas laudes qua dicere voce solebant</l>
+                  <l>Maiores, facile hinc <persName ref="#lect">lector</persName> habere potes,</l>
+                  <l>Non scopulis illisa ruet tibi naufraga puppis,</l>
+                  <l><persName ref="#lect">Lector</persName> quisquis in hoc aequore vela dabis.</l>
+                  <l>Non hic <persName ref="#scyl">Scylla</persName> latrat, furit hic non saeva
+                        <persName ref="#chary">Charybdis</persName>,</l>
+                  <l>Sustulit has valida <persName ref="#cusp">Cuspinianus</persName> ope.</l>
+                  <l>Sed facili tutum remo se fregerit aequor</l>
+                  <l>Adveniet dextro ripa petita Notho.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cusp_2">
+               <head><persName ref="#gund"><addName>Der Boier</addName>
+                     <forename>Philipp</forename>
+                     <surname>Gundel</surname></persName> an den <persName ref="#lect"
+                     >Leser</persName>.</head>
+               <p>Mit welcher Stimme die Vorfahren kaiserliche Lobeshymnen zu sprechen pflegten,
+                  kannst du, <persName ref="#lect">Leser</persName>, hiervon leicht erkennen, nicht
+                  wird dir der schiffbrüchige Kiel, an den Felsen zerschmettert, untergehen, welcher
+                  Leser auch immer du in diesem Gewässer Segel setzt. Hier tobt nicht <persName
+                     ref="#scyl">Skylla</persName>, hier rast nicht die wilde <persName ref="#chary"
+                     >Charybdis</persName>, diese hat <persName ref="#cusp"
+                        ><surname>Spießheimer</surname></persName> mit seinem kräftigen Beistand
+                  beseitigt. Aber durch ein geschicktes Ruder wird sich das sichere Meer entkräften
+                  und das Ufer, das du anstrebst, wird durch günstigen Südwind näher kommen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

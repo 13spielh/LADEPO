@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tannsteter Collimitius 7 (Kaspar Ursinus Vel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">coll_7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="coll-1523">In
+                  gratiam serenissimi ac potentissimi principis et domini, domini Ferdinandi
+                  Principis Hispaniarum, Archiducis Austriae, ducis Burgundiae, et ceterea. Caesaris
+                  et catholicae Maiestatis locum tenentis generalis et cetera et ad consolationem
+                  populorum suae. S. ac po. do. ditioni subiectorum Georgii Tannstetter Collimitii
+                  Lycoripensis Medici et Mathematici libellus consolatorius, quo, opinionem iam
+                  dudum annis hominum ex quorundam Astrologastrorum divinatione insidentem, de
+                  futuro diluvio et multis aliis horrendis periculis. XXIIII. anni a fundamentis
+                  extirpare conatur, Wien 1523</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_coll_7">
+         <graphic url="facs/facs_coll_7.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="coll_7" source="#coll-1523" type="text">
+               <pb xml:id="facs_coll_7"/>
+               <head>In Anni XXIIII. prognostica Authore <persName ref="#coll"
+                        ><forename>Georgio</forename>
+                     <surname>Tannstetter Collimitio</surname>
+                     <roleName>Medico et Mathematico.</roleName></persName>
+                  <persName ref="#ursi" type="author"><forename>Caspar</forename>
+                     <surname>Ursini Velii</surname></persName> Epigramma.</head>
+               <lg>
+                  <l>Terruerant vario populos rumore canentes</l>
+                  <l>Venturas iterum <persName ref="#deuc">Deucalionis</persName> aquas,</l>
+                  <l>Portendi excidium terris, caelumque Deosque</l>
+                  <l>Velle nova humanum clade perire genus</l>
+                  <l>Spes vitae cecidit, nos nostraque tempora multi</l>
+                  <l>Temporibus <persName ref="#pyrr">Pyrrhae</persName> deteriora queri</l>
+                  <l>Quin et inauditis irarum paene procellis</l>
+                  <l>Reddidit infames impia turba deos.</l>
+                  <l>Quos iurato iterum non admittenda <persName ref="#iupp">Tonanti</persName></l>
+                  <l>Hic <persName ref="#coll">Collimitus</persName> praecinuisse docet.</l>
+                  <l>Orbis et astrorum gnarus, primusque medendi</l>
+                  <l>Arte, homines gemina sublevat author ope</l>
+                  <l>Arte etenim duplici callet vir hic unus ab aegris</l>
+                  <l>Corporibus morbos, mente fugare metum.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#coll_7">
+               <head>Ein Epigramm des <persName ref="#ursi"><surname>Ursinus
+                     Vel</surname></persName> auf die Wetterzeichen des Jahres 24 des Autors
+                     <persName ref="#coll"><forename>Georg</forename>
+                     <surname>Tannstetter Collimitius</surname>, <roleName>des Arztes und
+                        Mathematikers</roleName></persName>.</head>
+               <p>Durch verschiedenes Gerede hatten jene die Völker verängstigt, die sangen, dass
+                  die Fluten des <persName ref="#deuc">Deukalion</persName> wiederum kommen würden,
+                  dass der Erde der Untergang vorhergesagt werde und dass der Himmel und die Götter
+                  wollen, dass das Menschengeschlecht an einem neuen Unglück zugrunde gehe. Die
+                  Hoffung auf das Leben schwand und viele von uns beklagten, dass unsere Zeiten
+                  schlechter als die Zeiten der <persName ref="#pyrr">Pyrrha</persName> sind, ja die
+                  ruchlose Menge berichtete sogar, die Götter seien wegen einem beinahe ungehörten
+                  Aufruhr ihrer Wut verrufen. Dieser <persName ref="#coll"
+                        ><surname>Tannstetter</surname></persName> lehrt, dass diese prophezeiht
+                  haben, dass der <persName ref="#iupp">Donnerer</persName> &lt;dies&gt; unter Eid
+                  nicht wieder erlauben dürfe. Kundig des Himmels und der Sterne und der
+                  bedeutendste in der Heilkunst, lindert der Autor &lt;den Zustand&gt; der Menschen
+                  durch doppelte Hilfeleistung. Denn mit zweifacher Kraft versteht es dieser eine
+                  Mann, aus kranken Körpern die Krankheiten, aus dem Geist die Furcht zu
+                  vertreiben.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

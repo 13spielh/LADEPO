@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spießheimer 6 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cusp_6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="cusp-1513"
+                  >Panaegyrici Variorum Autorum et Declamationes Nonnullae perquam eruditae hactenus
+                  non impressae, Wien 1513</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cusp_6_1">
+         <graphic url="facs/facs_cusp_6_1.jpg"/>
+      </surface>
+      <surface start="#facs_cusp_6_2">
+         <graphic url="facs/facs_cusp_6_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cusp_6" source="#cusp-1513" type="text">
+               <pb xml:id="facs_cusp_6_1"/>
+               <head><persName ref="#gund" type="author"><forename>Philippi</forename>
+                     <surname>Gundelii</surname>
+                     <addName>Boii</addName></persName>, Endecasyllabon. Libellus ad <persName
+                     ref="#lect">Lectorem</persName>.</head>
+               <lg>
+                  <l>En <persName ref="#lect">Lector</persName> tibi prodeo libellus,</l>
+                  <l>Vultu non tetrico ut prius solebam,</l>
+                  <l>Nec iam vulneribus lacer, parabat</l>
+                  <l>Ignorantia quae librariorum,</l>
+                  <l>Nec iam compede Barbari revinctus</l>
+                  <l>Gothi, nec tenebris situque putris,</l>
+                  <l>Sed pulcher, nitidus, recens, politus,</l>
+                  <l><persName ref="#timo">Timones</persName> modo qualis et <persName ref="#cato"
+                        >Catones</persName></l>
+                  <l>Secura valeo videre fronte,</l>
+                  <l>Nec restat mihi vulnerum cicatrix.</l>
+                  <l>Hoc non Paeoniae repertor artis</l>
+                  <l>Posset <persName ref="#apol">Cynthius</persName> exhibere nobis,</l>
+                  <pb xml:id="facs_cusp_6_2"/>
+                  <l>Non <persName ref="ascl">Asclepius</persName> aut senex <persName ref="#mach"
+                        >Machaon</persName>,</l>
+                  <l>Non ars <persName ref="#chei">Philliridis</persName>, <persName ref="#poda"
+                        >Podalirique</persName>.</l>
+                  <l>Verum <persName ref="#cusp">Cuspinianus</persName> ille, docto</l>
+                  <l>Qui Graium superat lepore <persName ref="agam">Atridam</persName>,</l>
+                  <l>Et <persName ref="#odys">Laertiademque</persName>
+                     <persName ref="#nest">Nestoremque</persName>,</l>
+                  <l>Qui nunc Caesarei decus senatus</l>
+                  <l>Et <persName ref="#apol">Phoebi</persName> gemina peritus arte</l>
+                  <l>Toto nomine noscitur sub orbe,</l>
+                  <l>Is mi praestitit hoc amande <persName ref="#lect">Lector</persName>,</l>
+                  <l>Hunc multos simileis sui videre</l>
+                  <l>Austerosque iuvat stilo <persName ref="#cato">Catones</persName></l>
+                  <l><persName ref="#cice">Tullos</persName>
+                     <persName ref="#sulp">Sulpiciosque</persName>
+                     <persName ref="#caes">Caesaresque</persName></l>
+                  <l>Nostri vincere saeculi Iuventam,</l>
+                  <l>Istud me duce consequere <persName ref="#lect">Lector</persName>.</l>
+                  <l>Non te tramite devio disertum</l>
+                  <l>Nec longo faciam modo labore.</l>
+                  <l>Ergo me tibi profuisse quisquis</l>
+                  <l>Fructum, commoda, sentiens fateris,</l>
+                  <l>Haec adscribito Iudici salutis</l>
+                  <l><persName ref="#lect">Lector</persName> candide vindicique nostrae,</l>
+                  <l>Namque illi, fateor, nec est quod obstet,</l>
+                  <l>Plus iam debeo quam puer parenti,</l>
+                  <l>Illo vindice non <placeName ref="#styg">Stygis</placeName> cruenti,</l>
+                  <l>Cernemus vada, <persName ref="#sisy">Sisyphique</persName> saxum,</l>
+                  <l>Sed dum sidera vixerint polusque,</l>
+                  <l>Et dum <persName ref="#cusp">Cuspiniani</persName> erunt labores,</l>
+                  <l>Hoc me nomine posteri legetis.)</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cusp_6">
+               <head>&lt;Ein Gedicht&gt; in Elfsilblern des <persName ref="#gund"
+                        ><addName>Boiers</addName>
+                     <forename>Philipp</forename>
+                     <surname>Gundel</surname></persName>. Das Büchlein an den <persName ref="#lect"
+                     >Leser</persName>.</head>
+               <p>Sieh, <persName ref="#lect">Leser</persName>, ich zeige mich dir, ein Büchlein,
+                  nicht mit finsterer Miene, wie ich es zuvor pflegte, und nicht mehr mit Wunden
+                  zerfleischt, wozu die Unkenntnis der Buchhändler führt, auch nicht mehr durch die
+                  Fußfessel des barbarischen Goten angebunden, noch verfallen durch Finsternis und
+                  Moder, sondern ansehnlich, glänzend, frisch und poliert, wie beschaffen ich mit
+                  unbesorgtem Buchdeckel auch die <persName ref="#timo">Timons</persName> und
+                     <persName ref="#cato">Catos</persName> zu sehen vermag, und nicht bleibt mir
+                  eine Narbe der Wunden. Dies könnte uns nicht der Erfinder der paeonischen Kunst,
+                  der kynthische <persName ref="#apol">Apoll</persName>, gewähren, nicht <persName
+                     ref="#ascl">Asklepios</persName> oder der Alte <persName ref="#mach"
+                     >Machaon</persName>, nicht die Kunst des <persName ref="#chei"
+                     >Philyriden</persName> und des <persName ref="#poda">Podaleirios</persName>.
+                  Aber jener <persName ref="#cusp">Spießheimer</persName>, der in gelehrter Anmut
+                  den griechischen <persName ref="#agam">Atreussohn</persName>, den <persName
+                     ref="#odys">Sohn des Laertes</persName> und <persName ref="#nest"
+                     >Nestor</persName> übertrifft, der jetzt als Zier des kaiserlichen Senats und
+                  bewandert in der doppelten Kunst des <persName ref="#apol">Phoebus</persName>
+                  durch seinen Namen auf dem ganzen Erdkreis gekannt wird. Dieser gewährte mir dies,
+                  lieber <persName ref="#lect">Leser</persName>, diesen erfreut es, viele ihm
+                  ähnliche zu sehen und mit seinem Stift die strengen <persName ref="#cato"
+                     >Catos</persName>, <persName ref="#cice">Tuller</persName>, <persName
+                     ref="#sulp">Sulpicier</persName> und <persName ref="#caes">Caesaren</persName>,
+                  die Jugend unseres Jahrhunderts, zu besiegen. Verfolge dies unter meiner Führung,
+                     <persName ref="#lect">Leser</persName>. Ich werde dich nicht auf einem
+                  entlegenen Weg oder erst mit einer langen Mühe redegewandt machen. Also, wer auch
+                  immer du &lt;bist, der du&gt; den Vorteil und Nutzen bemerkst und bekennst, dass
+                  ich dir genützt habe, dies soll dem Richter und Beschützer unseres Wohls
+                  zugeschrieben werden, geneigter <persName ref="#lect">Leser</persName>. Denn
+                  jenem, so bekenne ich und es gibt nichts, was mich daran hindert, schulde ich
+                  schon mehr als ein Knabe einem Elternteil. Mit jenem als Beschützer werden wir
+                  nicht blutig die Gewässer der <placeName ref="#styg">Styx</placeName> und den Fels
+                  des <persName ref="#sisy">Sisyphus</persName> sehen, sondern während die Sterne
+                  und der Himmel und während die Mühen <persName ref="#cusp">Spießheimers</persName>
+                  fortbestehen, werdet ihr Nachkommenden mich unter diesem Titel lesen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
