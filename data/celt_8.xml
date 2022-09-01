@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 8 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher></publisher>
+            <distributor></distributor>
+            <date></date>
+            <availability>
+               <p></p>
+            </availability>
+            <idno type="PID">celt_8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="celt-1513"
+                  >Conradi Celtis Protucii, primi in Germania poetae coronati, libri Odarum
+                  quattuor, cum Epodo, et saeculari carmine diligenter et accurate impressi, et hoc
+                  primum typo in studiosorum emolumentum editi, Straßburg 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="keyword">Poetologie</span>
+                     <span ana="keyword">Nachruhm</span>
+                     <span ana="keyword">Unsterblichkeit</span>
+                     <span ana="keyword">Dichtung</span>
+                     <span ana="keyword">Nationalstolz</span>
+                     <span ana="keyword">Theben</span>
+                     <span ana="keyword">aemulatio</span>
+                     <span ana="keyword">Pindar</span>
+                     <span ana="keyword">Rom</span>
+                     <span ana="keyword">Ennius</span>
+                     <span ana="keyword">Ausonien</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_8">
+         <graphic url="facs/facs_celt_8.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_8" source="#celt-1513" type="text">
+               <pb xml:id="facs_celt_8"/>
+               <head><persName ref="#gund" type="author">Eiusdem</persName> ad <persName ref="#lect"
+                     >lectorem</persName> epigramma.</head>
+               <lg>
+                  <l><persName ref="#pind">Pindarico</persName> tumeant non solae carmine <placeName
+                        ref="#theb">Thebae</placeName>,</l>
+                  <l>Nec nimium Calabris Martia <placeName ref="#roma">Roma</placeName> modis.</l>
+                  <l>Tertia surrexit <persName ref="#apol">Phoebei</persName> gloria plectri,</l>
+                  <l><placeName ref="#auso">Ausoniae</placeName>
+                     <persName ref="#celt">Celtis</persName> fama secunda lyrae.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_8">
+               <head>Ein Epigramm <persName ref="#gund">desselben</persName> an den <persName
+                     ref="#lect">Leser</persName>.</head>
+               <p>Nicht nur <placeName ref="#theb">Theben</placeName> ist voller Stolz über das
+                     <persName ref="#pind">pindarische</persName> Lied, noch allzu sehr das
+                  marsische <placeName ref="#roma">Rom</placeName> über die kalabrischen Melodien
+                  (=Lieder des <persName ref="#enni">Ennius</persName>). Zum dritten Mal hat sich
+                  der Ruhm des Plektrons des <persName ref="#apol">Phoebus</persName> erhoben,
+                     <persName ref="#celt">Celtis</persName> ist der zweite Ruhm der <placeName
+                     ref="#auso">ausonischen</placeName> Lyra.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

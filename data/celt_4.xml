@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 4 (Nikolaus Gerbel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="celt-1513"
+                  >Conradi Celtis Protucii, primi in Germania poetae coronati, libri Odarum
+                  quattuor, cum Epodo, et saeculari carmine diligenter et accurate impressi, et hoc
+                  primum typo in studiosorum emolumentum editi, Straßburg 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="keyword">Musen</span>
+                     <span ana="keyword">Musenweihe</span>
+                     <span ana="keyword">Poetologie</span>
+                     <span ana="keyword">Apoll</span>
+                     <span ana="keyword">Merkur</span>
+                     <span ana="keyword">Kalliope</span>
+                     <span ana="keyword">Chor</span>
+                     <span ana="keyword">Parnass</span>
+                     <span ana="keyword">Tibull</span>
+                     <span ana="keyword">Elegie</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_4_1">
+         <graphic url="facs/facs_celt_4_1.jpg"/>
+      </surface>
+      <surface start="#facs_celt_4_2">
+         <graphic url="facs/facs_celt_4_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_4" source="#celt-1513" type="text">
+               <pb xml:id="facs_celt_4_1"/>
+               <head>In Odas <persName ref="#celt"><forename>Conradi</forename>
+                     <surname>Celtis</surname></persName> epigramma <persName ref="#gerb"
+                     type="author"><forename>Nicolai</forename>
+                     <surname>Gerbellii</surname>
+                     <addName>Phorcensis</addName></persName>.</head>
+               <lg>
+                  <l><persName ref="#musa">Musae</persName> convenerant ubi se <placeName
+                        ref="#parn">Parnasia</placeName> rupes</l>
+                  <l>Bicipiti magnum fert per inane iugo,</l>
+                  <l>Tractaturae animis praemagna negotia sacri</l>
+                  <l>Concilii, et vatis carmina docta novi.</l>
+                  <l>Si superum, si digna forent habitacula gentis</l>
+                  <l>Humanae, <placeName ref="#elys">elysias</placeName> vel peragrare domos.</l>
+                  <l>Extemplo tenues penetrat <persName ref="#merc">Cyllenius</persName> auras,</l>
+                  <l>Qui referat sacri iussa verenda chori.</l>
+                  <l>Interea surgit vultuque habituque verendo,</l>
+                  <l><persName ref="#kall">Calliope</persName> librum hunc exhibitura deo.</l>
+                  <pb xml:id="facs_celt_4_2"/>
+                  <l>Vade ut interpres divum, manesque <persName ref="#tibu">Tibulli</persName></l>
+                  <l>Accede, et <persName ref="#phil">Choae</persName> candida plectra lyrae.</l>
+                  <l>Hos numeros quondam peramati vatis ad unguem</l>
+                  <l>Discutiam, cithara suppeditante modos.</l>
+                  <l>Ille celer doctae curat mandata sororis,</l>
+                  <l>Hos rediens vatis facta probasse refert.</l>
+                  <l>Illae confestim silvis plaudentibus, omnes</l>
+                  <l>Inter se carmen concinuere novum.</l>
+                  <l>Omnia respondent numeris, compagine docta</l>
+                  <l>Versiculos vatem composuisse ferunt.</l>
+                  <l>Adventi et pulcher cithara comitatus <persName ref="#apol"
+                     >Apollo</persName>,</l>
+                  <l>Componens munda vocibus aure Chelim.</l>
+                  <l>Ergo age, non pudeat teneros tractasse libellos,</l>
+                  <l>Quos probat arguto pectine tanta cohors.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_4">
+               <head>Ein Epigramm auf die Oden des <persName ref="#celt"><forename>Konrad</forename>
+                     <surname>Celtis</surname></persName> von <persName ref="#gerb"
+                        ><forename>Nikolaus</forename>
+                     <surname>Gerbel</surname>
+                     <addName>aus Pforzheim</addName></persName>.</head>
+               <p>Die <persName ref="#musa">Musen</persName> waren zusammengekommen, wo die
+                     <placeName ref="#parn">Parnassische</placeName> Felsschlucht sich dem
+                  zweigipfligen Bergrücken durch eine große Weite zieht, um im Geiste die großen
+                  Aufgaben der heiligen Versammlung und die gelehrten Lieder eines neuen Sängers zu
+                  behandeln. Wenn die Behausungen des menschlichen Volks der Götter würdig wären,
+                  oder die <placeName ref="#elys">elysischen</placeName> Häuser zu durchstreifen.
+                  Plötzlich durchdringt <persName ref="#merc">Merkur</persName> zarte Lüfte, um die
+                  ehrwürdigen Befehle des heiligen Chors zu vermelden. Inzwischen erhebt sich, von
+                  verehrungswürdigem Blick und Gestalt, <persName ref="#kall">Kalliope</persName>,
+                  um dem Gott dieses Büchlein zu überreichen. "Geh dahin wie der Bote der Götter und
+                  tritt heran an die Manen <persName ref="#tibu">Tibulls</persName> und an die
+                  hellklingenden Plektra der <persName ref="#phil">Koischen</persName> Lyra. Diese
+                  Melodien des einst sehr geliebten Sängers will ich genau so anschlagen, wobei die
+                  Kithara mir die Musik gewährt." Jener sorgt sich schnell um den Auftrag der
+                  gelehrten Schwester, kehrt zu diesen zurück und berichtet, die Taten des Sängers
+                  zu billigen. <persName ref="#musa">Jene</persName> stimmten alle unter sich ein
+                  neues Lied an. Alles antwortet im Vers, man erzählt, dass ein Sänger mit gelehrtem
+                  Bindemittel Verslein erdichtet habe. Auch kommt der schöne <persName ref="#apol"
+                     >Apoll</persName> herbei, begleitet von der Kithara, und setzt mit feinem Ohr
+                  die Lyra für die Töne zusammen. Also wohlan, nicht soll man sich schämen, zarte
+                  Büchlein anzurühren, die eine so große Schar mit helltönendem Plektrum
+                  gutheißt.</p>
+               <!-- überarbeiten! -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

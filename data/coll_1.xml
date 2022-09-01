@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tannstetter Collimitius 1 (Joachim Watt)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">coll_1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="coll-1512"
+                  >Iudicium viennense. Anni Millesimi quingentesimi duodecimi, Wien 1512</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="keyword">Herrscherlob</span>
+                     <span ana="keyword">Dichtung</span>
+                     <span ana="keyword">Tugend</span>
+                     <span ana="keyword">Lebensführung</span>
+                     <span ana="keyword">Nachruhm</span>
+                     <span ana="keyword">Unsterblichkeit</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_coll_1_1">
+         <graphic url="facs/facs_coll_1_1.jpg"/>
+      </surface>
+      <surface start="#facs_coll_1_2">
+         <graphic url="facs/facs_coll_1_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="coll_1" source="#coll-1512" type="text">
+               <pb xml:id="facs_coll_1_1"/>
+               <head>Ad illustrissimum <persName ref="#ludo10"><roleName>Principem</roleName>
+                     <forename>Ludovicum</forename>
+                     <roleName><placeName ref="#bava">Bavariae</placeName> ducem et comitem
+                        Palatinum</roleName>.</persName>
+                  <persName ref="#vadi" type="author"><forename>Joachimi</forename>
+                     <surname>vadiani</surname></persName> ode Tricolis Tetrastrophos.</head>
+               <lg>
+                  <l>Principes avito stemmate nobilis</l>
+                  <l>Rerumque gestarum eximium decus</l>
+                  <l>Qui <persName ref="#maxi1">caesaris</persName> natus <persName ref="#kuni"
+                        >sorore</persName> es</l>
+                  <l>Omnia cum <persName ref="#iupp">Iove</persName> nunc regentis,</l>
+                  <l>Posses quidem victoris avunculi</l>
+                  <l>Enses coruscos atque aquilas sequi</l>
+                  <l>Quae castra Germanum secutae</l>
+                  <l>In venetos properant rebelles,</l>
+                  <l>Ubi dolosis obvius hostibus</l>
+                  <l>Eques sub armis fortis et eminens</l>
+                  <l>Aequare vel pthios furores</l>
+                  <l>Vel poteris <persName ref="#diom">diomedis</persName> ausus.</l>
+                  <l>Mavis per artes ingenio tamen</l>
+                  <l>Prodesse: <persName ref="#musa">musarumque</persName> leves choros</l>
+                  <l>Spectasse per rractus amoenos</l>
+                  <l>Aethereis resonare phthongis,</l>
+                  <l>Virtutis expers: pectus et artium</l>
+                  <l>Nosci periclis non dubiis agi</l>
+                  <l>Seu pace refrenem coercet</l>
+                  <l>Seu populum subigit gradivo.</l>
+                  <pb xml:id="facs_coll_1_2"/>
+                  <l>Virtus deorum conciliis dicat</l>
+                  <l>Quoscumque certum est optima fortiter</l>
+                  <l>Gessisse. Virtus sola victrix</l>
+                  <l>Infima cum superis iugabit.</l>
+                  <l>Formidolosae <persName ref="#plut">plutonicae</persName> domus</l>
+                  <l>Nutu <persName ref="#iupp">Iovis</persName> debentur inertiae</l>
+                  <l>Dum patriae frigens salute</l>
+                  <l>Seque suos sinit ire pessum.</l>
+                  <l>Tu more et annis floridus <persName ref="#herc">herculis</persName></l>
+                  <l>Callem sinistrum providus aufugis</l>
+                  <l>Qua caeca proserpit voluptas</l>
+                  <l>Praecipites aditura casus.</l>
+                  <l>Amas honores <persName ref="#maxi1">caesaris</persName> ardui</l>
+                  <l>In cuius artes iam properas diu</l>
+                  <l>Ceu tendit in montes viator</l>
+                  <l>Saxa per et scopulos minaces.</l>
+                  <l>Si pergis (ipsis auguror) optime</l>
+                  <l>Princeps videbis virgineas faces</l>
+                  <l>Et fervidum caelo leonem</l>
+                  <l>Insolitum propius micantem.</l>
+                  <l>Olim nepotes. <persName ref="#maxi1">caesaris</persName> et tui</l>
+                  <l>Novos nitores: aethere lucido</l>
+                  <l>Fulgore disueto videbunt</l>
+                  <l>Et capient sua vota nautae.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#coll_1">
+               <head>Eine vierstrophige Ode in Trikola des <persName ref="#vadi"
+                        ><forename>Joachim</forename>
+                     <surname>Watt</surname></persName> an den den vornehmsten <persName
+                     ref="#ludo10"><roleName>Herrscher</roleName>
+                     <forename>Ludwig</forename>
+                     <roleName>Herzog von <placeName ref="#bava">Bayern</placeName></roleName> und
+                        <roleName>Pfalzgraf</roleName></persName>.</head>
+               <p>Mein Herr, edel durch einen uralten Stammbaum, und außerorderntliche Zier der
+                  Geschichte, der du von der <persName ref="#kuni">Schwester</persName> des
+                     <persName ref="#maxi1">Kaisers</persName>, der nun alles mit <persName
+                     ref="#iupp">Jupiter</persName> beherrscht, geboren wurdest, zwar könntest du
+                  den schimmernden Schwertern und Legionsadlern des siegreichen Onkels folgen, die
+                  den Lagern der Deutschen folgen und den aufständischen Venetern entgegeneilen, wo
+                  du listenreichen Feinden entgegentretend als unter den Waffen stehender tapferer
+                  und herausragender Ritter pthiische Raserei oder die Wagnisse des <persName
+                     ref="#diom">Diomedes</persName> erreichen können wirst. Dennoch ziehst du es
+                  vor, durch Künste und Talent zu nützen, die zarten Reigen der <persName
+                     ref="#musa">Musen</persName> durch liebliche (???) zu betrachten, und
+                  &lt;Dinge&gt; mit himmlischen Klängen widerhallen zu lassen, frei von Heldentaten
+                  auch das Herz der Künst zu erkennen, nicht durch ungewisse Gefahren getrieben zu
+                  werden, sei es, dass er das ungezügelte Volk durch Frieden bändigt, sei es, dass
+                  er es durch Krieg unterwirft. Die Tugend der Götter soll in Versammlungen sagen,
+                  von wem auch immer feststeht, dass sie die besten &lt;Dinge&gt; tapfer verrichtet
+                  haben. Als einzige Siegerin wird die Tugend die untersten &lt;Dinge&gt; mit den
+                  oberen verbinden. Auf Wink des <persName ref="#iupp">Jupiter</persName> sind die
+                  furchterregenden Häuser des <persName ref="#plut">Pluto</persName> der Untätigkeit
+                  verfallen, während der Tote sich und die Seinigen wegen des Wohls der Heimat
+                  umkommen lässt. Du, der du an Charakter und Jahren blühend bist, entkommst in
+                  weiser Voraussicht der unheilvollen Gasse, wo die blinde Lust vorwärts kriecht, im
+                  Begriff, gefährliche Unglücksfälle auf sich zu nehmen. Du liebst die Ehrungen des
+                  erhabenen <persName ref="#maxi1">Kaisers</persName>, zu dessen Künsten du schon
+                  lange eilst, wie ein Wanderer durch Steine und drohende Felsen in die Berge zieht.
+                  Wenn du bestens weitergehst, &lt;so&gt; prophezeie ich diesen selbst, wirst du als
+                  erster jungfräuliche Fackeln und einen feurigen Löwen am Himmel sehen, der allzu
+                  nahe ungewöhnlich funkelt. Einst werden die Nachkommen des <persName ref="#maxi1"
+                     >Kaisers</persName> und dein neues Strahlen am leuchtenden Himmel mit
+                  ungewohnten Schimmer sehen und sie werden ihre Gelübde des Seemanns fassen.</p>
+               <!-- überarbeiten! -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
