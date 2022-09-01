@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 5 (Bernhard Otto)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1514"
+                  >Ioachimi Vadiani Helvetii Mythicum Syntagma, Cui Titulus Gallus Pugnans, Wien
+                  1514</bibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_5_1">
+         <graphic url="facs/facs_vadi_5_1.jpg"/>
+      </surface>
+      <surface start="#facs_vadi_5_2">
+         <graphic url="facs/facs_vadi_5_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_5" source="#vadi-1514" type="text">
+               <pb xml:id="facs_vadi_5_1"/>
+               <head><persName ref="#otto" type="author"><forename>Bernhardi</forename>
+                     <surname>Ottoni</surname>
+                     <addName><placeName ref="#stud">Studtgardini</placeName></addName></persName>
+                  Octosticon.</head>
+               <l>Cum nimis exagitat subiectos dira potestas</l>
+               <l>Cum negat inferior debita ferre iuga.</l>
+               <l>Invida tum magno consurgit utrimque tumulto</l>
+               <l>Lis: tum iustitiae quaeritur auxilium.</l>
+               <pb xml:id="facs_vadi_5_2"/>
+               <l>Hoc Gallinarum certamine constat iniquo,</l>
+               <l>Adversus Gallos quod statuere suos.</l>
+               <l>Hanc igitur <persName ref="#aeso"><placeName ref="#phry">Phrygio</placeName>
+                     condignam Autore</persName> fabellam</l>
+               <l>Accipe, Nam multum crede iuvabit opus.</l>
+            </div>
+            <div type="translation" corresp="#vadi_5">
+               <head>Achtzeiler von <persName ref="#otto"><forename>Bernhard</forename>
+                     <surname>Otto</surname>
+                     <addName>von Stuttgart</addName></persName></head>
+               <p>Wenn die grässliche Macht die Unterworfenen allzu sehr quält, wenn der Schwächere
+                  verweigert, das gebührende Joch zu tragen, dann erhebt sich der missgünstige
+                  Streit auf beiden Seiten mit großem Aufruhr: Dann sucht man nach der Hilfe der
+                  Gerechtigkeit. Dies besteht im ungleichen Wettkampf der Hennen, den sie gegen ihre
+                  Hähne veranstalteten. Diese Fabel also, die dem <persName ref="#aeso">phrygischen
+                     Autor</persName> ganz angemessen ist, nimm an, denn sehr wird das Werk
+                  &lt;dich&gt; erfreuen, glaube &lt;mir&gt;!</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
