@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 16 (Johannes Rosinus)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_16</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="peut-1529"
+                  xml:lang="la">Quorundam iuris scientia illustratorum iudicium ex praeceptoribus
+                  meis collectum, Wien 1529</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Fachschriftstellerei</span>
+                     <span ana="genre">Rechtsgeschichte</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_16">
+         <graphic url="facs/facs_peut_16.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_16" source="#peut-1529" type="text" xml:lang="la">
+               <pb xml:id="facs_peut_16"/>
+               <head><persName ref="#rosi" type="author" ana="#pers"><forename>Ioannes</forename>
+                     <surname>Rosinus</surname></persName></head>
+               <lg>
+                  <l>Crevit et ad summum <placeName ref="#roma" ana="#place">Romana</placeName>
+                     potentia ducta est,</l>
+                  <l>Cum decus eloquii staret adhuc <placeName ref="#lati" ana="#place"
+                        >Latii</placeName>.</l>
+                  <l>Tunc probitas, et rara fides ius condere mundo</l>
+                  <l>Et docuit leges ferre salutiferas.</l>
+                  <l>Defluxit sed honos linguae, nec gratia Legum</l>
+                  <l>Stare diu potuit labe respersa nova:</l>
+                  <l>Scilicet in peius ruere omnia cernimus, ante</l>
+                  <l>Quae valuere, iacent triste sub exitium.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#peut_16">
+               <head><persName ref="#rosi"><forename>Johannes</forename>
+                     <surname>Rosinus</surname></persName></head>
+               <p>Die Macht Roms ist gewachsen und wurde zu ihrem Gipfel geführt, weil die Zier der
+                  lateinischen Redegewandtheit noch immer Bestand hat. Damals &lt;herrschten&gt;
+                  Rechtschaffenheit und die seltene Zuverlässigkeit, der Welt Recht einzurichten.
+                  Und sie lehrte, Rettung bringende Gesetze zu ertragen. Aber die Ehre der Sprache
+                  verfloss und das Ansehen der Gesetze konnte nicht lange bestehen, besprengt mit
+                  neuer Schande: Freilich sehen wir alles zu Schlimmerem niederstürzen, was vorher
+                  etwas gegolten hat, liegt &lt;jetzt&gt; vor einem traurigen Ende.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 14 (Johann Pinicianus)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_14</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="peut-1515"
+                  xml:lang="la">Iordanes, Gotus: De rebus Gothorum et Pauli Warnefridi historia
+                  Longobardiae libri, Augsburg 1515</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Edition</span>
+                     <span ana="genre">Edition von De rebus Gothorum des Iordanes</span>
+                     <span ana="genre">Historiographie</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_14">
+         <graphic url="facs/facs_peut_14.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_14" source="#peut-1515" type="text" xml:lang="la">
+               <pb xml:id="facs_peut_14"/>
+               <head><persName ref="#diac"><forename>Paulus</forename>
+                     <roleName>Diaconus</roleName></persName> libri author <persName ref="#lect"
+                     >lectorem</persName> alloquitur.</head>
+               <lg>
+                  <l>Tot saeclis latui miser <persName ref="#diac">Diacon</persName>,</l>
+                  <l>Exesus tineis, malisque blattis.</l>
+                  <l>Invisam cariem dedit vetustas.</l>
+                  <l>Pressus pauperie, siti, fameque</l>
+                  <l>Torpens: languidus, atque honore nullo</l>
+                  <l>Detentus: graviter ferens cathenas,</l>
+                  <l>Erepsi tamen huc deo volente</l>
+                  <l>Tetro carcere liberatus et me</l>
+                  <l>Excepit venerabilis patronus</l>
+                  <l><persName ref="#peut" ana="#pers">Chonradus</persName>: decus elegantiarum,</l>
+                  <l>Atque idem hospitium benignus hospes</l>
+                  <l>Gratum contulit: aureum, venustum:</l>
+                  <l>Et dulci quoque suavius liquore:</l>
+                  <l>Et fragantius arulis <placeName ref="#saba" ana="#place"
+                     >Sabaeis</placeName>.</l>
+                  <l>Nam cur non niveis mihi lapillis</l>
+                  <l>Multo carior hospes hic fuisset,</l>
+                  <l>Qui me tam nitido fovet cubili?</l>
+                  <l>Atque haec pulverulenta membra lavit?</l>
+                  <l>Qui me lautitiis suis refecit.</l>
+                  <l>Totum denique corpus expedivit,</l>
+                  <l>Purum, candidulum, nimis decorum.</l>
+                  <l>Libertateque liberalis hospes</l>
+                  <l>Me donans, peragrare iussit oras</l>
+                  <l><placeName ref="#germ" ana="#place">Germanas</placeName>, <placeName
+                        ref="#lati" ana="#place">Latiasque</placeName> civitates.</l>
+                  <l>Ergo quisquis eris benigne <persName ref="#lect">lector</persName></l>
+                  <l>Antiquam historiam legens, diserto</l>
+                  <l><persName ref="#peut" ana="#pers">Peutinger</persName> peto gratias
+                     referto.</l>
+                  <l>Atque optes <persName ref="#nest">pylios</persName> adunet annos,</l>
+                  <l>Quo Paulus duce vixerit perenne.</l>
+               </lg>
+               <postscript>
+                  <p><persName ref="#pini" type="author" ana="#pers"><forename>Ioannes</forename>
+                        <surname>Pinicianus</surname>.</persName></p>
+               </postscript>
+            </div>
+            <div type="translation" corresp="#peut_14">
+               <head><persName ref="#diac"><forename>Paul</forename>
+                     <surname>Warnefried</surname></persName>, der Autor des Buchs, spricht den
+                     <persName ref="#lect">Leser</persName> an.</head>
+               <p>So viele Jahrhunderte lag ich verborgen, ich armer Diakon, von Motten und bösen
+                  Schaben zerfressen. Das Alter gab &lt;mir&gt; die verhasste Fäulnis. Bedrückt
+                  durch Mangel, Durst und Hunger war ich träge: Schwach und von keinerlei Ehre
+                  gehalten: Schwer trug ich die Fesseln und kroch dennoch hierhin hervor, weil ein
+                  Gott es &lt;so&gt; wollte, &lt;wurde&gt; befreit vom abscheulichen Kerker und es
+                  nahm mich auf der verehrungswürdige Beschützer Konrad: die Zier des feinen
+                  Geschmacks, und derselbe gütige Gastfreund brachte &lt;mir&gt; willkommene
+                  Gastfreundschaft entgegen: Golden &lt;ist sie&gt;, liebreizend, sowohl lieblicher
+                  als süßer Saft als auch duftender als sabäische Altäre. Denn warum wäre mir dieser
+                  Gastfreund nicht viel lieber als Perlen gewesen, der mich in einem so strahlenden
+                  Gemach wärmt? Und diese staubigen Glieder wäscht? Dieser kräftigte mich mit seinen
+                  Aufwendungen. Schließlich bereitete er &lt;meinen&gt; ganzen Körper, rein, weiß,
+                  sehr ansehnlich. Und als mir der großzügige Gastfreund die Freiheit schenkte,
+                  befahl er mir, die germanischen Gegenden und die latinischen Städte zu
+                  durchwandern. Wer auch immer du also sein wirst, wohlwollender Leser, der du die
+                  alte Geschichte liest, du sollst, bitte, dem beredten Peutinger Dank
+                  entgegenbringen. Und du sollst hoffen, dass er Lebensjahre wie der Pylier
+                  (=Nestor) verbindet, unter dessen Führung Paul auf ewig leben wird.</p>
+               <note><persName ref="#pini"><forename>Johann</forename>
+                     <surname>Pinicianus</surname></persName> &lt;hat dies gemacht&gt;.</note>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF
+  SYSTEM "about:legacy-compat">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+         xmlns:ns1="http://viaf.org/viaf/terms#"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xml:lang="en">
+   <rdf:Description rdf:about="#peut_2">
+      <gndo:language>
+         <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
+      </gndo:language>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_2">
+      <gndo:author>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56776766"/>
+      </gndo:author>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_2">
+      <gndo:broaderTermPartitive>
+         <rdf:Description rdf:about="#peut-1505"/>
+      </gndo:broaderTermPartitive>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1505">
+      <gndo:language>
+         <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
+      </gndo:language>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1505">
+      <gndo:author>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56776766"/>
+      </gndo:author>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1505">
+      <gndo:contributingPerson>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56776766"/>
+      </gndo:contributingPerson>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56776766"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="DE Holy Roman Empire German DX"/>
+      </ns1:nationalityOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="DE Holy Roman Empire German DX"/>
+      </ns1:nationalityOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+   </rdf:Description>
+</rdf:RDF>
