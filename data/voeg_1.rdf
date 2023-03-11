@@ -42,14 +42,31 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/12331377"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/12331377">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/7736627"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/7736627">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE Niemcy AT"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Niemcy"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/12331377">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="NL nl DE"/>
+         <rdf:Description rdf:about="NL"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="nl"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="DE"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/7736627">
@@ -59,7 +76,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/12331377">
       <ns1:languageOfEntity>
-         <rdf:Description rdf:about="lat deu"/>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="deu"/>
       </ns1:languageOfEntity>
    </rdf:Description>
 </rdf:RDF>
