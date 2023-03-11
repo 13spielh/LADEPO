@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spießheimer 4 (Joachim Watt)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cusp_4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="cusp-1513"
+                  xml:lang="la">Panaegyrici Variorum Autorum et Declamationes Nonnullae perquam
+                  eruditae hactenus non impressae, Wien 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Edition</span>
+                     <span ana="genre">Panegyricus</span>
+                     <span ana="genre">Deklamation</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cusp_4">
+         <graphic url="facs/facs_cusp_4.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cusp_4" source="#cusp-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_cusp_4"/>
+               <head><persName ref="#vadi" type="author" ana="#pers"><forename>Ioachimi</forename>
+                     <surname>Vadiani</surname>
+                     <addName><placeName ref="#helv">Helvetii</placeName></addName></persName> in
+                  libelli commendationem, ad <persName ref="#lect">Lectorem</persName>
+                  Epigramma.</head>
+               <lg>
+                  <l>Magna tibi utilitas, e parvo codice <persName ref="#lect"
+                     >Lector</persName>.</l>
+                  <l>Ceu tenui fenus crescere forte, potest,</l>
+                  <l>Ingenii qui celsa locat monumenta, ducumque</l>
+                  <l>In longam memori posteritate diem.</l>
+                  <l>Quo virtutis honos, facundaque vena disertae</l>
+                  <l>Exprimitur linguae, grandisonusque lepor</l>
+                  <l>Quo celebris rerum variarum ex ordine laus est.</l>
+                  <l>Famaque <placeName ref="#roma" ana="#place">Romani</placeName> principis astra
+                     petit.</l>
+                  <l>Perge ergo, ut laqueos rumpas ignobilis otii,</l>
+                  <l>Et lege non tritae sedulus artis opus.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cusp_4">
+               <head>Ein Epigramm des <persName ref="#vadi"><addName>Schweizers</addName>
+                     <forename>Joachim</forename>
+                     <surname>Watt</surname></persName> an den <persName ref="#lect"
+                     >Leser</persName> wegen der Empfehlung des Büchleins.</head>
+               <p>Ein großer Nutzen &lt;entsteht&gt; dir aus einem kleinen Kodex, <persName
+                     ref="#lect">Leser</persName>. Gleichwie das Kapital zufällig für jemand zarten
+                  wachsen kann, der hochragende Denkmäler seines Talents und der Anführer durch die
+                  Erinnerung der Nachwelt für einen langen Tag aufstellt. Dadurch wird die Ehre der
+                  Tugend, die beredte Anlage zu wohlgeformter Sprache und lautklingende Anmut
+                  ausgedrückt. Daraus entsteht aus verschiedenen gesellschaftlichen Stellungen
+                  feierliches Lob. Und der Ruhm des Ersten <placeName ref="#roma"
+                     >"Römers"</placeName> strebt die Sterne an. Nun also los, damit du die
+                  Schlingen der gemeinen Muße durchbrichst, und lies eifrig ein Werk einer nicht
+                  häufig gebrauchten Kunst.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

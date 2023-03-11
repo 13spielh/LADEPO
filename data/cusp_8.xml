@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spießheimer 8 (Johannes Köll)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cusp_8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="cusp-1526"
+                  xml:lang="la">Oratio Protreptica Ioannis Cuspiniani ad sacri Romani Imperii
+                  Principes et proceres, ut bellum suscipiant contra Turcum cum descriptione
+                  conflictus, nuper in Hungaria facti, quo periit Rex Hungariae Ludovicus. Et qua
+                  via Turcus Solomet ad Budam usque pervenerit ex Albagraeca, Cum enumeratione clara
+                  dotium, quibus a natura dotata est Hungaria, cum insertione multarum rerum
+                  annotatu dignissimarum. Lege lector et iudica in quam miseriam hodie Christianitas
+                  est coniecta, Wien 1526</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Rhetorik</span>
+                     <span ana="genre">Rede</span>
+                     <span ana="genre">Protreptische Rede</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el" ana="https://d-nb.info/gnd/4113791-7">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cusp_8_1">
+         <graphic url="facs/facs_cusp_8_1.jpg"/>
+      </surface>
+      <surface start="#facs_cusp_8_2">
+         <graphic url="facs/facs_cusp_8_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cusp_8" source="#cusp-1526" type="text" xml:lang="la">
+               <pb xml:id="facs_cusp_8_1"/>
+               <head>Principibus <placeName ref="#germ" ana="#place">Germanis</placeName>, ut tandem
+                  pristinae virtutis memores bellum in imannissimum <placeName ref="#turc"
+                     ana="#place">Turcum</placeName>, fortiter et prudenter instituant. <persName
+                     ref="#bras" type="author" ana="#pers"><forename>Joannes Alexander</forename>
+                     <surname>Braßicanus</surname>, <roleName>Philosophus ac
+                        Iureconsultus</roleName></persName>.</head>
+               <lg>
+                  <l><persName ref="#pan">Pana</persName> gravi memorant accendere bella tumultu</l>
+                  <l>Agmina tum subito saepe movere metu.</l>
+                  <l><persName ref="#pele">Peleum</persName> Iuvenem erexit concentus ad arma</l>
+                  <l>Iussit et <persName ref="#herc">Herculea</persName> proelia inire manu.</l>
+                  <l>Tibia virtutem <placeName ref="#spar" ana="#place">spartanam</placeName>
+                     insigniter auxit</l>
+                  <l>Per citharam <placeName ref="#cret" ana="#place">Cretes</placeName> bella
+                     parasse ferunt.</l>
+                  <l>At nihil hic vel <persName ref="#pan">Pan</persName>, sive Orthia carmina
+                     prosint</l>
+                  <l>Tibia cum fidibus nil quoque frugis habet.</l>
+                  <l>Una atque unica vos moveat <seg xml:lang="el">πἂντολμος ἀνάγκη</seg></l>
+                  <l><placeName ref="#germ">Germani</placeName> tandem <persName ref="#mars"
+                        >martia</persName> corda duces.</l>
+                  <pb xml:id="facs_cusp_8_2"/>
+                  <l>Verum hanc historico praesens oratio cultu</l>
+                  <l>Explicat, ardenti quemquem dolore vocans.</l>
+                  <l>Quod si animo segni tam foedum haud pellitis hostem</l>
+                  <l>Credite qui vestras mox erit ante fores.</l>
+                  <l>Credite (verum opto patriae sim vanus Aruspex)</l>
+                  <l>Credite, et e tripode credite dicta sacro.</l>
+                  <l>Actum est de nostro collo, <placeName ref="#germ" ana="#pers"
+                        >Germania</placeName> quondam</l>
+                  <l>Strenua, victoris Iura superba feret</l>
+                  <l>Illa igitur quam sint horrenda advertite, et illi</l>
+                  <l>Certam hortatori quaeso adhibete fidem.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cusp_8">
+               <head><persName ref="#bras"><forename>Johannes Alexander</forename>
+                     <surname>Köll</surname>, <roleName>Philosoph und
+                     Rechtskundiger</roleName></persName>, an die <placeName ref="#germ"
+                     >deutschen</placeName> Fürsten, sich endlich an die ehemalige Tugend zu
+                  erinnern und tapfer und klug Krieg gegen den überaus grausamen <placeName
+                     ref="#turc">Türken</placeName> anzuordnen.</head>
+               <p>Sie berichten, dass <persName ref="#pan">Pan</persName> mit schlimmem Aufruhr
+                  Kriege entzündet und dann oft plötzlich mit Furcht die Truppen bewegt. Der Gesang
+                  ermutigte den jungen <persName>Peleus</persName> zu den Waffen und befahl
+                  &lt;ihm&gt;, mit der Hand <persName>herkuleische</persName> Schlachten zu
+                  beginnen. Die Flöte vergrößerte die Tugend der <placeName ref="#spar"
+                     >Spartaner</placeName> außerordentlich und man berichtet, dass die <placeName
+                     ref="#cret">Kreter</placeName> unter Kitharaspiel Kriege bereitet haben. Aber
+                  selbt <persName ref="#pan">Pan</persName> oder orthische Gesänge dürften hier
+                  nichts nützen, auch die Flöte mit der Lyra hat keinen Ertrag. Einzig und allein
+                  die allwagende Notwendigkeit könnte euch bewegen, ihr Führer <placeName
+                     ref="#germ">Deutschlands</placeName> in euren kriegerischen Herzen. Aber diese
+                  schildert die vorliegende Rede in historischem Schmuck, wen auch immer sie mit
+                  brennendem schmerz anfleht. Denn wenn ihr aufgrund eures trägen Geists einen so
+                  abscheulichen Feind nicht vertreibt, glaubt, wer bald vor euren Toren sein wird.
+                  Glaubt es (aber ich hoffe, dass ich der Heimat ein erfolgloser Seher bin), glaubt
+                  es und glaubt, was vom heiligen Dreifuß gesagt wurde. Um unseren Hals ist es
+                  geschehen, du einst entschlossenes <placeName ref="#germ">Deutschland</placeName>,
+                  jenes wird also das hochmütige Recht des Siegers ertragen, erkennt, wie
+                  schrecklich es ist, und bringt jenem Mahner, bitte, festes Vertrauen entgegen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
