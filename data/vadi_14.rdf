@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF
+  SYSTEM "about:legacy-compat">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+         xmlns:ns1="http://viaf.org/viaf/terms#"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xml:lang="en">
+   <rdf:Description rdf:about="#vadi_14">
+      <gndo:language>
+         <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
+      </gndo:language>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_14">
+      <gndo:author>
+         <rdf:Description rdf:about="http://viaf.org/viaf/5031671"/>
+      </gndo:author>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_14">
+      <gndo:broaderTermPartitive>
+         <rdf:Description rdf:about="#vadi-1515b"/>
+      </gndo:broaderTermPartitive>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1515b">
+      <gndo:language>
+         <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
+      </gndo:language>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1515b">
+      <gndo:author>
+         <rdf:Description rdf:about="http://viaf.org/viaf/29572382"/>
+      </gndo:author>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1515b">
+      <gndo:contributingPerson>
+         <rdf:Description rdf:about="http://viaf.org/viaf/5031671"/>
+      </gndo:contributingPerson>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/5031671"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="CH DE St. Gallen"/>
+      </ns1:nationalityOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/5031671">
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="PL Polska. Kingdom of Poland DE"/>
+      </ns1:nationalityOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="lat ger"/>
+      </ns1:languageOfEntity>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/5031671">
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="lat pol"/>
+      </ns1:languageOfEntity>
+   </rdf:Description>
+</rdf:RDF>

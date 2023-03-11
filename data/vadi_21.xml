@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 21 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_21</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1518"
+                  xml:lang="la">De poetica et Carminis ratione liber ad M. Vad. fratrem, Wien
+                  1518</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Fachschriftstellerei</span>
+                     <span ana="genre">Poetik</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_21">
+         <graphic url="facs/facs_vadi_21.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_21" source="#vadi-1518" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_21"/>
+               <head><persName ref="#gund" type="author" ana="#pers"><forename>Philippi</forename>
+                     <surname>Gundelii</surname></persName> Endecasyllabon.</head>
+               <lg>
+                  <l><persName ref="#apol"><placeName ref="#delo" ana="#place"
+                        >Deli</placeName></persName>, <persName ref="#musa">Pierides</persName>,
+                        <persName ref="#bacc">Lyaee</persName>, <persName ref="#athe"
+                        >Pallas</persName></l>
+                  <l>Et quicquid superum Poeticorum est</l>
+                  <l>Quos primate frequens dicavit albo</l>
+                  <l>Vatum Curia perspicaciorum</l>
+                  <l>Et suffragia plebis eruditae.</l>
+                  <l>Si vobis veteris favilla curae</l>
+                  <l>In castos superest adhuc Poetas,</l>
+                  <l>Certatim <persName ref="#vadi" ana="#pers">Vadianum</persName> amate
+                     vestrum</l>
+                  <l><persName ref="#apol">Apollo</persName> medicum, <persName ref="#musa"
+                        >Camena</persName> vatem</l>
+                  <l>Dignum <persName ref="#bacc">Bacche</persName> hedera, sophum <persName
+                        ref="#athe">Minerva</persName>.</l>
+                  <l>Qui vos foedere perpeti ligatos</l>
+                  <l>Doctrinae sociat recens per orbem,</l>
+                  <l>Et Vates bonus ipse et eruditus</l>
+                  <l>Vates non sinit esse non peritos</l>
+                  <l>Sed sannae populi eximit procacis</l>
+                  <l>Nomen perpetui sacrum Poetae,</l>
+                  <l>Dum quae munia dignitasque tanti,</l>
+                  <l>Quae sit gloria muneris recenset,</l>
+                  <l>Hoc vestris Duce pristinusque splendor</l>
+                  <l>Maiestasque redit vetusta donis,</l>
+                  <l>Siqua ergo veteris favilla curae</l>
+                  <l>In castos superest adhuc Poetas,</l>
+                  <l>Hoc saltem merito, favore longo</l>
+                  <l>Certatim <persName ref="#vadi" ana="#pers">Vadianum</persName> amate
+                     vestrum</l>
+                  <l><persName ref="#apol"><placeName ref="#delo" ana="#place"
+                        >Deli</placeName></persName>, <persName ref="#musa">Pierides</persName>,
+                        <persName ref="#bacc">Lyaee</persName>, <persName ref="#athe"
+                        >Pallas</persName>.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_21">
+               <head>&lt;Gedicht&gt; in Elfsilblern des <persName ref="#gund"
+                        ><forename>Philipp</forename>
+                     <surname>Gundel</surname></persName>.</head>
+               <p>Delier, Pieriden, Erlöser, Pallas und was auch immer den Dichtergottheiten gehört,
+                  die die zahlreiche Kurie der scharfsinnigeren Dichter und die Stimme des
+                  gebildeten Volks durch den weiß&lt;haarigen&gt; Obersten weihen ließ. Wenn ihr
+                  noch immer einen Funken der alten Fürsorge gegenüber anständigen Dichtern übrig
+                  habt, &lt;dann&gt; liebt euren Watt um die Wette, Apoll, du den Arzt, Muse, du den
+                  Sänger, Bacchus, du den, der des Efeus würdig ist, und Minerva, du den Weisen.
+                  Dieser verbindet euch, die ihr durch einen beständigen Bund verbunden seid, jüngst
+                  mit der Kunst durch die &lt;ganze&gt; Welt, und als selbst guter und gelehrter
+                  Sänger lässt er nicht zu, dass Sänger nicht kundig sind, sondern er nimmt der
+                  Grimasse des unverschämten Volks den heiligen Namen des ewigen Dichters weg.
+                  Während er aufzählt, was die Pflichten und das Ansehen eines so großen, was der
+                  Ruhm &lt;dieser&gt; Aufgabe ist, kehrt euren Gaben unter diesem Anführer der
+                  frühere Glanz und die alte Würde zurück. Wenn also nach wie vor irgendein Funke
+                  der alten Fürsorge gegenüber anständigen Dichtern übrig ist, dann - dies zumindest
+                  zurecht - liebt euren Watt mit langanhaltender Gunst um die Wette, Delier,
+                  Pieriden, Erlöser und Pallas.</p>
+               <!-- überarbeiten!-->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

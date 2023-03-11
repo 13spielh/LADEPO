@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 6 (Johannes Abhauser)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1514"
+                  xml:lang="la">Ioachimi Vadiani Helvetii Mythicum Syntagma, Cui Titulus Gallus
+                  Pugnans, Wien 1514</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Satire</span>
+                     <span ana="genre">Drama</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_6">
+         <graphic url="facs/facs_vadi_6.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_6" source="#vadi-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_6"/>
+               <head><persName ref="#abha" type="author" ana="#pers"><forename>Ioannes</forename>
+                     <surname>Abhauser</surname>
+                     <addName>Vindelicus</addName></persName> Gallus de se.</head>
+               <lg>
+                  <l>Gallus ego alituum Rex idem praescius omnis</l>
+                  <l>Aerios casus: militiaque potens.</l>
+                  <l>Turbor ab imbelli Gallinarum grege, quasque</l>
+                  <l>Imperio decuit subdere colla meo.</l>
+                  <l>Et neutro sexu dignus Capo, iudicis ausus</l>
+                  <l>Tentat, et in sacro verba referre foro.</l>
+                  <l>Ast ego crediderim mortales saepe periclis</l>
+                  <l>Femineo turpi duci arbitrio.</l>
+                  <l>Eunuchos itidem, quos ius et fama notavit</l>
+                  <l>In dubios casus verba superba loqui.</l>
+                  <l>Dumque suos fastus et inania verba recensent</l>
+                  <l>Obiciunt praedae seque suosque simul.</l>
+                  <l>Sic mihi cum lites nati uxoresque reportant,</l>
+                  <l>Rem iudicatam solvimus exitio.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_6">
+               <head><persName ref="#abha"><forename>Johannes</forename>
+                     <surname>Abhauser</surname>
+                     <addName>aus Augsburg</addName></persName> als Hahn über sich.</head>
+               <p>Ich bin der Hahn, der König des Geflügels, zugleich auch vorherwissend jegliche
+                  Unglücksfälle aus der Luft und mächtig im Krieg. Beunruhigt werde ich von der
+                  feigen Hühnerschar, für die es sich gebührte, ihren Hals meiner Herrschaft zu
+                  unterwerfen. Sogar der Kapaun, der keinem von beiden Geschlechtern würdig ist,
+                  versucht das Wagnis des Richters und &lt;er versucht&gt; auf dem heiligen Forum
+                  Worte von sich zu geben. Aber ich möchte glauben, dass Sterbliche oft durch
+                  schändliches weibliches Urteil in Gefahren geführt werden. Ebenso Eunuchen, von
+                  denen das Recht und ihr Ruf anmerken, dass &lt;sie&gt; in zweifelhaften
+                  Situationen überhebliche Worte sprechen. Und während sie ihre Hochmut und leere
+                  Worte aufzählen, geben sie sich selbst und die Ihrigen der Plünderung preis. So
+                  lösen wir, wenn meine Kinder und Frauen mir Streitigkeiten melden, eine
+                  abzuurteilende Angelegenheit mit dem Tod.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

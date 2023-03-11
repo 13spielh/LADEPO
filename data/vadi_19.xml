@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 19 (Matthias Paulinus)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_19</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1517"
+                  xml:lang="la">Ioachimi Vadiani Helvetii Aegloga, cui titulus Faustus, Wien
+                  1517</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Ekloge</span>
+                     <span ana="genre">Bukolik</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_19">
+         <graphic url="facs/facs_vadi_19.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_19" source="#vadi-1517" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_19"/>
+               <head>In <persName ref="#anol">Anolbum</persName> pro domino <persName ref="#vadi"
+                     ana="#pers"><surname>Vadiano</surname>, <roleName>Poeta et
+                     Medico</roleName></persName>.</head>
+               <lg>
+                  <l>Quid tibi cum rabido Vates doctissime monstro,</l>
+                  <l>Quod Loligineo cuncta cruore notat?</l>
+                  <l><persName ref="#sisy">Sysiphio</persName> premitur saxo foedissimus Erro,</l>
+                  <l>Morio nec poterit talis obesse tibi.</l>
+                  <l>Cuius Echidnaeo madefacta est lingua veneno</l>
+                  <l>Cuius et os spurcum nil nisi virus olet.</l>
+                  <l>Pro te pugnabit Phronimus <persName ref="#athe">Tritonidos</persName>
+                     armis,</l>
+                  <l>Pro te torquebit spicula <persName ref="#apol">Apollo</persName> sacer.</l>
+                  <l><persName ref="#caes">Caesaris</persName> et <persName ref="#apol"
+                        >Clarii</persName> telis munitus utrimque</l>
+                  <l>Non timeas rabulae verba bisulca levis.</l>
+                  <l>Nam tua durabit studiis intermina fama</l>
+                  <l>Haec duo si fuerint numina dextra tibi.</l>
+                  <l>Ast sorte adversa cruciabitur acer <persName ref="#anol">Anolbus</persName></l>
+                  <l>Et post hoc fatum, fabula turpis erit.</l>
+               </lg>
+               <postscript>
+                  <p><persName ref="#paul" type="author" ana="#pers"><forename>Mathias</forename>
+                        <surname>Paulinus</surname></persName> faciebat.</p>
+               </postscript>
+            </div>
+            <div type="translation" corresp="#vadi_19">
+               <head>Gegen <persName ref="#anol">Anolbus</persName> für den <persName ref="#vadi"
+                        ><roleName>Herrn</roleName>
+                     <surname>Watt</surname>, den <roleName>Dichter und
+                  Arzt</roleName></persName>.</head>
+               <p>Was &lt;ist da zwischen&gt; dir, gelehrtester Sänger, und dem rasenden Monster,
+                  dass er alles mit dem Blut des Tintenfischs anstreicht? &lt;Dieser&gt;
+                  scheußlichste Landstreicher wird vom Fels des Sisyphos bedrängt und ein solcher
+                  Narr wird dir nicht schaden können. Dessen Zunge ist getränkt vom Gift der Echidna
+                  und dessen Mund riecht nur nach schmutzigem Gestank. Für dich wird der Kluge mit
+                  den Waffen der Tritonide kämpfen, für dich wird der heilige Apoll Geschosse
+                  schleudern. Auf beiden Seiten gewappnet mit den Waffen Caesars und des Klariers
+                  dürftest du nicht die doppelzüngigen Worte des unbedeutenden Haarspalters
+                  fürchten. Denn dein unendlicher Ruhm wird durch &lt;deine&gt; Werke fortdauern,
+                  wenn diese zwei Gottheiten dir geneigt sind. Aber der scharfe Anolbus wird durch
+                  ein ungünstiges Los gequält werden und nach diesem Schicksal wird &lt;seine&gt;
+                  Geschichte eine schändliche sein.</p>
+               <note><persName ref="#paul">Matthias Paulinus</persName> hat &lt;das&gt;
+                  gemacht.</note>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 25 (Georg Binder)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_25</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1518"
+                  xml:lang="la">De poetica et Carminis ratione liber ad M. Vad. fratrem, Wien
+                  1518</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Fachschriftstellerei</span>
+                     <span ana="genre">Poetik</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_25">
+         <graphic url="facs/facs_vadi_25.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_25" source="#vadi-1518" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_25"/>
+               <head><persName ref="#bind" type="author" ana="#pers"><forename>Georgius</forename>
+                     <surname>Binderus</surname>
+                     <addName>Tigurinus</addName>
+                     <addName>Helvetius</addName></persName>
+                  <persName ref="#lect">Lectori</persName>.</head>
+               <lg>
+                  <l>Iam non nubiferi scandenda cacumina <placeName ref="#pind" ana="#place"
+                        >Pindi</placeName>,</l>
+                  <l>Nec quae dura ingens avia <placeName ref="#olym" ana="#place"
+                        >Olympus</placeName> habet,</l>
+                  <l>Nec bifidi iuga <placeName ref="#parn" ana="#place">Parnassi</placeName> modo
+                     celsa requiras,</l>
+                  <l>Non <placeName ref="#heli" ana="#place">Heliconis</placeName> erunt antra
+                     petenda tibi,</l>
+                  <l><persName ref="#musa">Musarum</persName> hic veneranda corhors, hic accipe
+                     sacra</l>
+                  <l>Pectore quae Vati docta <persName ref="#thal">Thalia</persName> canit.</l>
+                  <l>Pulchrius haud quicquam (vel <persName ref="#momu">Momo</persName> iudice)
+                     dices</l>
+                  <l>Quam quod <persName ref="#musa">Musa</persName> tibi nunc <persName ref="#vadi"
+                        ana="#pers">Vadiana</persName> dedit.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_25">
+               <head><persName ref="#bind">Der <addName>Schweizer</addName>
+                     <forename>Georg</forename>
+                     <surname>Binder</surname>
+                     <addName>aus Zürich</addName></persName> an den <persName ref="#lect"
+                     >Leser</persName>.</head>
+               <p>Nicht mehr sollst du nach den Gipfeln des wolkentragenden Pindus suchen, um sie zu
+                  besteigen, noch, welche schroffen abgelegenen &lt;Orte&gt; der gewaltige Olymp
+                  besitzt, noch bald die hohen Bergketten des zweigipfligen Parnass; nicht wirst du
+                  die Höhlen des Helikon aufsuchen müssen; hier &lt;ist&gt; die ehrwürdige Schar der
+                  Musen, nimm hier in der Brust die heiligen &lt;Lieder&gt; an, die die gelehrte
+                  Thalia dem Sänger singt. Nicht irgendetwas Schöneres wirst du sagen (selbst wenn
+                  Momus [= der Tadel] der Richter ist) als das, was dir nun die vadianische Muse
+                  gegeben hat.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

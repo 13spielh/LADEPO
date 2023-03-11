@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 26 (Michael Alchover)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_26</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="vadi-1518"
+                  xml:lang="la">De poetica et Carminis ratione liber ad M. Vad. fratrem, Wien
+                  1518</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Fachschriftstellerei</span>
+                     <span ana="genre">Poetik</span>
+                     <span ana="keyword">###</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_26_1">
+         <graphic url="facs/facs_vadi_26_1.jpg"/>
+      </surface>
+      <surface start="#facs_vadi_26_2">
+         <graphic url="facs/facs_vadi_26_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_26" source="#vadi-1518" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_26_1"/>
+               <head><persName ref="#alch" type="author" ana="#place"><forename>Michael</forename>
+                     <surname>Alchophorus</surname>
+                     <addName><placeName ref="#bata" ana="#place"
+                     >Patavensis</placeName></addName></persName>.</head>
+               <lg>
+                  <l><persName ref="#apol">Phoebe</persName> pater Vatum, cuius <placeName
+                        ref="#perm" ana="#place">Permessides</placeName> undae</l>
+                  <l>Festaque tam longum numine templa carent,</l>
+                  <l><placeName ref="#emat" ana="#place">Emathiis</placeName> rursum dispensans fata
+                     colonis</l>
+                  <l><placeName ref="#parn" ana="#place">Parnasso</placeName> veterem te modo redde
+                     deum.</l>
+                  <l>Et tege virginea flaventia tempora lauro</l>
+                  <l>Tandem, ac mulcentem cuncta resumme chelyn.</l>
+                  <l>Circum te placidae celebrant tua turba <persName ref="#musa"
+                     >Camenae</persName></l>
+                  <l>Ludentem laeto carmina laeta choro.</l>
+                  <l>Nil est quod terram fugias, infestaque dirae</l>
+                  <l>Impietati hominum longius ora neges.</l>
+                  <l>Deliquit siquid levis ignorantia vulgi</l>
+                  <l>Dum temnit Vates turba prophana tuos.</l>
+                  <l>Parce precor, mentem recipit, magnique Poetae</l>
+                  <l>Victa libro, errores damnat et ipsa suos.</l>
+                  <l>Parce precor, cumque ipsa levet consensio culpam,</l>
+                  <l>Iam venia caecum dilue <persName ref="#apol">Phoebe</persName> nefas.</l>
+                  <l>Atque redi praesensque tuos largire furores</l>
+                  <l>Danteque te melius <placeName ref="#cast" ana="#place">Castalis</placeName>
+                     unda riget.</l>
+                  <pb xml:id="facs_vadi_26_2"/>
+                  <l>Sic tibi et Aoniis redeat modo pristina <persName ref="#musa"
+                     >Musis</persName></l>
+                  <l>Maiestas, id quod nunc <persName ref="#vadi" ana="#pers">Vadianus</persName>
+                     agit,</l>
+                  <l>Sic te vir tantus longum feliciter aevum</l>
+                  <l>Insinuet studiis per meliora bonis.</l>
+                  <l>Sic maior sanctos foveat doctrina Poetas</l>
+                  <l>Hoc duce, et ignaris obstruat ora pudor.</l>
+               </lg>
+               <postscript>
+                  <p>Finis.</p>
+               </postscript>
+            </div>
+            <div type="translation" corresp="#vadi_26">
+               <head><persName ref="#alch"><forename>Michael</forename>
+                     <surname>Alchover</surname>
+                     <addName>aus <placeName ref="#bata"
+                  >Passau</placeName></addName></persName>.</head>
+               <p><persName ref="#apol">Phoebus</persName>, Vater der Dichter, dessen Wellen des
+                  Permessus, Feste und Tempel so lange keine göttliche Macht hatten, verteile den
+                  emathischen Siedlern wieder Göttersprüche und mach dich am Parnass bald zum alten
+                  Gott! Und bedecke die blonden Schläfen schließlich mit jungfräulichem Lorbeer und
+                  nimm wieder die Lyra auf, die alles erfreut! Rundum preisen dich die gnädigen
+                  Musen, deine Schar, wenn du fröhliche Lieder im fröhlichen Reigen spielst. Es gibt
+                  keinen Grund, dass du vor der Erde fliehst und der grauenvollen Gottlosigkeit der
+                  Menschen länger feindselige Augen verwehrst. Wenn die leichtsinnige Unwissenheit
+                  des Volks sich etwas zu Schulden kommen lassen hat, während die gottlose Schar
+                  deine Seher verachtet, &lt;dann&gt; bitte verschone &lt;sie&gt;, und weil die
+                  Einigkeit selbst die Schuld wegnimmt, entkräfte, Phoebus, den blinden Frevel schon
+                  mit Güte! Kehre zurück und spende anwesend reichlich deine Raserei und wenn du sie
+                  gibst, strotzt die kastalische Woge besser. So möge dir und den aonischen Musen
+                  bald das frühere Ansehen zurückkehren, das, was nun Watt antreibt; so möge dich
+                  ein so großer Mann erfolgreich lange Zeit &lt;seinen&gt; (literarischen)
+                  Bestrebungen hinzufügen, die durch Besseres gut &lt;werden&gt;. So möge die
+                  größere Bildung unter diesem Anführer die heiligen Dichter fördern und die
+                  Ehrfurcht den Unwissenden die Augen verschließen.</p>
+               <note>Ende.</note>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
