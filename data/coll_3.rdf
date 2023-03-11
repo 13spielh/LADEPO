@@ -42,6 +42,11 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/95193756"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/95193756">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/10655430"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
       <ns1:nationalityOfEntity>
          <rdf:Description rdf:about="DE"/>
@@ -49,7 +54,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/95193756">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE Holy Roman Empire"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Holy Roman Empire"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
@@ -59,7 +67,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/95193756">
       <ns1:languageOfEntity>
-         <rdf:Description rdf:about="lat deu"/>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="deu"/>
       </ns1:languageOfEntity>
    </rdf:Description>
 </rdf:RDF>

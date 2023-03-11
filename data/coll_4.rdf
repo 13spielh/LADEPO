@@ -42,6 +42,11 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/29572382"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/10655430"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
       <ns1:nationalityOfEntity>
          <rdf:Description rdf:about="DE"/>
@@ -49,7 +54,13 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="CH DE St. Gallen"/>
+         <rdf:Description rdf:about="CH"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="St. Gallen"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
@@ -59,7 +70,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
       <ns1:languageOfEntity>
-         <rdf:Description rdf:about="lat ger"/>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="ger"/>
       </ns1:languageOfEntity>
    </rdf:Description>
 </rdf:RDF>

@@ -42,24 +42,33 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/35272659"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/35272659">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE AT deu de Oostenrijk"/>
+         <rdf:Description rdf:about="DE"/>
       </ns1:nationalityOfEntity>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/35272659">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about=""/>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="deu"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="de"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Oostenrijk"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/35272659"/>
    <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
       <ns1:languageOfEntity>
          <rdf:Description rdf:about="lat"/>
       </ns1:languageOfEntity>
    </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/35272659">
-      <ns1:languageOfEntity>
-         <rdf:Description rdf:about=""/>
-      </ns1:languageOfEntity>
-   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/35272659"/>
 </rdf:RDF>

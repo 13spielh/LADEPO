@@ -42,14 +42,43 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/9899294"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/9899294">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE AT deu de Oostenrijk"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="deu"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="de"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Oostenrijk"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/9899294">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE fra Rakousko Oostenrijk Německo"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="fra"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Rakousko"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Oostenrijk"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Německo"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
@@ -59,7 +88,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/9899294">
       <ns1:languageOfEntity>
-         <rdf:Description rdf:about="lat ger"/>
+         <rdf:Description rdf:about="lat"/>
+      </ns1:languageOfEntity>
+      <ns1:languageOfEntity>
+         <rdf:Description rdf:about="ger"/>
       </ns1:languageOfEntity>
    </rdf:Description>
 </rdf:RDF>

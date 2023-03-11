@@ -42,24 +42,33 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/305464622"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/305464622">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/64142723"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE PL IT AT German"/>
+         <rdf:Description rdf:about="DE"/>
       </ns1:nationalityOfEntity>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/305464622">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about=""/>
+         <rdf:Description rdf:about="PL"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="IT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="German"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/305464622"/>
    <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
       <ns1:languageOfEntity>
          <rdf:Description rdf:about="lat"/>
       </ns1:languageOfEntity>
    </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/305464622">
-      <ns1:languageOfEntity>
-         <rdf:Description rdf:about=""/>
-      </ns1:languageOfEntity>
-   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/305464622"/>
 </rdf:RDF>

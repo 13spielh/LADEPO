@@ -42,9 +42,20 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/37991609"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/10679935"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10679935">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="SI AT Holy Roman Empire"/>
+         <rdf:Description rdf:about="SI"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="Holy Roman Empire"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
@@ -57,9 +68,5 @@
          <rdf:Description rdf:about="lat"/>
       </ns1:languageOfEntity>
    </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
-      <ns1:languageOfEntity>
-         <rdf:Description rdf:about=""/>
-      </ns1:languageOfEntity>
-   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/37991609"/>
 </rdf:RDF>

@@ -42,6 +42,11 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/3286047"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/10655430"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
       <ns1:nationalityOfEntity>
          <rdf:Description rdf:about="DE"/>
@@ -49,7 +54,16 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE AT gw GW"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="gw"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="GW"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/10655430">

@@ -5,7 +5,8 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
          xmlns:ns1="http://viaf.org/viaf/terms#"
-         xmlns:t="http://www.tei-c.org/ns/1.0">
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xml:lang="en">
    <rdf:Description rdf:about="#celt_1">
       <gndo:language>
          <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
@@ -41,14 +42,34 @@
          <rdf:Description rdf:about="http://viaf.org/viaf/49659875"/>
       </gndo:acquaintanceshipOrFriendship>
    </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/49659875">
+      <gndo:acquaintanceshipOrFriendship>
+         <rdf:Description rdf:about="http://viaf.org/viaf/64142723"/>
+      </gndo:acquaintanceshipOrFriendship>
+   </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE PL IT AT German"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="PL"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="IT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="AT"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="German"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/49659875">
       <ns1:nationalityOfEntity>
-         <rdf:Description rdf:about="DE PL"/>
+         <rdf:Description rdf:about="DE"/>
+      </ns1:nationalityOfEntity>
+      <ns1:nationalityOfEntity>
+         <rdf:Description rdf:about="PL"/>
       </ns1:nationalityOfEntity>
    </rdf:Description>
    <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
@@ -56,9 +77,5 @@
          <rdf:Description rdf:about="lat"/>
       </ns1:languageOfEntity>
    </rdf:Description>
-   <rdf:Description rdf:about="http://viaf.org/viaf/49659875">
-      <ns1:languageOfEntity>
-         <rdf:Description rdf:about=""/>
-      </ns1:languageOfEntity>
-   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/49659875"/>
 </rdf:RDF>
