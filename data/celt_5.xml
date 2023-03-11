@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 5 (Dietrich Ulsen)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="celt-1513"
+                  xml:lang="la">Conradi Celtis Protucii, primi in Germania poetae coronati, libri
+                  Odarum quattuor, cum Epodo, et saeculari carmine diligenter et accurate impressi,
+                  et hoc primum typo in studiosorum emolumentum editi, Straßburg 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Lyrik</span>
+                     <span ana="genre">Oden</span>
+                     <span ana="genre">Epoden</span>
+                     <span ana="genre">Carmen saeculare</span>
+                     <span ana="keyword">Poetologie</span>
+                     <span ana="keyword">Apoll</span>
+                     <span ana="keyword">Orpheus</span>
+                     <span ana="keyword">Eurydike</span>
+                     <span ana="keyword">Dichter</span>
+                     <span ana="keyword">Wettstreit</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_5_1">
+         <graphic url="facs/facs_celt_5_1.jpg"/>
+      </surface>
+      <surface start="#facs_celt_5_2">
+         <graphic url="facs/facs_celt_5_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_5" source="#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_5_1"/>
+               <head>De <persName ref="#celt" ana="#pers"><forename>Conrado</forename>
+                     <surname>Celte</surname>
+                     <addName>Protucio</addName>, <roleName>poeta Germano</roleName></persName>,
+                     <persName ref="#ulse" type="author" ana="#pers"
+                        ><forename>Theodoricus</forename>
+                     <surname>Ulsenius</surname>
+                     <roleName>Frisius medicus</roleName></persName>.</head>
+               <lg>
+                  <l><persName ref="#orph">Ophea</persName> cum silvis fluvios et saxa moventem,</l>
+                  <l>Graecia et infernos fert obiisse lacus.</l>
+                  <l><persName ref="#eury">Eurydicemque</persName> illinc vitae revocasse
+                     priori,</l>
+                  <l>Servasset stygio si modo pacta <persName ref="#plut">Iovi</persName>.</l>
+                  <l>Nunc tamen antiquae superat mendacia famae</l>
+                  <l><persName ref="#celt" ana="#pers">Protucius</persName> silva natus in
+                        <placeName ref="#herc">Hercynia</placeName>.</l>
+                  <l>Huc prior <placeName ref="#auso" ana="#place">Ausonias</placeName> Frisius
+                     conducere <persName ref="#musa">musas</persName></l>
+                  <l><persName ref="#agri" ana="#pers"><surname>Agricola</surname></persName>, hinc
+                        <persName ref="#celt" ana="#pers"><surname>Celti</surname></persName> palma
+                     secunda datur.</l>
+                  <l>Dulcior hic ipso cum tangit <persName ref="#apol">Apolline</persName>
+                     chordas,</l>
+                  <l>Auditor totis sensibus esse velim.</l>
+                  <l>Tam varium, tam lene melos concordat in unum,</l>
+                  <l>Tam celerem fidibus concitat ille manum.</l>
+                  <pb xml:id="facs_celt_5_2"/>
+                  <l>Quis metri numeret modulos, quos psallere doctus</l>
+                  <l>Exuperat nostro quicquid in orbe micat.</l>
+                  <l><persName ref="#orph">Orphea</persName> non modo tunc, sed <persName
+                        ref="#apol">Phoebum</persName> cedere credas,</l>
+                  <l>Et pisces medio flectere posse mari.</l>
+                  <l>Hunc quoque <persName ref="#cadm">Cadmeas</persName> non tantum ponere
+                        <placeName ref="#theb" ana="#place">Thebas</placeName>,</l>
+                  <l>Sed trahere e caelo, si velit, astra putes.</l>
+                  <l>Nimirum <persName ref="#maxi1" ana="#pers">Caesar</persName> meus hunc largitur
+                     et ornat,</l>
+                  <l>Quem vix in terris censet habere parem.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_5">
+               <head><persName ref="#ulse"><forename>Dietrich</forename>
+                     <surname>Ulsen</surname>, <roleName>der friesische Arzt</roleName></persName>,
+                  über <persName ref="#celt"><forename>Konrad</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucius</addName>, <roleName>den deutschen
+                     Dichter</roleName></persName>.</head>
+               <p>Griechenland erzählt, dass <persName ref="#orph">Orpheus</persName>, der mit den
+                  Wäldern auch die Flüsse und Felsen &lt;mit seinem Lied&gt; bewegen konnte, auch
+                  die Unterweltsflüsse besucht habe. Und <persName ref="#eury">Eurydike</persName>
+                  hätte er von dort zu ihrem früheren Leben zurückgerufen, wenn er nur die Abmachung
+                  mit dem <persName ref="#plut">stygischen Jupiter</persName> eingehalten hätte. Nun
+                  übertrifft <persName ref="#celt"><addName>Protucius</addName></persName>, geboren
+                  im <placeName ref="#herc">Herkynischen</placeName> Wald, dennoch die Lügen des
+                  alten Ruhms. Der Friese <persName ref="#agri"
+                     ><surname>Baumann</surname></persName> &lt;war&gt; früher, die <placeName
+                     ref="#auso">ausonischen</placeName>
+                  <persName ref="#musa">Musen</persName> hierhin zu führen, von hier wird <persName
+                     ref="#celt"><surname>Celtis</surname></persName> die zweite Siegespalme
+                  gewährt. Wenn dieser, süßer als <persName ref="#apol">Apoll</persName> selbst, die
+                  Saiten berührt, möchte ich mit all meinen Sinnen Zuhörer sein. Ein so
+                  vielfältiges, ein so leichtes Lied lässt er im Einklang harmonieren, eine so
+                  schnelle Hand bewegt er den Saiten. Wer könnte die Maße des Verses zählen, die er
+                  auf der Kithara zu spielen gelehrt &lt;ist&gt;, er übertrifft alles, was auf
+                  unserer Welt hervorstrahlt. Man könnte glauben, dass damals nicht nur <persName
+                     ref="#orph">Oprheus</persName>, sondern &lt;auch&gt; <persName ref="#apol"
+                     >Phoebus</persName> &lt;ihm&gt; nachstünden und dass &lt;er&gt; Fische mitten
+                  im Meer rühren könne. Auch könnte man glauben, dass dieser nicht nur das <persName
+                     ref="#cadm">kadmeische</persName>
+                  <placeName ref="#theb">Theben</placeName> errichten, sondern &lt;sogar&gt; die
+                  Sterne vom Himmel holen kann, wenn er es will. Zweifellos beschenkt mein <persName
+                     ref="#maxi1">Kaiser</persName> diesen reichlich und ehrt ihn, von dem kaum
+                  jemand meint, dass er auf der Erde einen Ebenbürtigen hat.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

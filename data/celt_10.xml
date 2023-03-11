@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 10 (Sebastian Murrho der Jüngere)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_10</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="celt-1513"
+                  xml:lang="la">Conradi Celtis Protucii, primi in Germania poetae coronati, libri
+                  Odarum quattuor, cum Epodo, et saeculari carmine diligenter et accurate impressi,
+                  et hoc primum typo in studiosorum emolumentum editi, Straßburg 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Lyrik</span>
+                     <span ana="genre">Oden</span>
+                     <span ana="genre">Epoden</span>
+                     <span ana="genre">Carmen saeculare</span>
+                     <span ana="keyword">Poetologie</span>
+                     <span ana="keyword">Dichtung</span>
+                     <span ana="keyword">Orpheus</span>
+                     <span ana="keyword">aemulatio</span>
+                     <span ana="keyword">Archilochos</span>
+                     <span ana="keyword">Sappho</span>
+                     <span ana="keyword">Kallimachos</span>
+                     <span ana="keyword">Philetas von Kos</span>
+                     <span ana="keyword">Stesichoros</span>
+                     <span ana="keyword">Tibull</span>
+                     <span ana="keyword">Ovid</span>
+                     <span ana="keyword">Catull</span>
+                     <span ana="keyword">Fausto</span>
+                     <span ana="keyword">Pontano</span>
+                     <span ana="keyword">domina</span>
+                     <span ana="keyword">Geliebte</span>
+                     <span ana="keyword">Elegie</span>
+                     <span ana="keyword">Wettstreit</span>
+                     <span ana="keyword">Berühmtheit</span>
+                     <span ana="keyword">Nachruhm</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_10_1">
+         <graphic url="facs/facs_celt_10_1.jpg"/>
+      </surface>
+      <surface start="#facs_celt_10_2">
+         <graphic url="facs/facs_celt_10_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_10" source="#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_10_1"/>
+               <head>In laudem <persName ref="#celt" ana="#pers"><forename>Conradi</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucii</addName>
+                     <roleName>Poetae Germani</roleName></persName> epigramma</head>
+               <lg>
+                  <l>Qualia, cum <placeName ref="#styg">Stygios</placeName> cara pro <persName
+                        ref="#eury">coniuge</persName> manes</l>
+                  <l>Tristia tergemini flexit et ora <persName ref="#cerb">canis</persName>.</l>
+                  <l>Qualia, cum silvas duxit <persName ref="#orph">Rhodopeius
+                     Orpheus</persName></l>
+                  <l>Fluminaque, et dulci rustica corda sono.</l>
+                  <l>Qualia <persName ref="#pind"><placeName ref="#theb" ana="#place"
+                           >Thebanus</placeName></persName> fundebat carmina vates,</l>
+                  <l>Cum movit plectro saxa ferasque suo.</l>
+                  <l>Qualia, cum mites traxit deplhinas <persName ref="#ario">Arion</persName>,</l>
+                  <l>Ne sua caeruleas vita subiret aquas.</l>
+                  <l>Talia <persName ref="#celt" ana="#pers">Conradus</persName>
+                     <placeName ref="#germ" ana="#place">Germana</placeName> primus in ora</l>
+                  <l>Lusit, <persName ref="#apol">Apollineae</persName> gloria summa lyrae.</l>
+                  <l>Cui non <persName ref="#arch">Archilochus</persName> mordaci clarus iambo,</l>
+                  <l>Non <persName ref="#sapp">Sappho</persName> lyricis Lesbia compta modis.</l>
+                  <l>Cui non <persName ref="#call">Callimachi</persName> blandissima <persName
+                        ref="#musa">musa</persName> poetae,</l>
+                  <l>Non elegi molles <persName ref="#phil">Coe</persName> diserte tui.</l>
+                  <l>Cui non praeripiant victricem barbita palmam</l>
+                  <l>Theia, <persName ref="#stes">Stesichori</persName> neve <persName ref="#musa"
+                        >camena</persName> gravis.</l>
+                  <l>Utque fuit quondam lascivo <persName ref="#deli">Delia</persName> versu,</l>
+                  <l>Candida vel <persName ref="#neme">Nemesis</persName>, dicta <persName
+                        ref="#tibu">Tibulle</persName> tibi.</l>
+                  <l>Ut cecinit vena te <persName ref="#cynt">Cynthia</persName> fusca salaci,</l>
+                  <l>Quem tulit excelsis <placeName ref="#umbr" ana="#place">Umbria</placeName>
+                     cincta iugis.</l>
+                  <l>Ut pulchram cecinit Paelignus <persName ref="#ovid">Naso</persName>
+                     <persName ref="#cori">Corinnam</persName>,</l>
+                  <l>Suaviolum, vitam, deliciumque suum.</l>
+                  <pb xml:id="facs_celt_10_2"/>
+                  <l>Ut <placeName ref="#vero" ana="#place">Veronensi</placeName> celebrata venusta
+                        <persName ref="#catu">Catullo</persName> est</l>
+                  <l><persName ref="#lesb">Lesbia</persName>, dulciculis improbulisque iocis.</l>
+                  <l>Ut quoque doctiloquus divino carmine <persName ref="#andr"
+                     >Faustus</persName></l>
+                  <l>Descripsit formam <persName ref="#livi">Livia</persName> bella tuam.</l>
+                  <l>(<persName ref="#andr">Faustus</persName>, <placeName ref="#parr" ana="#place"
+                        >Parrhisiae</placeName> decus et nova fama palaestrae,</l>
+                  <l>Qua nulla in toto clarior orbe manet.</l>
+                  <l>Quo duce, me sacras venisse <placeName ref="#heli" ana="#place"
+                        >Heliconis</placeName> ad undas</l>
+                  <l>Glorior, inque tuos <placeName ref="#delp" ana="#place">Delphice</placeName>
+                     <persName ref="#apol">Apollo</persName> lares)</l>
+                  <l>Ut cecinit miro te blanda <persName ref="#foci">Focilla</persName> lepore</l>
+                  <l><persName ref="#pont">Pontanus</persName>, <placeName ref="#cala" ana="#place"
+                        >Calabri</placeName> nomen honosque soli.</l>
+                  <l>Sic, fertur rapido qua <placeName ref="#vist" ana="#place">Vistula</placeName>
+                     gurgite, <persName ref="#celt" ana="#pers">Celtis</persName></l>
+                  <l>Concinuit veneres o <persName ref="#hasi">Hasilina</persName> tuas.</l>
+                  <l>Iam notae fient, o <persName ref="#elsu">Elsula</persName> et <persName
+                        ref="#ursu">Ursula</persName>, vestrae</l>
+                  <l>Nequitiae, Eois Hesperiisque viris.</l>
+                  <l>Nam tua <persName ref="#pinda">Pindaricam</persName> redolentia carmina
+                     venam</l>
+                  <l>Suspicient omnes, <persName ref="#celt" ana="#pers">Celtice docte</persName>,
+                     plagae.</l>
+                  <l>Atque tuum merito celebrabunt nomen honore,</l>
+                  <l>Laudibus innumeris et super astra ferent.</l>
+               </lg>
+               <postscript>
+                  <p><persName ref="#murr" type="author" ana="#pers"><surname>Murro</surname>
+                        <addName>iunior</addName></persName> faciebat.</p>
+               </postscript>
+            </div>
+            <div type="translation" corresp="#celt_10">
+               <head>Epigramm auf das Lob auf <persName ref="#celt"><forename>Konrad</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucius</addName>, <roleName>den deutschen
+                     Dichter</roleName></persName></head>
+               <p>Was &lt;er spielte&gt;, als er die <placeName ref="#styg">stygischen</placeName>
+                  Seelen und die finsteren Mienen des dreigestaltigen <persName ref="#cerb"
+                     >Hundes</persName> für die liebe <persName ref="#eury">Gattin</persName>
+                  erweichte. Was &lt;der <persName ref="#orph">rhodopische Orpheus</persName>
+                  spielte&gt;, als er die Wälder, die Flüsse und die ländlichen Saiten mit süßem
+                  Klang führte. Welche Lieder der <persName ref="#pind"><placeName ref="#theb"
+                        >thebanische</placeName> Sänger</persName> von sich gab, als er mit seinem
+                  Plektron Felsen und wilde Tiere bewegte. Was <persName ref="#ario"
+                     >Arion</persName> &lt;spielte&gt;, als er zahme Delphine an sich zog, damit
+                  sein Leben nicht in den blauen Fluten untergeht. Solches spielte <persName
+                     ref="#celt"><forename>Konrad</forename></persName> als erster an der <placeName
+                     ref="#germ">deutschen Küste</placeName> mit höchstem Ruhm der Lyra <persName
+                     ref="#apol">Apolls</persName>. Diesem dürften nicht <persName ref="#arch"
+                     >Archilochos</persName>, berühmt durch seinen beißenden Iambos, nicht die
+                     <placeName ref="#lesb">Lesbierin</placeName>
+                  <persName ref="#sapp">Sappho</persName>, geschmückt mit lyrischen Metren; diesem
+                  dürften nicht die überaus liebreizende <persName ref="#musa">Muse</persName> des
+                  Dichters <persName ref="#call">Kallimachos</persName> noch deine sanften Elegien,
+                  du redegewandter <persName ref="#phil">Koer</persName>; diesem dürften nicht
+                  theische Lyraklänge <!-- korrigieren!!--> noch die gewichtige <persName
+                     ref="#musa">Muse</persName> des <persName ref="#stes">Stesichoros</persName>
+                  die Siegespalme entreißen. Und wie einst <persName ref="#deli">Delia</persName>
+                  oder die strahlend weiße <persName ref="#neme">Nemesis</persName> von dir im
+                  zügellosen Vers genannt wurde, <persName ref="#tibu">Tibull</persName>. Wie die
+                  dunkle <persName ref="#cynt">Cynthia</persName> dich besungen hat mit geiler Ader,
+                  den das mit aufragenden Bergrücken umgebene <placeName ref="#umbr"
+                     >Umbrien</placeName> trug. Wie der pälignische <persName ref="#ovid"
+                     >Naso</persName> die schöne <persName ref="#cori">Corinna</persName> besang,
+                  den Kuss, das Leben und seinen Liebling. Wie die liebliche
+                     <persName>Lesbia</persName> vom <placeName ref="#vero">Veronenser</placeName>
+                  <persName ref="#catu">Catull</persName> gepriesen wurde mit süßen und
+                  unanständigen Späßchen. Wie auch der gelehrt sprechende <persName ref="#andr"
+                        ><forename>Faustus</forename></persName> mit göttlichem Lied deine Gestalt
+                  beschrieb, schöne <persName ref="#livi">Livia</persName>. (<persName ref="#andr"
+                        ><forename>Faustus</forename></persName>, die Zier und der neue Ruhm der
+                     <placeName ref="#parr">parrhasischen</placeName> Ringschule, der berühmteste,
+                  der auf der ganzen Welt fortbesteht. Unter seiner Führung rühme ich mich, zu den
+                  heiligen Gewässern des <placeName ref="#heli">Helikon</placeName> und zu deinen
+                  Laren gekommen zu sein, <placeName ref="#delp">delphischer</placeName>
+                  <persName ref="#apol">Apoll</persName>.) Wie <persName ref="#pont"
+                     >Pontano</persName>, der Name und die Ehre des <placeName ref="#cala"
+                     >kalabrischen</placeName> Bodens, dich, reizende <persName ref="#foci"
+                     >Focilla</persName> mit wundersamer Anmut, besang. So, o <persName ref="#hasi"
+                     >Hasilina</persName>, hat <persName ref="#celt">Celtis</persName> die Liebe zu
+                  dir dort erklingen lassen, wo die <placeName ref="#vist">Weichsel</placeName> mit
+                  reißender Strömung dahinfließt. Schon werden eure Nichtsnutzigkeit Männern Ost und
+                  West bekannt sein, <persName ref="#elsu">Elsula</persName> und <persName
+                     ref="#ursu">Ursula</persName>. Denn alle Gegenden werden deine Lieder
+                  erblicken, die nach der <persName ref="#pind">pindarischen</persName> Ader
+                  riechen, gelehrter <persName ref="#celt">Celtis</persName>. Und deinen Namen
+                  werden sie mit der verdienten Ehre und unzähligen Lobgesängen rühmen und über die
+                  Sterne hinaustragen.</p>
+               <note><persName ref="#murr"><surname>Murrho</surname>
+                     <addName>der Jüngere</addName></persName> hat &lt;es&gt; gemacht.</note>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 7 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl xml:id="celt-1513"
+                  xml:lang="la">Conradi Celtis Protucii, primi in Germania poetae coronati, libri
+                  Odarum quattuor, cum Epodo, et saeculari carmine diligenter et accurate impressi,
+                  et hoc primum typo in studiosorum emolumentum editi, Straßburg 1513</bibl>
+               <listBibl type="keywords">
+                  <bibl type="keywords">
+                     <span ana="genre">Lyrik</span>
+                     <span ana="genre">Oden</span>
+                     <span ana="genre">Epoden</span>
+                     <span ana="genre">Carmen saeculare</span>
+                     <span ana="keyword">Elegie</span>
+                     <span ana="keyword">Tod</span>
+                     <span ana="keyword">Nachruhm</span>
+                     <span ana="keyword">kurzes Leben</span>
+                     <span ana="keyword">Unsterblichkeit</span>
+                     <span ana="keyword">Dichtung</span>
+                     <span ana="keyword">Nationalstolz</span>
+                     <span ana="keyword">Horaz</span>
+                     <span ana="keyword">aemulatio</span>
+                     <span ana="keyword">Freundschaft</span>
+                     <span ana="keyword">Resch</span>
+                     <span ana="keyword">Theseus</span>
+                     <span ana="keyword">Orestes</span>
+                     <span ana="keyword">Achill</span>
+                     <span ana="keyword">Monument</span>
+                     <span ana="keyword">Grab</span>
+                  </bibl>
+               </listBibl>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_7_1">
+         <graphic url="facs/facs_celt_7_1.jpg"/>
+      </surface>
+      <surface start="#facs_celt_7_2">
+         <graphic url="facs/facs_celt_7_2.jpg"/>
+      </surface>
+      <surface start="#facs_celt_7_3">
+         <graphic url="facs/facs_celt_7_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_7" source="#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_7_1"/>
+               <head><persName ref="#gund" type="author" ana="#pers"><forename>Philippi</forename>
+                     <surname>Gundelii</surname>
+                     <addName>Boii</addName></persName>, ad <persName ref="#velo" ana="#pers"
+                        ><forename>Thomam</forename>
+                     <surname>Roscium</surname>, <roleName>Poetam laureatum</roleName></persName>,
+                  Eligidion, ob editionem Odarum <persName ref="#celt" ana="#pers"
+                        ><forename>Conradi</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucii</addName></persName></head>
+               <lg>
+                  <l><persName ref="#velo" ana="#pers">Rosci</persName> Pierios inter doctissime
+                     vates,</l>
+                  <l>Unica <placeName ref="#germ" ana="#place">Germanae</placeName> fama, decusque
+                     plagae.</l>
+                  <l>Qui firmi sacrum et venerabile nomen amoris</l>
+                  <l>Non pateris fati succubuisse manu.</l>
+                  <l>Namque licet rapidae defunctus munere vitae,</l>
+                  <l>Secessus ierit <persName ref="#celt" ana="#pers">Celtis</persName> ad
+                        <placeName ref="#elys">elisios</placeName>.</l>
+                  <l>Tu facis ut vitae meliori parte supersit,</l>
+                  <l>Effugiantque malos carmina culta rogos.</l>
+                  <pb xml:id="facs_celt_7_2"/>
+                  <l>Paene etenim tot iam vigilatae in carmina noctes</l>
+                  <l>Necquicquam putrido deperiere situ.</l>
+                  <l>Paene labor vanus fuit, exhaustasque lucernas</l>
+                  <l>Destituit, doctis laus tribuenda viris.</l>
+                  <l>Sed duce te surgit decus immortale poetae,</l>
+                  <l>Famaque Teutonico non moritura solo.</l>
+                  <l>Auspicio cuius <persName ref="#celt" ana="#pers">Celtis</persName> surrepta
+                     tenebris</l>
+                  <l>Carmina, doctorum saepe per ora volant.</l>
+                  <l>Nam si <placeName ref="#smyr" ana="#place">Smyrna</placeName> suo, si
+                        <placeName ref="#mant" ana="#place">Mantua</placeName> vate tumescit,</l>
+                  <l>Si <placeName ref="#cala" ana="#place">Calaber</placeName>
+                     <persName ref="#hora">Flacci</persName> laude superbit ager,</l>
+                  <l>Nostra suo merito gaudet <placeName ref="#germ" ana="#place"
+                        >Germania</placeName>
+                     <persName ref="#celt" ana="#pers">Celte</persName>,</l>
+                  <l>Qui facit hanc <placeName ref="#theb" ana="#place">Thebas</placeName> inter
+                     habere locum.</l>
+                  <l>Qui prius imparibus modulis complexus amores</l>
+                  <l><persName ref="#venu"><placeName ref="#ida" ana="#pers"
+                        >Idaliae</placeName></persName> lusit arma facesque deae.</l>
+                  <l>Postea (quam pandis modo dextro sidere vulgo)</l>
+                  <l>Ausus <persName ref="#pinda">Pindaricam</persName> est non sine laude
+                     lyram.</l>
+                  <l>Unde tibi meritas debet <placeName ref="#germ" ana="#place"
+                        >Germania</placeName> grates,</l>
+                  <l>Qui prohibes tenebris delituisse diu.</l>
+                  <l>Debet amicitiae <persName ref="#velo" ana="#pers">Rosci</persName> tibi
+                     plurimae nomen,</l>
+                  <l>Quod non abrupta tu colis usque fide.</l>
+                  <l><persName ref="#piri">Pirithoum</persName> furvi tentantem limina <placeName
+                        ref="#aver" ana="#place">Averni</placeName></l>
+                  <l><persName ref="#thes">Theseus</persName> ad <placeName ref="#styg"
+                        >Stygias</placeName> est comitatus aquas.</l>
+                  <l>Defuit et numquam <persName ref="#pyla">Pylades Phoceius</persName>
+                     <persName ref="#ores">Oresti</persName>,</l>
+                  <l>Fultus <persName ref="#achi">Achillaea</persName> saepe <persName ref="#patr"
+                        >Patroclus</persName> ope est.</l>
+                  <l>Tu longe priscos vincis pietate sodales.</l>
+                  <l>Qui rapis ex fati conditione tuos.</l>
+                  <l>Dum promis vulgo relegenda volumina amici,</l>
+                  <l>In quae sola nihil mors monumenta potest.</l>
+                  <l><persName ref="#maus">Mausolus</persName> tali mallet iacuisse sepulchro,</l>
+                  <l>Cuius nunc bustum nil nisi nomen habet.</l>
+                  <l>At non carminibus tempus subducit honores,</l>
+                  <l>Non imber furva nube solutus obest.</l>
+                  <pb xml:id="facs_celt_7_3"/>
+                  <l>Pyramidum recidunt vicina cacumina caelo,</l>
+                  <l>Verum carminibus tempore crescit honor.</l>
+                  <l>Horrida consumpsit <placeName ref="#ephe" ana="#place">Ephesinae</placeName>
+                     flamma <persName ref="#dian">Dianae</persName></l>
+                  <l>(Qua fuit haud toto firmior orbe) domum.</l>
+                  <l>Ast illi non flamma nocet, non unda sepulchro,</l>
+                  <l>Quod struit ingenii non peritura manus.</l>
+                  <l>Et dum sideribus caelum, dum piscibus aequor,</l>
+                  <l>Terra satis, avibus aer habendus erit,</l>
+                  <l>Carmen in aeterno persistet honore, nec umquam</l>
+                  <l>Ingenio partum morte peribit opus.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_7">
+               <head>Eine kleine Elegie des <persName ref="#gund"><addName>Boier</addName>
+                     <forename>Philipp</forename>
+                     <surname>Gundel</surname></persName> an <persName ref="#velo"><roleName>den
+                        gekrönten Dichter</roleName>
+                     <forename>Thomas</forename>
+                     <surname>Resch</surname></persName> wegen der Herausgabe der Oden des <persName
+                     ref="#celt"><forename>Konrad</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucius</addName></persName>.</head>
+               <p><persName ref="#velo"><surname>Resch</surname></persName>, gelehrtester unter den
+                  pierischen Sängern, einzigartiger Ruhm und Zier der <placeName ref="#germ"
+                     >deutschen</placeName> Länder. Der du es nicht erduldest, dem heiligen und
+                  verehrungswürdigen Namen starker Liebe durch die Hand des Schicksals zu erliegen.
+                  Denn wenn <persName ref="#celt"><surname>Celtis</surname></persName>, mit dem
+                  Geschenk eines raschen Lebens gestorben, zu den <placeName ref="#elys"
+                     >elysischen</placeName> Gefilden, den verborgenen, gegangen ist, dann bewirkst
+                  du, dass &lt;er&gt; mit dem besseren Teil seines Lebens überbleibt und dass seine
+                  gebildeten Lieder den üblen Scheiterhaufen entkommen. Denn fast hätten &lt;ihn&gt;
+                  so viele für die Lieder durchwachte Nächte dem faulen Moder erfolglos entrissen.
+                  Fast wäre die Mühe vergeblich, &lt;fast&gt; hätte sie die erschöpften Lampen im
+                  Stich gelassen, gelehrten Männern muss man Lob zugestehen. Aber unter dir als
+                  Anführer erhebt sich die unsterbliche Zierde des Dichters und ein Ruhm, der auf
+                     <placeName ref="#germ">deutschem</placeName> Boden nicht sterben wird. Unter
+                  dessen Befehl fliegen die Lieder des <persName ref="#celt">Celtis</persName>, der
+                  Finsternis entrissen, oft durch die Münder der Gelehrten. Denn wenn
+                     <placeName>Smyrna</placeName> und <placeName>Mantua</placeName> vor Stolz über
+                  ihre Sänger anschwellen, wenn sich der kalabrische Acker des Lobs seines <persName
+                     ref="#hora">Flaccus</persName> brüstet, dann erfreut sich unser <placeName
+                     ref="#germ">Deutschland</placeName> an seinem verdienten <persName ref="#celt"
+                     >Celtis</persName>, der dafür gesorgt hat, dass &lt;auch&gt; dieses neben
+                     <placeName ref="#theb">Theben</placeName> seinen Platz hat. Dieser erzählte
+                  zuerst die Liebesgeschichten mit ungleichen Verslein und besang im Spiel die
+                  Waffen und Fackeln der <persName ref="#venu">Göttin vom <placeName ref="#ida"
+                        >Idagebirge</placeName></persName>. Danach wagte er sich an die <persName
+                     ref="#pind">pindarische</persName> Lyra (die du dem Volk gerade unter einem
+                  glücklichen Stern verkündest) - nicht ohne Lob. Deshalb schuldet dir <placeName
+                     ref="#germ">Deutschland</placeName> verdientermaßen Dank, der du verhinderst,
+                  dass es lange in der Finsternis versteckt bleibt. Das Wort Freundschaft, <persName
+                     ref="#velo"><surname>Resch</surname></persName>, ist dir am meisten schuldig,
+                  weil du sie fortwährend pflegst, ohne dass dein Vertrauen abbricht. <persName
+                     ref="#thes">Theseus</persName> hat <persName ref="#piri">Pirithous</persName>,
+                  der die Schwelle des dunklen <placeName ref="#aver">Avernersees</placeName>
+                  anstrebte, zu den <placeName ref="#styg">stygischen</placeName> Wässern begleitet.
+                  Auch fehlte <persName ref="#ores">Orestes</persName> niemals der Phoker <persName
+                     ref="#pyla">Pylades</persName>, oft wurde <persName ref="#patr"
+                     >Patroclus</persName> von der Hilfe <persName ref="#achi">Achills</persName>
+                  untersützt. Du übertriffst die altehrwürdigen Gefährten an Pflichtgefühl bei
+                  Weitem, der du die Deinen aus der Lage des Schicksals entreißt, während du dem
+                  Volk die Bücher &lt;deines&gt; Freundes hervorholst, um sie wieder zu lesen,
+                  Monumente, gegen die der Tod alleine nichts &lt;ausrichten&gt; kann. <persName
+                     ref="#maus">Mausolus</persName> würde lieber in einem solchen Grabmal liegen,
+                  dessen Grab jetzt nur mehr seinen Namen hat. Aber nicht entreißt die Zeit den
+                  Gedichten ihre Ehren, nicht schadet &lt;ihnen&gt; der Regen, der sich aus der
+                  dunklen Wolke gelöst hat. Die Gipfel der Pyramiden, nahe dem Himmel, verfallen,
+                  aber den Gedichten wächst die Ehre mit der Zeit. Die schreckliche Flamme verzehrte
+                  das Haus der <persName ref="#dian">Diana</persName> von <placeName ref="#ephe"
+                     >Ephesos</placeName> (auf der ganzen Welt gab es kein standfesteres). Aber
+                  jenem schadet keine Flamme, keine Welle im Grab, was die Hand eines Talents
+                  errichtet hat, die nicht vergehen wird. Und solange der Himmel von Sternen,
+                  solange das Wasser von Fischen, die Erde von Saaten und die Luft von Vögeln
+                  bewohnt wird, solange wird das Gedicht in ewiger Ehre fortbestehen und niemals
+                  wird das durch Talent geborene Werk durch den Tod vergehen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
