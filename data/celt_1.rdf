@@ -5,8 +5,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
          xmlns:ns1="http://viaf.org/viaf/terms#"
-         xmlns:t="http://www.tei-c.org/ns/1.0"
-         xml:lang="en">
+         xmlns:t="http://www.tei-c.org/ns/1.0">
    <rdf:Description rdf:about="#celt_1">
       <gndo:language>
          <rdf:Description rdf:about="https://d-nb.info/gnd/4120281-8"/>
