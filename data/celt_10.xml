@@ -98,8 +98,9 @@
                         ref="#musa">musa</persName> poetae,</l>
                   <l>Non elegi molles <persName ref="#phil">Coe</persName> diserte tui.</l>
                   <l>Cui non praeripiant victricem barbita palmam</l>
-                  <l>Theia, <persName ref="#stes">Stesichori</persName> neve <persName ref="#musa"
-                        >camena</persName> gravis.</l>
+                  <l><persName ref="#anac">Theia</persName>, <persName ref="#stes"
+                        >Stesichori</persName> neve <persName ref="#musa">camena</persName>
+                     gravis.</l>
                   <l>Utque fuit quondam lascivo <persName ref="#deli">Delia</persName> versu,</l>
                   <l>Candida vel <persName ref="#neme">Nemesis</persName>, dicta <persName
                         ref="#tibu">Tibulle</persName> tibi.</l>
@@ -143,8 +144,7 @@
                   <p><persName ref="#murr" type="author" ana="#pers"><surname>Murro</surname>
                         <addName>iunior</addName></persName> faciebat.</p>
                </postscript>
-            </div>
-            <div type="translation" corresp="#celt_10">
+            </div>m <div type="translation" corresp="#celt_10">
                <head>Epigramm auf das Lob auf <persName ref="#celt"><forename>Konrad</forename>
                      <surname>Celtis</surname>
                      <addName>Protucius</addName>, <roleName>den deutschen
@@ -168,17 +168,17 @@
                   dürften nicht die überaus liebreizende <persName ref="#musa">Muse</persName> des
                   Dichters <persName ref="#call">Kallimachos</persName> noch deine sanften Elegien,
                   du redegewandter <persName ref="#phil">Koer</persName>; diesem dürften nicht
-                  theische Lyraklänge <!-- korrigieren!!--> noch die gewichtige <persName
-                     ref="#musa">Muse</persName> des <persName ref="#stes">Stesichoros</persName>
-                  die Siegespalme entreißen. Und wie einst <persName ref="#deli">Delia</persName>
-                  oder die strahlend weiße <persName ref="#neme">Nemesis</persName> von dir im
-                  zügellosen Vers genannt wurde, <persName ref="#tibu">Tibull</persName>. Wie die
-                  dunkle <persName ref="#cynt">Cynthia</persName> dich besungen hat mit geiler Ader,
-                  den das mit aufragenden Bergrücken umgebene <placeName ref="#umbr"
-                     >Umbrien</placeName> trug. Wie der pälignische <persName ref="#ovid"
-                     >Naso</persName> die schöne <persName ref="#cori">Corinna</persName> besang,
-                  den Kuss, das Leben und seinen Liebling. Wie die liebliche
-                     <persName>Lesbia</persName> vom <placeName ref="#vero">Veronenser</placeName>
+                  Lyraklänge aus Teos noch die gewichtige <persName ref="#musa">Muse</persName> des
+                     <persName ref="#stes">Stesichoros</persName> die Siegespalme entreißen. Und wie
+                  einst <persName ref="#deli">Delia</persName> oder die strahlend weiße <persName
+                     ref="#neme">Nemesis</persName> von dir im zügellosen Vers genannt wurde,
+                     <persName ref="#tibu">Tibull</persName>. Wie die dunkle <persName ref="#cynt"
+                     >Cynthia</persName> dich besungen hat mit geiler Ader, den das mit aufragenden
+                  Bergrücken umgebene <placeName ref="#umbr">Umbrien</placeName> trug. Wie der
+                  pälignische <persName ref="#ovid">Naso</persName> die schöne <persName ref="#cori"
+                     >Corinna</persName> besang, den Kuss, das Leben und seinen Liebling. Wie die
+                  liebliche <persName>Lesbia</persName> vom <placeName ref="#vero"
+                     >Veronenser</placeName>
                   <persName ref="#catu">Catull</persName> gepriesen wurde mit süßen und
                   unanständigen Späßchen. Wie auch der gelehrt sprechende <persName ref="#andr"
                         ><forename>Faustus</forename></persName> mit göttlichem Lied deine Gestalt
