@@ -144,7 +144,8 @@
                   <p><persName ref="#murr" type="author" ana="#pers"><surname>Murro</surname>
                         <addName>iunior</addName></persName> faciebat.</p>
                </postscript>
-            </div>m <div type="translation" corresp="#celt_10">
+            </div>
+		 <div type="translation" corresp="#celt_10">
                <head>Epigramm auf das Lob auf <persName ref="#celt"><forename>Konrad</forename>
                      <surname>Celtis</surname>
                      <addName>Protucius</addName>, <roleName>den deutschen
