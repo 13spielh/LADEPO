@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:s="http://www.w3.org/2001/sw/DataAccess/rf1/result"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://www.tei-c.org/ns/1.0"
+      xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords"
+            content="template, GAMS, repository, digital, archive, edition"/>
+      <meta name="description"
+            content="Template for projects in GAMS - Geisteswissenschaftliches Asset Management System"/>
+      <meta name="publisher"
+            content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
+      <meta name="content-language" content="de"/>
+      <title>GAMS - Project Title</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="../css/test_03_04.css"/>
+      <link href="../css/navbar.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+                    //
+                </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+                    //
+                </script>
+      <script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">
+                    //
+                </script>
+      <script>
+                    $ (document).ready(function() {
+                    $('[data-toggle="tooltip"]').tooltip();
+                    });
+                </script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row flex">
+               <div class="col-xs-8">
+                  <h1>Lateinische Buchwidmungen der frühen Neuzeit</h1>
+                  <h2>Die Widmungsgedichte des Collegium Poetarum und der Sodalitas
+                                    Danubiana Vindobonensis.</h2>
+               </div>
+               <div class="col-xs-4">
+                  <div class="unilogo">
+                     <div class="language">
+                        <a href="#">DE</a> | <a href="#">EN</a>
+                     </div>
+                     <a href="http://www.uni-graz.at" class="unilogo">
+                        <img class="logoUni"
+                             src="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"
+                             height="62"
+                             title="Universität Graz"
+                             alt="Universität Graz"/>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-default navbar-static-top"
+           role="navigation"
+           id="nav">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button"
+                       class="navbar-toggle collapsed"
+                       data-toggle="collapse"
+                       data-target="#bs-example-navbar-collapse-1"
+                       aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+               </button>
+               <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">Navigation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates"> Home </a>
+                  </li>
+                  <li>
+                     <a href="/context:templates.features">Über</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates.car">
+                                        Autoren</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/archive/objects/context:templates/methods/sdef:Context/get?mode=search">Analyse</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                                        Widmungen <span class="caret" xml:space="preserve"/>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="/o:templates.1111">Alle Widmungen</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Autoren</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Drucken</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">eigener link</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">noch einer</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-right"
+                     role="search"
+                     method="get"
+                     action="http://glossa.uni-graz.at/search/gsearch">
+                  <div class="input-group stylish-input-group">
+                     <input id="query"
+                            name="query"
+                            type="text"
+                            placeholder="Volltextsuche"
+                            onclick="this.select()"
+                            class="form-control"/>
+                     <span class="input-group-addon">
+                        <button type="submit">
+                           <span class="glyphicon glyphicon-search"/>
+                        </button>
+                     </span>
+                     <input type="hidden" name="hitPageSize" value="10"/>
+                     <input type="hidden" name="hitPageStart" value="1"/>
+                     <input type="hidden" name="pid" value="epsg"/>
+                     <input type="hidden" name="search" value="simple"/>
+                     <input type="hidden"
+                            name="x2"
+                            value="http://glossa.uni-graz.at/gamsdev/steineel/templates/project/project-search.xsl"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <script type="text/javascript">
+                    $('#nav').affix({
+                    offset: {
+                    top: $('header').height() - $('#nav').height()
+                    }
+                    });
+                </script>
+      <main class="container">
+         <section class="row equalheight">
+            <article class="col-md-12" style="margin-bottom:30px;">
+               <div class="panel" style="margin-bottom:0px;">
+                  <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">Tannstetter Collimitius 1 (Joachim Watt)<span style="float:right;">
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="coll_1/datastreams/TEI_SOURCE/content">
+                           <img src="../facs/tei.jpg" width="30" height="30" alt="XML (TEI P5)"/>
+                        </a>
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="coll_1/methods/sdef:TEI/getLaTeXPDF">
+                           <img src="../facs/pdf_icon.png"
+                                width="30"
+                                height="30"
+                                alt="Druckversion"/>
+                        </a>
+                     </span>
+                  </h2>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <div class="panel-heading" style="padding-bottom: 0px;">
+                     <h3 class="objekt"> Faksimile </h3>
+                  </div>
+                  <div class="panel-body" style="padding-top: 0px;">
+                     <div class="panel-image">
+                        <img class="img-responsive" src="../facs/facs_coll_1_1.jpg"/>
+                        <img class="img-responsive" src="../facs/facs_coll_1_2.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <h3 class="objekt">Transkription</h3>
+                  <p class="poem">
+               
+                     <h4>Ad illustrissimum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Ludwig X. Herzog von&#xA;                  Bayern">Principem
+                     Ludovicum
+                     Bavariae ducem et
+                        comitem Palatinum.</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Joachim&#xA;               Watt">Joachimi
+                     vadiani</a> ode Tricolis Tetrastrophos.</h4>
+               
+                     <p class="line">Principes avito stemmate nobilis</p>
+                     <p class="line">Rerumque gestarum eximium decus</p>
+                     <p class="line">Qui <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">caesaris</a> natus <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kunigunde von Österreich">sorore</a> es</p>
+                     <p class="line">Omnia cum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Jupiter">Iove</a> nunc regentis,</p>
+                     <p class="line">Posses quidem victoris avunculi</p>
+                     <p class="line">Enses coruscos atque aquilas sequi</p>
+                     <p class="line">Quae castra Germanum secutae</p>
+                     <p class="line">In venetos properant rebelles,</p>
+                     <p class="line">Ubi dolosis obvius hostibus</p>
+                     <p class="line">Eques sub armis fortis et eminens</p>
+                     <p class="line">Aequare vel pthios furores</p>
+                     <p class="line">Vel poteris <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Diomedes">diomedis</a> ausus.</p>
+                     <p class="line">Mavis per artes ingenio tamen</p>
+                     <p class="line">Prodesse: <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Muse">musarumque</a> leves choros</p>
+                     <p class="line">Spectasse per rractus amoenos</p>
+                     <p class="line">Aethereis resonare phthongis,</p>
+                     <p class="line">Virtutis expers: pectus et artium</p>
+                     <p class="line">Nosci periclis non dubiis agi</p>
+                     <p class="line">Seu pace refrenem coercet</p>
+                     <p class="line">Seu populum subigit gradivo.</p>
+                  
+                     <p class="line">Virtus deorum conciliis dicat</p>
+                     <p class="line">Quoscumque certum est optima fortiter</p>
+                     <p class="line">Gessisse. Virtus sola victrix</p>
+                     <p class="line">Infima cum superis iugabit.</p>
+                     <p class="line">Formidolosae <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Pluto">plutonicae</a> domus</p>
+                     <p class="line">Nutu <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Jupiter">Iovis</a> debentur inertiae</p>
+                     <p class="line">Dum patriae frigens salute</p>
+                     <p class="line">Seque suos sinit ire pessum.</p>
+                     <p class="line">Tu more et annis floridus <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Hercules">herculis</a>
+                     </p>
+                     <p class="line">Callem sinistrum providus aufugis</p>
+                     <p class="line">Qua caeca proserpit voluptas</p>
+                     <p class="line">Praecipites aditura casus.</p>
+                     <p class="line">Amas honores <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">caesaris</a> ardui</p>
+                     <p class="line">In cuius artes iam properas diu</p>
+                     <p class="line">Ceu tendit in montes viator</p>
+                     <p class="line">Saxa per et scopulos minaces.</p>
+                     <p class="line">Si pergis (ipsis auguror) optime</p>
+                     <p class="line">Princeps videbis virgineas faces</p>
+                     <p class="line">Et fervidum caelo leonem</p>
+                     <p class="line">Insolitum propius micantem.</p>
+                     <p class="line">Olim nepotes. <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">caesaris</a> et tui</p>
+                     <p class="line">Novos nitores: aethere lucido</p>
+                     <p class="line">Fulgore disueto videbunt</p>
+                     <p class="line">Et capient sua vota nautae.</p>
+               
+                  </p>
+               </div>
+               <div class="panel">
+                  <h3 class="objekt">Übersetzung</h3>
+                  <p>
+                     <h5>Eine vierstrophige Ode in Trikola des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Joachim
+                     Watt</a> an den den vornehmsten
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Herrscher
+                     Ludwig
+                     Herzog von Bayern und
+                        Pfalzgraf</a>.</h5>
+                     <p class="translation">Mein Herr, edel durch einen uralten Stammbaum, und außerorderntliche Zier der
+                  Geschichte, der du von der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Schwester</a> des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Kaisers</a>, der nun alles mit <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Jupiter</a>
+                  beherrscht, geboren wurdest, zwar könntest du den schimmernden Schwertern und
+                  Legionsadlern des siegreichen Onkels folgen, die den Lagern der Deutschen folgen
+                  und den aufständischen Venetern entgegeneilen, wo du listenreichen Feinden
+                  entgegentretend als unter den Waffen stehender tapferer und herausragender Ritter
+                  pthiische Raserei oder die Wagnisse des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Diomedes</a> erreichen
+                  können wirst. Dennoch ziehst du es vor, durch Künste und Talent zu nützen, die
+                  zarten Reigen der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Musen</a> durch liebliche (???) zu betrachten,
+                  und &lt;Dinge&gt; mit himmlischen Klängen widerhallen zu lassen, frei von
+                  Heldentaten auch das Herz der Künst zu erkennen, nicht durch ungewisse Gefahren
+                  getrieben zu werden, sei es, dass er das ungezügelte Volk durch Frieden bändigt,
+                  sei es, dass er es durch Krieg unterwirft. Die Tugend der Götter soll in
+                  Versammlungen sagen, von wem auch immer feststeht, dass sie die besten
+                  &lt;Dinge&gt; tapfer verrichtet haben. Als einzige Siegerin wird die Tugend die
+                  untersten &lt;Dinge&gt; mit den oberen verbinden. Auf Wink des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Jupiter</a> sind die furchterregenden Häuser des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Pluto</a> der Untätigkeit verfallen, während der Tote sich und
+                  die Seinigen wegen des Wohls der Heimat umkommen lässt. Du, der du an Charakter
+                  und Jahren blühend bist, entkommst in weiser Voraussicht der unheilvollen Gasse,
+                  wo die blinde Lust vorwärts kriecht, im Begriff, gefährliche Unglücksfälle auf
+                  sich zu nehmen. Du liebst die Ehrungen des erhabenen <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Kaisers</a>,
+                  zu dessen Künsten du schon lange eilst, wie ein Wanderer durch Steine und drohende
+                  Felsen in die Berge zieht. Wenn du bestens weitergehst, &lt;so&gt; prophezeie ich
+                  diesen selbst, wirst du als erster jungfräuliche Fackeln und einen feurigen Löwen
+                  am Himmel sehen, der allzu nahe ungewöhnlich funkelt. Einst werden die Nachkommen
+                  des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Kaisers</a> und dein neues Strahlen am leuchtenden Himmel mit
+                  ungewohnten Schimmer sehen und sie werden ihre Gelübde des Seemanns fassen.</p>
+               
+                  </p>
+               </div>
+            </article>
+            <article class="col-md-6 equal" style="float: right;">
+               <div class="panel">
+                  <h3 class="objekt">Metadaten</h3>
+                  <table class="table table-condensed">
+                     <tbody>
+                        <tr>
+                           <td class="color">Titel des Gedichts:</td>
+                           <td>Ad illustrissimum Principem
+                     Ludovicum
+                     Bavariae ducem et
+                        comitem Palatinum.
+                  Joachimi
+                     vadiani ode Tricolis Tetrastrophos.</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor der Gedichts:</td>
+                           <td>Joachim
+               Watt (Joachim
+               Vadianus)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Containerwerk:</td>
+                           <td>
+                              <a href="https://www.digitale-sammlungen.de/view/bsb00002864?page=1">Iudicium viennense. Anni Millesimi quingentesimi duodecimi, Wien 1512</a>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor des Containerwerks:</td>
+                           <td>Georg
+               Tannstetter (Georgius
+               Collimitius)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Gattung des Containerwerks:</td>
+                           <td>astronomische Berechnungen, Voraussagen für das kommende Jahr</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Erscheinungsjahr:</td>
+                           <td> 1512 </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Verschlagwortung:</td>
+                           <td>Herrscherlob, Dichtung, Tugend, Lebensführung, Nachruhm, Unsterblichkeit</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </article>
+         </section>
+      </main>
+   </body>
+</html>

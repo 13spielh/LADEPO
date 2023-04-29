@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF
+  SYSTEM "about:legacy-compat">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+         xmlns:viaf="http://viaf.org/viaf/terms#"
+         xmlns:fabio="http://purl.org/spar/fabio#"
+         xmlns:frbr="http://purl.org/vocab/frbr/core#"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xml:lang="en">
+   <rdf:Description rdf:about="#cusp_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <frbr:exemplarOf>
+         <fabio:Poem/>
+      </frbr:exemplarOf>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1526"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1526">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <frbr:exemplarOf>
+         <fabio:PrintObject/>
+      </frbr:exemplarOf>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:deu"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:de"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:Oostenrijk"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+</rdf:RDF>

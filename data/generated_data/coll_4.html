@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:s="http://www.w3.org/2001/sw/DataAccess/rf1/result"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://www.tei-c.org/ns/1.0"
+      xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords"
+            content="template, GAMS, repository, digital, archive, edition"/>
+      <meta name="description"
+            content="Template for projects in GAMS - Geisteswissenschaftliches Asset Management System"/>
+      <meta name="publisher"
+            content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
+      <meta name="content-language" content="de"/>
+      <title>GAMS - Project Title</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="../css/test_03_04.css"/>
+      <link href="../css/navbar.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+                    //
+                </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+                    //
+                </script>
+      <script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">
+                    //
+                </script>
+      <script>
+                    $ (document).ready(function() {
+                    $('[data-toggle="tooltip"]').tooltip();
+                    });
+                </script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row flex">
+               <div class="col-xs-8">
+                  <h1>Lateinische Buchwidmungen der frühen Neuzeit</h1>
+                  <h2>Die Widmungsgedichte des Collegium Poetarum und der Sodalitas
+                                    Danubiana Vindobonensis.</h2>
+               </div>
+               <div class="col-xs-4">
+                  <div class="unilogo">
+                     <div class="language">
+                        <a href="#">DE</a> | <a href="#">EN</a>
+                     </div>
+                     <a href="http://www.uni-graz.at" class="unilogo">
+                        <img class="logoUni"
+                             src="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"
+                             height="62"
+                             title="Universität Graz"
+                             alt="Universität Graz"/>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-default navbar-static-top"
+           role="navigation"
+           id="nav">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button"
+                       class="navbar-toggle collapsed"
+                       data-toggle="collapse"
+                       data-target="#bs-example-navbar-collapse-1"
+                       aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+               </button>
+               <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">Navigation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates"> Home </a>
+                  </li>
+                  <li>
+                     <a href="/context:templates.features">Über</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates.car">
+                                        Autoren</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/archive/objects/context:templates/methods/sdef:Context/get?mode=search">Analyse</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                                        Widmungen <span class="caret" xml:space="preserve"/>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="/o:templates.1111">Alle Widmungen</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Autoren</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Drucken</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">eigener link</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">noch einer</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-right"
+                     role="search"
+                     method="get"
+                     action="http://glossa.uni-graz.at/search/gsearch">
+                  <div class="input-group stylish-input-group">
+                     <input id="query"
+                            name="query"
+                            type="text"
+                            placeholder="Volltextsuche"
+                            onclick="this.select()"
+                            class="form-control"/>
+                     <span class="input-group-addon">
+                        <button type="submit">
+                           <span class="glyphicon glyphicon-search"/>
+                        </button>
+                     </span>
+                     <input type="hidden" name="hitPageSize" value="10"/>
+                     <input type="hidden" name="hitPageStart" value="1"/>
+                     <input type="hidden" name="pid" value="epsg"/>
+                     <input type="hidden" name="search" value="simple"/>
+                     <input type="hidden"
+                            name="x2"
+                            value="http://glossa.uni-graz.at/gamsdev/steineel/templates/project/project-search.xsl"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <script type="text/javascript">
+                    $('#nav').affix({
+                    offset: {
+                    top: $('header').height() - $('#nav').height()
+                    }
+                    });
+                </script>
+      <main class="container">
+         <section class="row equalheight">
+            <article class="col-md-12" style="margin-bottom:30px;">
+               <div class="panel" style="margin-bottom:0px;">
+                  <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">Tannstetter Collimitius 4 (Joachim Watt)<span style="float:right;">
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="coll_4/datastreams/TEI_SOURCE/content">
+                           <img src="../facs/tei.jpg" width="30" height="30" alt="XML (TEI P5)"/>
+                        </a>
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="coll_4/methods/sdef:TEI/getLaTeXPDF">
+                           <img src="../facs/pdf_icon.png"
+                                width="30"
+                                height="30"
+                                alt="Druckversion"/>
+                        </a>
+                     </span>
+                  </h2>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <div class="panel-heading" style="padding-bottom: 0px;">
+                     <h3 class="objekt"> Faksimile </h3>
+                  </div>
+                  <div class="panel-body" style="padding-top: 0px;">
+                     <div class="panel-image">
+                        <img class="img-responsive" src="../facs/facs_coll_4.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <h3 class="objekt">Transkription</h3>
+                  <p class="poem">
+               
+                     <h4>Magnifico et nobili viro <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Laurenz&#xA;               Saurer">D.
+                        Laurentio
+                     Sawrer: Caesaris Maiestatis in Pannonia
+                        superiori. Ductori supremo:
+                        Consiliario prudentissimo</a>: <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Joachim&#xA;               Watt">Vadianus</a>
+                  Cliens.</h4>
+               
+                     <p class="line">Si virtus tibi maximos honores:</p>
+                     <p class="line">Si <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">caesar</a> tibi maximos labores</p>
+                     <p class="line">Impertit: sapienti et erudito</p>
+                     <p class="line">Rerum: quae superant inane vulgus:</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Laurenz&#xA;               Saurer">Laurenti</a> decus omnium tuorum:</p>
+                     <p class="line">Et mi subsidium meumque numen:</p>
+                     <p class="line">Cur non aethereos tibi libellos</p>
+                     <p class="line">Et praenuntia siderum futuri</p>
+                     <p class="line">Donet dogmata maxime peritus</p>
+                     <p class="line">Is <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Georg&#xA;               Tannstetter">Collimitius</a>: soli polique</p>
+                     <p class="line">Prorsus conscius et Mathesis acer</p>
+                     <p class="line">Professor quem adamas: foves: tueris:</p>
+                     <p class="line">Tu celestia qui canit libellum</p>
+                     <p class="line">Gratus sumito: volvito libenter</p>
+                     <p class="line">Ut mysteria celsioris orbis</p>
+                     <p class="line">Noscas: insinues: sequaris: et si</p>
+                     <p class="line">portendant mala quae putes cavendas</p>
+                     <p class="line">Astute caveas: ubi sub auras</p>
+                     <p class="line">Parcis subiugus evolabis olim:</p>
+                     <p class="line">Caelo <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Jupiter">Juppiter</a> omnium supremo</p>
+                     <p class="line">Te laetum statuet: videbis illinc</p>
+                     <p class="line">Quicquid sidera moliuntur orbe:</p>
+                     <p class="line">Quidcquid dii faciunt: Sed interim tu</p>
+                     <p class="line">Sumens aethereum libens libellum.</p>
+               
+
+                  </p>
+               </div>
+               <div class="panel">
+                  <h3 class="objekt">Übersetzung</h3>
+                  <p>
+                     <h5>Der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Untergebene
+                     Watt</a> dem großartigen und edlen Mann <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">D.
+                        Laurenz
+                     Saurer, dem Vorgesetzten der kaiserlichen Hoheit
+                        in Pannonien, dem höchsten
+                        Anführer, dem klügsten
+                  Rat</a>.</h5>
+                     <p class="translation">Wenn dir die Tugend größte Ehren, wenn dir der Kaiser die größten Aufgaben
+                  zuteilwerden lässt, dir, dem Weisen und in den Dingen Gelehrten: Diese übertreffen
+                  den wertlosen Pöbel: Laurenz, du Zier aller der Deinen und für mich Beistand und
+                  Schutz: Warum soll dir &lt;dann&gt; dieser sehr kundige Tannstetter, ganz und gar
+                  vertraut mit der Erde und dem Himmel und feuriger Mathematikprofessor, den du lieb
+                  hast, unterstützt und unterhältst, nicht himmlische Büchlein und Lehrsätze
+                  schenken, die die Zukunft der Sterne verkünden? Nimm du dankbar das Büchlein an,
+                  das von himmlischen Dingen singt: lies es willig, um die Geheimnisse des höheren
+                  Gewölbes zu erkennen, eindringen zu lassen und zu verfolgen: Und wenn sie Übel
+                  ankündigen, damit du dich schlau vor dem hütest, von dem du glaubst, dass man sich
+                  hüten soll. Sobald du unter die Lüfte (???) entfliehen wirst, wird Jupiter dich an
+                  die Spitze des Himmels &lt;vor&gt; alle setzen: Von dort aus wirst du alles sehen,
+                  was die Sterne am Himmelsgewölbe bewegen, alles, was die Götter tun. Aber in der
+                  Zwischenzeit nimm du willig das himmlische Büchlein.</p>
+                  </p>
+               </div>
+            </article>
+            <article class="col-md-6 equal" style="float: right;">
+               <div class="panel">
+                  <h3 class="objekt">Metadaten</h3>
+                  <table class="table table-condensed">
+                     <tbody>
+                        <tr>
+                           <td class="color">Titel des Gedichts:</td>
+                           <td>Magnifico et nobili viro D.
+                        Laurentio
+                     Sawrer: Caesaris Maiestatis in Pannonia
+                        superiori. Ductori supremo:
+                        Consiliario prudentissimo: Vadianus
+                  Cliens.</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor der Gedichts:</td>
+                           <td>Joachim
+               Watt (Joachim
+               Vadianus)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Containerwerk:</td>
+                           <td>
+                              <a href="https://www.digitale-sammlungen.de/view/bsb00002537?page=1">Iudicium astronomicum pro anno Ch. M.ccccc.xiii. per Magistrum Georgium Tannstetter
+            collimitium astronomiae professorem Viennae Pannoniae editum, Nürnberg 1513</a>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor des Containerwerks:</td>
+                           <td>Georg
+               Tannstetter (Georgius
+               Collimitius)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Gattung des Containerwerks:</td>
+                           <td>astronomische Berechnungen, Voraussagen für das kommende Jahr</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Erscheinungsjahr:</td>
+                           <td> 1513 </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Verschlagwortung:</td>
+                           <td>Lob, Widmung, Buch, Himmel, Geheimnis, Natur, Sterne, Jupiter, Götter, Tod, Apotheose</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </article>
+         </section>
+      </main>
+   </body>
+</html>
