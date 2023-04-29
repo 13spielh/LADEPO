@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:s="http://www.w3.org/2001/sw/DataAccess/rf1/result"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://www.tei-c.org/ns/1.0"
+      xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords"
+            content="template, GAMS, repository, digital, archive, edition"/>
+      <meta name="description"
+            content="Template for projects in GAMS - Geisteswissenschaftliches Asset Management System"/>
+      <meta name="publisher"
+            content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
+      <meta name="content-language" content="de"/>
+      <title>GAMS - Project Title</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="../css/test_03_04.css"/>
+      <link href="../css/navbar.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+                    //
+                </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+                    //
+                </script>
+      <script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">
+                    //
+                </script>
+      <script>
+                    $ (document).ready(function() {
+                    $('[data-toggle="tooltip"]').tooltip();
+                    });
+                </script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row flex">
+               <div class="col-xs-8">
+                  <h1>Lateinische Buchwidmungen der frühen Neuzeit</h1>
+                  <h2>Die Widmungsgedichte des Collegium Poetarum und der Sodalitas
+                                    Danubiana Vindobonensis.</h2>
+               </div>
+               <div class="col-xs-4">
+                  <div class="unilogo">
+                     <div class="language">
+                        <a href="#">DE</a> | <a href="#">EN</a>
+                     </div>
+                     <a href="http://www.uni-graz.at" class="unilogo">
+                        <img class="logoUni"
+                             src="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"
+                             height="62"
+                             title="Universität Graz"
+                             alt="Universität Graz"/>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-default navbar-static-top"
+           role="navigation"
+           id="nav">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button"
+                       class="navbar-toggle collapsed"
+                       data-toggle="collapse"
+                       data-target="#bs-example-navbar-collapse-1"
+                       aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+               </button>
+               <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">Navigation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates"> Home </a>
+                  </li>
+                  <li>
+                     <a href="/context:templates.features">Über</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates.car">
+                                        Autoren</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/archive/objects/context:templates/methods/sdef:Context/get?mode=search">Analyse</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                                        Widmungen <span class="caret" xml:space="preserve"/>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="/o:templates.1111">Alle Widmungen</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Autoren</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Drucken</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">eigener link</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">noch einer</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-right"
+                     role="search"
+                     method="get"
+                     action="http://glossa.uni-graz.at/search/gsearch">
+                  <div class="input-group stylish-input-group">
+                     <input id="query"
+                            name="query"
+                            type="text"
+                            placeholder="Volltextsuche"
+                            onclick="this.select()"
+                            class="form-control"/>
+                     <span class="input-group-addon">
+                        <button type="submit">
+                           <span class="glyphicon glyphicon-search"/>
+                        </button>
+                     </span>
+                     <input type="hidden" name="hitPageSize" value="10"/>
+                     <input type="hidden" name="hitPageStart" value="1"/>
+                     <input type="hidden" name="pid" value="epsg"/>
+                     <input type="hidden" name="search" value="simple"/>
+                     <input type="hidden"
+                            name="x2"
+                            value="http://glossa.uni-graz.at/gamsdev/steineel/templates/project/project-search.xsl"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <script type="text/javascript">
+                    $('#nav').affix({
+                    offset: {
+                    top: $('header').height() - $('#nav').height()
+                    }
+                    });
+                </script>
+      <main class="container">
+         <section class="row equalheight">
+            <article class="col-md-12" style="margin-bottom:30px;">
+               <div class="panel" style="margin-bottom:0px;">
+                  <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">Watt 14 (Johannes Danziger)<span style="float:right;">
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="vadi_14/datastreams/TEI_SOURCE/content">
+                           <img src="../facs/tei.jpg" width="30" height="30" alt="XML (TEI P5)"/>
+                        </a>
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="vadi_14/methods/sdef:TEI/getLaTeXPDF">
+                           <img src="../facs/pdf_icon.png"
+                                width="30"
+                                height="30"
+                                alt="Druckversion"/>
+                        </a>
+                     </span>
+                  </h2>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <div class="panel-heading" style="padding-bottom: 0px;">
+                     <h3 class="objekt"> Faksimile </h3>
+                  </div>
+                  <div class="panel-body" style="padding-top: 0px;">
+                     <div class="panel-image">
+                        <img class="img-responsive" src="../facs/facs_vadi_14_1.jpg"/>
+                        <img class="img-responsive" src="../facs/facs_vadi_14_2.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <h3 class="objekt">Transkription</h3>
+                  <p class="poem">
+               
+                     <h4>Ad <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Sigismund&#xA;               I.&#xA;               König von Polen">Invictissimum
+                        Sigismundum
+                     Poloniae
+                     Regem
+                     Magnum ducem
+                     Lithuaniae
+                     Russiae
+                     Prussiaeque et cetera Dominum et
+                        heredem</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Johannes&#xA;               Danziger">Ioannis
+                     Dantisci</a>, pro <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Joachim&#xA;               Watt">Ioachimo
+                     Vadiano
+                     Poeta Laureato</a> carmen.</h4>
+               
+                     <p class="line">Quis magno tantos et tot cum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">Caesare</a> reges,</p>
+                     <p class="line">Convenisse umquam vidit in orbe prius?</p>
+                     <p class="line">Cuncta revolvamus quae nunc, retroque fuerunt</p>
+                     <p class="line">Tempora, conventus nullibi talis erat</p>
+                     <p class="line">Ante nec ad <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Priamos">Priami</a>, magnam nec <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Agenor">Agenoris</a> urbem,</p>
+                     <p class="line">Quin etiam numquam <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Mars">Martis</a> in urbe fuit.</p>
+                     <p class="line">Finibus a Latiis <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">Caesar</a>, Rex
+                     inclite ab oris</p>
+                     <p class="line">Tu Scythicis aderas, victor uterque gravis.</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Vladislav&#xA;               II.&#xA;               König von Böhmen und Ungarn">Pannoniae senior</a> cum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Ludwig&#xA;               II.&#xA;               König von Ungarn">Nato Rege</a> suaque</p>
+                     <p class="line">Cum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Anna&#xA;               von Böhmen und Ungarn">Nata</a>, qua nil pulchrius orbis
+                     habet.</p>
+                     <p class="line">Hanc dedit, accepit rursusque a <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">Caesare</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Maria&#xA;               von Ungarn">neptem</a>,</p>
+                     <p class="line">Quae regi tenero sponsa futura data est.</p>
+                     <p class="line">Aurea quae fuerant olim, sic inde, redibunt</p>
+                     <p class="line">Saecula, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Mars">Gradivi</a> cedet et inde furor.</p>
+                     <p class="line">Quod faustum felixque siet, Pax undique laeta</p>
+                     <p class="line">Incutiet reliquis hostibus acta metum.</p>
+                     <p class="line">Sic te, sicque tuos venisse <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Dnjepr">Borysthene</a> ab ipso</p>
+                     <p class="line">Non piget <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Österreich">Austriaci</a> pinguia ad
+                     arva, soli</p>
+                     <p class="line">Hic ubi sublimi nunc vertice surgit, et altum</p>
+                     <p class="line">Nubibus impressit pulchra <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Wien">Vienna</a> caput.</p>
+                     <p class="line">Cuius es e cunctis aliis gratissimus hospes,</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kaiser&#xA;               Maximilian&#xA;               I.">Caesaris</a> ut <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Joachim&#xA;               Watt">Vates</a> tibi testis adest.</p>
+                  
+                     <p class="line">Qui te quo potuit nuper suscepit honore,</p>
+                     <p class="line">Fecit et in Laudes tot bona verba tuas.</p>
+                     <p class="line">Nunc etiam docto te tollit Carmine ad astra,</p>
+                     <p class="line">Plura tibi, sint haec dummodo grata dabit.</p>
+                     <p class="line">Scurra levis, Mimus, Tubicen, Citharoedus, et omnes</p>
+                     <p class="line">Ad te qui veniunt munera larga ferunt.</p>
+                     <p class="line">Clementi <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Joachim&#xA;               Watt">Vatem</a> ne sit grave visere
+                     vultu,</p>
+                     <p class="line">Aeternum cuius Carmina docta manent.</p>
+               
+                  </p>
+               </div>
+               <div class="panel">
+                  <h3 class="objekt">Übersetzung</h3>
+                  <p>
+                     <h5>Gedicht des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Johannes
+                     Danziger</a> an den <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">unbesiegtesten
+                        Sigismund, den König von Polen,
+                     den Großfürsten von Litauen, den Herrn und Erben
+                        von Russland, Preußen et cetera</a> für den
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">lorbeergekrönten Dichter
+                     Joachim
+                     Watt</a>.</h5>
+                     <p class="translation">Wer hat jemals zuvor auf der Welt gesehen, dass so bedeutsame und so viele Könige
+                  mit dem <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Kaiser</a> zusammengetroffen waren? Lasst uns alle
+                  Zeiten, die nun &lt;sind&gt; und die vorher waren, wieder betrachten, nirgendwo
+                  gab es zuvor eine solche Zusammenkunft, weder bei der großen Stadt des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Priamos</a> noch bei &lt;jener&gt; des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Agenor</a>, ja sogar in der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Stadt des
+                        Mars</a> gab es &lt;das&gt; niemals. Von den
+                  Gebieten der Latiner &lt;war&gt; der Kaiser und du, berühmter König, warst von den
+                  skythischen Küsten aus anwesend, ihr beide bedeutende Sieger. Der Ältere
+                  Pannoniens &lt;kam&gt; mit seinem Sohn, dem König, und mit seiner Tochter, das
+                  schönste, das die Erde besitzt. Diese gab er und erhielt umgekehrt vom Kaiser
+                  &lt;dessen&gt; Enkelin, die dem jungen König als zukünftige Braut gegeben wurde.
+                  Die Jahrhunderte, die einst golden gewesen waren, werden so von da an zurückkehren
+                  und von da an wird das Wüten des Kriegs weichen. Dies möge glücklich und
+                  begünstigt sein und überall wird der fröhliche gelebte Frieden den übrigen Feinden
+                  Furcht einflößen. So verdrießt es nicht, dass du und die Deinigen vom Dnjepr
+                  selbst zu den fruchtbaren Gefilden des österreichischen Bodens gekommen seid, hier
+                  wo das schöne Wien sich nun mit emporragendem Scheitel erhebt und sein erhabenes
+                  Haupt in die Wolken gestreckt hat. Vor allen anderen bist du dessen liebster Gast,
+                  wie des Kaisers Sänger dir bezeugt. Dieser empfing dich neulich mit größtmöglicher
+                  Ehrerbietung und bei seinem Lob sagte er so viele gute Worte auf dich. Auch jetzt
+                  erhebt er dich mit einem gelehrten Lied zu den Sternen, mehr noch wird er dir
+                  geben, wenn dies dir nur genehm ist. Ein leichtsinniger Narr, ein Mime, ein
+                  Trompeter, ein Leierspieler und alle, die zu dir kommmen, bringen reichliche
+                  Gaben. Dass es dem Gütigen nicht schwer fallen möge, den Dichter mit seinem Blick
+                  zu betrachten, dessen gelehrte Gedichte auf ewig bestehen bleiben.</p>
+                  </p>
+               </div>
+            </article>
+            <article class="col-md-6 equal" style="float: right;">
+               <div class="panel">
+                  <h3 class="objekt">Metadaten</h3>
+                  <table class="table table-condensed">
+                     <tbody>
+                        <tr>
+                           <td class="color">Titel des Gedichts:</td>
+                           <td>Ad Invictissimum
+                        Sigismundum
+                     Poloniae
+                     Regem
+                     Magnum ducem
+                     Lithuaniae
+                     Russiae
+                     Prussiaeque et cetera Dominum et
+                        heredem
+                  Ioannis
+                     Dantisci, pro Ioachimo
+                     Vadiano
+                     Poeta Laureato carmen.</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor der Gedichts:</td>
+                           <td>Johannes
+               Danziger (Ioannes
+               Dantiscus)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Containerwerk:</td>
+                           <td>
+                              <a href="https://digitale-sammlungen.de/view/bsb00013120?page=1">Oratio coram invictissimo Sigismundo rege Poloniae, Wien 1515</a>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor des Containerwerks:</td>
+                           <td>Joachim
+               Watt (Joachim
+               Vadianus)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Gattung des Containerwerks:</td>
+                           <td>Rede, Rhetorik, Panegyrik</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Erscheinungsjahr:</td>
+                           <td> 515b </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Verschlagwortung:</td>
+                           <td>Geschichte, Exemplum, Herrscher, Versammlung, Priamos, Troja, Agenor, Rom, Sidon, Karthago, Latiner, Skythen, Heiliges Römisches Reich, Sigismund, Maximilian, Vladislav, Ungarn, Polen, Krieg, Frieden, Wiederherstellung der goldenen Zeit, Dnjepr, Österreich, Wien, Kaiser, Sänger, Lob, Panegyrik, Lied, Mime, Narr, Trompeter, Lyraspieler, Dichter, Dichtung, Gedicht, Nachruhm, Ewigkeit</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </article>
+         </section>
+      </main>
+   </body>
+</html>
