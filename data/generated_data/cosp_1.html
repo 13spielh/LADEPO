@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:s="http://www.w3.org/2001/sw/DataAccess/rf1/result"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://www.tei-c.org/ns/1.0"
+      xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords"
+            content="template, GAMS, repository, digital, archive, edition"/>
+      <meta name="description"
+            content="Template for projects in GAMS - Geisteswissenschaftliches Asset Management System"/>
+      <meta name="publisher"
+            content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
+      <meta name="content-language" content="de"/>
+      <title>GAMS - Project Title</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="../css/test_03_04.css"/>
+      <link href="../css/navbar.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+                    //
+                </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+                    //
+                </script>
+      <script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">
+                    //
+                </script>
+      <script>
+                    $ (document).ready(function() {
+                    $('[data-toggle="tooltip"]').tooltip();
+                    });
+                </script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row flex">
+               <div class="col-xs-8">
+                  <h1>Lateinische Buchwidmungen der frühen Neuzeit</h1>
+                  <h2>Die Widmungsgedichte des Collegium Poetarum und der Sodalitas
+                                    Danubiana Vindobonensis.</h2>
+               </div>
+               <div class="col-xs-4">
+                  <div class="unilogo">
+                     <div class="language">
+                        <a href="#">DE</a> | <a href="#">EN</a>
+                     </div>
+                     <a href="http://www.uni-graz.at" class="unilogo">
+                        <img class="logoUni"
+                             src="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"
+                             height="62"
+                             title="Universität Graz"
+                             alt="Universität Graz"/>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-default navbar-static-top"
+           role="navigation"
+           id="nav">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button"
+                       class="navbar-toggle collapsed"
+                       data-toggle="collapse"
+                       data-target="#bs-example-navbar-collapse-1"
+                       aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+               </button>
+               <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">Navigation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates"> Home </a>
+                  </li>
+                  <li>
+                     <a href="/context:templates.features">Über</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates.car">
+                                        Autoren</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/archive/objects/context:templates/methods/sdef:Context/get?mode=search">Analyse</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                                        Widmungen <span class="caret" xml:space="preserve"/>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="/o:templates.1111">Alle Widmungen</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Autoren</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Drucken</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">eigener link</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">noch einer</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-right"
+                     role="search"
+                     method="get"
+                     action="http://glossa.uni-graz.at/search/gsearch">
+                  <div class="input-group stylish-input-group">
+                     <input id="query"
+                            name="query"
+                            type="text"
+                            placeholder="Volltextsuche"
+                            onclick="this.select()"
+                            class="form-control"/>
+                     <span class="input-group-addon">
+                        <button type="submit">
+                           <span class="glyphicon glyphicon-search"/>
+                        </button>
+                     </span>
+                     <input type="hidden" name="hitPageSize" value="10"/>
+                     <input type="hidden" name="hitPageStart" value="1"/>
+                     <input type="hidden" name="pid" value="epsg"/>
+                     <input type="hidden" name="search" value="simple"/>
+                     <input type="hidden"
+                            name="x2"
+                            value="http://glossa.uni-graz.at/gamsdev/steineel/templates/project/project-search.xsl"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <script type="text/javascript">
+                    $('#nav').affix({
+                    offset: {
+                    top: $('header').height() - $('#nav').height()
+                    }
+                    });
+                </script>
+      <main class="container">
+         <section class="row equalheight">
+            <article class="col-md-12" style="margin-bottom:30px;">
+               <div class="panel" style="margin-bottom:0px;">
+                  <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">Cospi 1 (Giovanni Camers)<span style="float:right;">
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="cosp_1/datastreams/TEI_SOURCE/content">
+                           <img src="../facs/tei.jpg" width="30" height="30" alt="XML (TEI P5)"/>
+                        </a>
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="cosp_1/methods/sdef:TEI/getLaTeXPDF">
+                           <img src="../facs/pdf_icon.png"
+                                width="30"
+                                height="30"
+                                alt="Druckversion"/>
+                        </a>
+                     </span>
+                  </h2>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <div class="panel-heading" style="padding-bottom: 0px;">
+                     <h3 class="objekt"> Faksimile </h3>
+                  </div>
+                  <div class="panel-body" style="padding-top: 0px;">
+                     <div class="panel-image">
+                        <img class="img-responsive" src="../facs/facs_cosp_1.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <h3 class="objekt">Transkription</h3>
+                  <p class="poem">
+               
+                     <h4>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Giovanni&#xA;               Camers">Ioannis
+                     Camertis
+                     ordinis divi Francisci</a>, in <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Palaiphatos">Palaephatum</a>, per <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Angelo Cospi">Angelum
+                     Cospum</a> in Latinum versum Epigramma.</h4>
+               
+                     <p class="line">Quid lyra quae reticet: portu quid condita puppis:</p>
+                     <p class="line">Tectaque lux tenebris, utilitatis habent?</p>
+                     <p class="line">Vile latens fructus, virtus nisi tendat in usum</p>
+                     <p class="line">Fine caret, fortis praemia miles habet.</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Theben">Thebani</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Bacchus">Bacchum</a> celebrant: <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Ceres">Cereremque</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Sizilien">Sicani</a>,</p>
+                     <p class="line">In patriam haec segetes: vina quod ille refert.</p>
+                     <p class="line">Haec corpus recreant: mentem sed pascere dignum est</p>
+                     <p class="line">Ima petit corpus: mens generosa polum.</p>
+                     <p class="line">Unde <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Palaiphatos">Palaephatus</a> hic prisco non visus in
+                     aevo</p>
+                     <p class="line">Tam subito Latias itque, reditque manus?</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Angelo Cospi">Angelus hunc
+                           Cospus</a> (vivat modo plura daturus)</p>
+                     <p class="line">Transtulit, en gestit verba latina loqui.</p>
+               
+                  </p>
+               </div>
+               <div class="panel">
+                  <h3 class="objekt">Übersetzung</h3>
+                  <p>
+                     <h5>Ein Epigramm des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Giovanni
+                     Camers
+                     aus dem Franziskanerorden</a> auf
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Palaiphatos</a>, durch <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Angelo
+                     Cospi</a> in lateinischem Vers.</h5>
+                     <p class="translation">Welchen Nutzen haben eine Lyra, die schweigt, welchen ein Schiff, das im Hafen
+                  versteckt und Licht, das von Dunkelheit verdeckt ist? Einen wertlosen, ein
+                  versteckter Vorteil hat keinen Zweck, wenn die Tugend ihn nicht zur Anwendung
+                  lenkt, der tapfere Soldat hat &lt;seinen&gt; Lohn. Die
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Thebaner</a> rühmen <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Bacchus</a>, die
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Sikaner</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Ceres</a>, weil diese in der Heimat Saaten und jener Wein bringt.
+                  Dies belebt den Körper: Aber angemessen ist es, den Geist zu nähren, der Körper
+                  strebt in die Tiefe, ein großmütiger Geist aber in den Himmel. Woher geht und
+                  kommt dieser <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Palaiphatos</a>, der in früherer Zeit nicht gesehen
+                  wurde, so plötzlich in lateinische Hände? Den hat
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Angelo
+                     Cospi</a> übersetzt (er soll leben, um nur noch mehr
+                  &lt;von sich&gt; zu geben), sieh, er freut sich darüber, lateinische Worte zu
+                  sprechen.</p>
+                  </p>
+               </div>
+            </article>
+            <article class="col-md-6 equal" style="float: right;">
+               <div class="panel">
+                  <h3 class="objekt">Metadaten</h3>
+                  <table class="table table-condensed">
+                     <tbody>
+                        <tr>
+                           <td class="color">Titel des Gedichts:</td>
+                           <td>Ioannis
+                     Camertis
+                     ordinis divi Francisci, in Palaephatum, per Angelum
+                     Cospum in Latinum versum Epigramma.</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor der Gedichts:</td>
+                           <td>Giovanni
+               Camers (Ioannes
+               Camers)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Containerwerk:</td>
+                           <td>
+                              <a href="https://www.digitale-sammlungen.de/view/bsb00002126?page=1">Libellus Palaephati Graeci Authoris quo aliquot veteres fabulae, unde tractae sint
+            narrat, studiosi hominibus apprime utilis, Wien 1514</a>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor des Containerwerks:</td>
+                           <td>Angelo Cospi (Angelus Cospus)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Gattung des Containerwerks:</td>
+                           <td>Edition, Edition von Peri apiston historion des Palaiphatos, Mythographie</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Erscheinungsjahr:</td>
+                           <td> 1514 </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Verschlagwortung:</td>
+                           <td>Lyra, Schiff, Licht, Dunkelheit, Soldat, Theben, Bacchus, Sizilien, Ceres, Übersetzung, Latein, Nahrung für den Geist, Lob</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </article>
+         </section>
+      </main>
+   </body>
+</html>

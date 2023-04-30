@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF
+  SYSTEM "about:legacy-compat">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+         xmlns:viaf="http://viaf.org/viaf/terms#"
+         xmlns:fabio="http://purl.org/spar/fabio#"
+         xmlns:frbr="http://purl.org/vocab/frbr/core#"
+         xmlns:t="http://www.tei-c.org/ns/1.0"
+         xml:lang="en">
+   <rdf:Description rdf:about="#celt_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <frbr:exemplarOf>
+         <fabio:Poem/>
+      </frbr:exemplarOf>
+      <gndo:author rdf:resource="http://viaf.org/viaf/49659875"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1502"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1502">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <frbr:exemplarOf>
+         <fabio:PrintObject/>
+      </frbr:exemplarOf>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/49659875"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/49659875"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:German"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/49659875">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+   </rdf:Description>
+</rdf:RDF>

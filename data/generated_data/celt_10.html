@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:s="http://www.w3.org/2001/sw/DataAccess/rf1/result"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://www.tei-c.org/ns/1.0"
+      xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords"
+            content="template, GAMS, repository, digital, archive, edition"/>
+      <meta name="description"
+            content="Template for projects in GAMS - Geisteswissenschaftliches Asset Management System"/>
+      <meta name="publisher"
+            content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
+      <meta name="content-language" content="de"/>
+      <title>GAMS - Project Title</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="../css/test_03_04.css"/>
+      <link href="../css/navbar.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+                    //
+                </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+                    //
+                </script>
+      <script src="http://gams.uni-graz.at/templates/js/matchHeight/jquery.matchHeight.js">
+                    //
+                </script>
+      <script>
+                    $ (document).ready(function() {
+                    $('[data-toggle="tooltip"]').tooltip();
+                    });
+                </script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row flex">
+               <div class="col-xs-8">
+                  <h1>Lateinische Buchwidmungen der frühen Neuzeit</h1>
+                  <h2>Die Widmungsgedichte des Collegium Poetarum und der Sodalitas
+                                    Danubiana Vindobonensis.</h2>
+               </div>
+               <div class="col-xs-4">
+                  <div class="unilogo">
+                     <div class="language">
+                        <a href="#">DE</a> | <a href="#">EN</a>
+                     </div>
+                     <a href="http://www.uni-graz.at" class="unilogo">
+                        <img class="logoUni"
+                             src="http://gams.uni-graz.at/templates/img/logo_uni_graz_4c.jpg"
+                             height="62"
+                             title="Universität Graz"
+                             alt="Universität Graz"/>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-default navbar-static-top"
+           role="navigation"
+           id="nav">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button"
+                       class="navbar-toggle collapsed"
+                       data-toggle="collapse"
+                       data-target="#bs-example-navbar-collapse-1"
+                       aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+                  <span class="icon-bar" xml:space="preserve"/>
+               </button>
+               <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#">Navigation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates"> Home </a>
+                  </li>
+                  <li>
+                     <a href="/context:templates.features">Über</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/context:templates.car">
+                                        Autoren</a>
+                  </li>
+                  <li>
+                     <a href="http://glossa.uni-graz.at/archive/objects/context:templates/methods/sdef:Context/get?mode=search">Analyse</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        role="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                                        Widmungen <span class="caret" xml:space="preserve"/>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="/o:templates.1111">Alle Widmungen</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Autoren</a>
+                        </li>
+                        <li>
+                           <a href="#">Nach Drucken</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">eigener link</a>
+                        </li>
+                        <li role="separator" class="divider" xml:space="preserve"/>
+                        <li>
+                           <a href="#">noch einer</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-right"
+                     role="search"
+                     method="get"
+                     action="http://glossa.uni-graz.at/search/gsearch">
+                  <div class="input-group stylish-input-group">
+                     <input id="query"
+                            name="query"
+                            type="text"
+                            placeholder="Volltextsuche"
+                            onclick="this.select()"
+                            class="form-control"/>
+                     <span class="input-group-addon">
+                        <button type="submit">
+                           <span class="glyphicon glyphicon-search"/>
+                        </button>
+                     </span>
+                     <input type="hidden" name="hitPageSize" value="10"/>
+                     <input type="hidden" name="hitPageStart" value="1"/>
+                     <input type="hidden" name="pid" value="epsg"/>
+                     <input type="hidden" name="search" value="simple"/>
+                     <input type="hidden"
+                            name="x2"
+                            value="http://glossa.uni-graz.at/gamsdev/steineel/templates/project/project-search.xsl"/>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <script type="text/javascript">
+                    $('#nav').affix({
+                    offset: {
+                    top: $('header').height() - $('#nav').height()
+                    }
+                    });
+                </script>
+      <main class="container">
+         <section class="row equalheight">
+            <article class="col-md-12" style="margin-bottom:30px;">
+               <div class="panel" style="margin-bottom:0px;">
+                  <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">Celtis 10 (Sebastian Murrho der Jüngere)<span style="float:right;">
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="celt_10/datastreams/TEI_SOURCE/content">
+                           <img src="../facs/tei.jpg" width="30" height="30" alt="XML (TEI P5)"/>
+                        </a>
+                        <a target="blank"
+                           style="padding-right:20px; text-decoration:none;border-bottom:none;"
+                           href="celt_10/methods/sdef:TEI/getLaTeXPDF">
+                           <img src="../facs/pdf_icon.png"
+                                width="30"
+                                height="30"
+                                alt="Druckversion"/>
+                        </a>
+                     </span>
+                  </h2>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <div class="panel-heading" style="padding-bottom: 0px;">
+                     <h3 class="objekt"> Faksimile </h3>
+                  </div>
+                  <div class="panel-body" style="padding-top: 0px;">
+                     <div class="panel-image">
+                        <img class="img-responsive" src="../facs/facs_celt_10_1.jpg"/>
+                        <img class="img-responsive" src="../facs/facs_celt_10_2.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            <article class="col-md-6 equal">
+               <div class="panel">
+                  <h3 class="objekt">Transkription</h3>
+                  <p class="poem">
+               
+                     <h4>In laudem <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Conradi
+                     Celtis
+                     Protucii
+                     Poetae Germani</a> epigramma</h4>
+               
+                     <p class="line">Qualia, cum <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Styx">Stygios</a> cara pro <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Eurydike">coniuge</a> manes</p>
+                     <p class="line">Tristia tergemini flexit et ora <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kerberos">canis</a>.</p>
+                     <p class="line">Qualia, cum silvas duxit <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Orpheus">Rhodopeius
+                     Orpheus</a>
+                     </p>
+                     <p class="line">Fluminaque, et dulci rustica corda sono.</p>
+                     <p class="line">Qualia <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Pindar">Thebanus</a> fundebat carmina vates,</p>
+                     <p class="line">Cum movit plectro saxa ferasque suo.</p>
+                     <p class="line">Qualia, cum mites traxit deplhinas <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Arion</a>,</p>
+                     <p class="line">Ne sua caeruleas vita subiret aquas.</p>
+                     <p class="line">Talia <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Conradus</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Deutschland">Germana</a> primus in ora</p>
+                     <p class="line">Lusit, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Apoll">Apollineae</a> gloria summa lyrae.</p>
+                     <p class="line">Cui non <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Archilochos">Archilochus</a> mordaci clarus iambo,</p>
+                     <p class="line">Non <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Sappho">Sappho</a> lyricis Lesbia compta modis.</p>
+                     <p class="line">Cui non <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kallimachos">Callimachi</a> blandissima <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Muse">musa</a> poetae,</p>
+                     <p class="line">Non elegi molles <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Philetas von Kos">Coe</a> diserte tui.</p>
+                     <p class="line">Cui non praeripiant victricem barbita palmam</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Theia</a>, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Stesichoros">Stesichori</a> neve <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Muse">camena</a>
+                     gravis.</p>
+                     <p class="line">Utque fuit quondam lascivo <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Delia">Delia</a> versu,</p>
+                     <p class="line">Candida vel <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Nemesis">Nemesis</a>, dicta <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Albius&#xA;               Tibullus">Tibulle</a> tibi.</p>
+                     <p class="line">Ut cecinit vena te <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Cynthia">Cynthia</a> fusca salaci,</p>
+                     <p class="line">Quem tulit excelsis <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Umbrien">Umbria</a>
+                     cincta iugis.</p>
+                     <p class="line">Ut pulchram cecinit Paelignus <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publius&#xA;               Ovidius Naso">Naso</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Corinna">Corinnam</a>,</p>
+                     <p class="line">Suaviolum, vitam, deliciumque suum.</p>
+                  
+                     <p class="line">Ut <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Verona">Veronensi</a> celebrata venusta
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Gaius Valerius&#xA;               Catullus">Catullo</a> est</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Lesbia">Lesbia</a>, dulciculis improbulisque iocis.</p>
+                     <p class="line">Ut quoque doctiloquus divino carmine <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publio Fausto&#xA;               Andrelini">Faustus</a>
+                     </p>
+                     <p class="line">Descripsit formam <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Livia">Livia</a> bella tuam.</p>
+                     <p class="line">(<a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publio Fausto&#xA;               Andrelini">Faustus</a>, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Parrhasia">Parrhisiae</a> decus et nova fama palaestrae,</p>
+                     <p class="line">Qua nulla in toto clarior orbe manet.</p>
+                     <p class="line">Quo duce, me sacras venisse <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Helikon">Heliconis</a> ad undas</p>
+                     <p class="line">Glorior, inque tuos <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Delphi">Delphice</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Apoll">Apollo</a> lares)</p>
+                     <p class="line">Ut cecinit miro te blanda <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Focilla">Focilla</a> lepore</p>
+                     <p class="line">
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Giovanni Gioviano&#xA;               Pontano">Pontanus</a>, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kalabrien">Calabri</a> nomen honosque soli.</p>
+                     <p class="line">Sic, fertur rapido qua <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Weichsel">Vistula</a>
+                     gurgite, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Celtis</a>
+                     </p>
+                     <p class="line">Concinuit veneres o <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Hasilina">Hasilina</a> tuas.</p>
+                     <p class="line">Iam notae fient, o <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Elsula">Elsula</a> et <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Ursula">Ursula</a>, vestrae</p>
+                     <p class="line">Nequitiae, Eois Hesperiisque viris.</p>
+                     <p class="line">Nam tua <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Pindar">Pindaricam</a> redolentia carmina
+                     venam</p>
+                     <p class="line">Suspicient omnes, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Celtice docte</a>,
+                     plagae.</p>
+                     <p class="line">Atque tuum merito celebrabunt nomen honore,</p>
+                     <p class="line">Laudibus innumeris et super astra ferent.</p>
+               
+               
+                     <a style="text-decoration: none; color: #336354;"
+                        href="#"
+                        data-toggle="tooltip"
+                        title="Sebastian&#xA;               Murrho&#xA;               der Jüngere">Murro
+                        iunior</a> faciebat.
+               
+            </p>
+               </div>
+               <div class="panel">
+                  <h3 class="objekt">Übersetzung</h3>
+                  <p>
+                     <h5>Epigramm auf das Lob auf <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Konrad
+                     Celtis
+                     Protucius, den deutschen
+                     Dichter</a>
+                     </h5>
+                     <p class="translation">Was &lt;er spielte&gt;, als er die <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Styx">stygischen</a>
+                  Seelen und die finsteren Mienen des dreigestaltigen <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kerberos">Hundes</a> für die liebe <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Eurydike">Gattin</a>
+                  erweichte. Was &lt;der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Orpheus">rhodopische Orpheus</a>
+                  spielte&gt;, als er die Wälder, die Flüsse und die ländlichen Saiten mit süßem
+                  Klang führte. Welche Lieder der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Pindar">thebanische Sänger</a> von sich gab, als er mit seinem
+                  Plektron Felsen und wilde Tiere bewegte. Was <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Arion</a> &lt;spielte&gt;, als er zahme Delphine an sich zog, damit
+                  sein Leben nicht in den blauen Fluten untergeht. Solches spielte <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Konrad</a> als erster an der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Deutschland">deutschen Küste</a> mit höchstem Ruhm der Lyra <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Apoll">Apolls</a>. Diesem dürften nicht <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Archilochos">Archilochos</a>, berühmt durch seinen beißenden Iambos, nicht die
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Lesbierin</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Sappho">Sappho</a>, geschmückt mit lyrischen Metren; diesem
+                  dürften nicht die überaus liebreizende <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Muse">Muse</a> des
+                  Dichters <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kallimachos">Kallimachos</a> noch deine sanften Elegien,
+                  du redegewandter <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Philetas von Kos">Koer</a>; diesem dürften nicht
+                  Lyraklänge aus Teos noch die gewichtige <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Muse">Muse</a> des
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Stesichoros">Stesichoros</a> die Siegespalme entreißen. Und wie
+                  einst <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Delia">Delia</a> oder die strahlend weiße <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Nemesis">Nemesis</a> von dir im zügellosen Vers genannt wurde,
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Albius&#xA;               Tibullus">Tibull</a>. Wie die dunkle <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Cynthia">Cynthia</a> dich besungen hat mit geiler Ader, den das mit aufragenden
+                  Bergrücken umgebene <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Umbrien">Umbrien</a> trug. Wie der
+                  pälignische <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publius&#xA;               Ovidius Naso">Naso</a> die schöne <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Corinna">Corinna</a> besang, den Kuss, das Leben und seinen Liebling. Wie die
+                  liebliche <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="">Lesbia</a> vom <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Verona">Veronenser</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Gaius Valerius&#xA;               Catullus">Catull</a> gepriesen wurde mit süßen und
+                  unanständigen Späßchen. Wie auch der gelehrt sprechende <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publio Fausto&#xA;               Andrelini">Faustus</a> mit göttlichem Lied deine Gestalt
+                  beschrieb, schöne <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Livia">Livia</a>. (<a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Publio Fausto&#xA;               Andrelini">Faustus</a>, die Zier und der neue Ruhm der
+                     <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Parrhasia">parrhasischen</a> Ringschule, der berühmteste,
+                  der auf der ganzen Welt fortbesteht. Unter seiner Führung rühme ich mich, zu den
+                  heiligen Gewässern des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Helikon">Helikon</a> und zu deinen
+                  Laren gekommen zu sein, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Delphi">delphischer</a>
+                        <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Apoll">Apoll</a>.) Wie <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Giovanni Gioviano&#xA;               Pontano">Pontano</a>, der Name und die Ehre des <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Kalabrien">kalabrischen</a> Bodens, dich, reizende <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Focilla">Focilla</a> mit wundersamer Anmut, besang. So, o <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Hasilina">Hasilina</a>, hat <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Celtis</a> die Liebe zu
+                  dir dort erklingen lassen, wo die <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Weichsel">Weichsel</a> mit
+                  reißender Strömung dahinfließt. Schon werden eure Nichtsnutzigkeit Männern Ost und
+                  West bekannt sein, <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Elsula">Elsula</a> und <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Ursula">Ursula</a>. Denn alle Gegenden werden deine Lieder
+                  erblicken, die nach der <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Pindar">pindarischen</a> Ader
+                  riechen, gelehrter <a style="text-decoration: none; color: #336354;"
+                           href="#"
+                           data-toggle="tooltip"
+                           title="Konrad&#xA;               Celtis">Celtis</a>. Und deinen Namen
+                  werden sie mit der verdienten Ehre und unzähligen Lobgesängen rühmen und über die
+                  Sterne hinaustragen.</p>
+                     <a style="text-decoration: none; color: #336354;"
+                        href="#"
+                        data-toggle="tooltip"
+                        title="Sebastian&#xA;               Murrho&#xA;               der Jüngere">Murrho
+                     der Jüngere</a> hat &lt;es&gt; gemacht.
+            </p>
+               </div>
+            </article>
+            <article class="col-md-6 equal" style="float: right;">
+               <div class="panel">
+                  <h3 class="objekt">Metadaten</h3>
+                  <table class="table table-condensed">
+                     <tbody>
+                        <tr>
+                           <td class="color">Titel des Gedichts:</td>
+                           <td>In laudem Conradi
+                     Celtis
+                     Protucii
+                     Poetae Germani epigramma</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor der Gedichts:</td>
+                           <td>Sebastian
+               Murrho
+               der Jüngere (Murrho
+               iunior)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Containerwerk:</td>
+                           <td>
+                              <a href="https://www.digitale-sammlungen.de/view/bsb00007493?page=1">Conradi Celtis Protucii, primi in Germania poetae coronati, libri Odarum quattuor, cum
+            Epodo, et saeculari carmine diligenter et accurate impressi, et hoc primum typo in
+            studiosorum emolumentum editi, Straßburg 1513</a>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Autor des Containerwerks:</td>
+                           <td>Konrad
+               Celtis (Conradus
+               Celtis)</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Gattung des Containerwerks:</td>
+                           <td>Lyrik, Oden, Epoden, Carmen saeculare</td>
+                        </tr>
+                        <tr>
+                           <td class="color">Erscheinungsjahr:</td>
+                           <td> 1513 </td>
+                        </tr>
+                        <tr>
+                           <td class="color">Verschlagwortung:</td>
+                           <td>Poetologie, Dichtung, Orpheus, aemulatio, Archilochos, Sappho, Kallimachos, Philetas von Kos, Stesichoros, Tibull, Ovid, Catull, Fausto, Pontano, domina, Geliebte, Elegie, Wettstreit, Berühmtheit, Nachruhm</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </article>
+         </section>
+      </main>
+   </body>
+</html>
