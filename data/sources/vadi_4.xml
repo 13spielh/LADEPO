@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 4 (Nikolaus Gerbel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1514" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Satire</item>
+                  <item>Drama</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Krieg</term>
+               <term>Batrachomyomachie</term>
+               <term>Redefreiheit</term>
+               <term>Verletzende Worte</term>
+               <term>Gut</term>
+               <term>Schlecht</term>
+               <term>Hahn</term>
+               <term>Henne</term>
+               <term>Ei</term>
+               <term>Frosch</term>
+               <term>Maus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_4">
+         <graphic url="facs/facs_vadi_4.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_4" source="lists.xml#vadi-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_4"/>
+               <head><persName ref="#gerb" type="author" ana="#pers"><forename>Nicolai</forename>
+                     <surname>Gerbelii</surname>
+                     <addName>Phorcensis</addName></persName>: In <persName ref="#vadi" ana="#pers"
+                        ><surname>Vadiani</surname></persName> Syntagma.</head>
+               <lg>
+                  <l>Bella gerunt ranae, vario discrimine mures</l>
+                  <l>Obsistunt, passim <persName ref="#mars">Martia</persName> turba ruit.</l>
+                  <l>Nuper ab elato quot vulnera nomina verbo</l>
+                  <l>Pertulerint, nosti docte Poeta satis.</l>
+                  <l>Scilicet haec terras animosa licentia vexat</l>
+                  <l>Illa malos tollit, deprimit illa bonos.</l>
+                  <l>Sed quis non Gallos potius, niveasque sorores</l>
+                  <l>Atque harum natas Ova rotunda probet?</l>
+                  <l>Muribus infandis, Ranisque loquacibus, illos</l>
+                  <l>Quis non praeponat? Qui satur esse velit?</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_4" xml:lang="de">
+               <head>&lt;Gedicht&gt; des <persName><forename>Nikolaus</forename>
+                     <surname>Gerbel</surname>
+                     <addName>aus Pforzheim</addName></persName> auf die Komposition des
+                        <persName><surname>Watt</surname></persName>.</head>
+               <p>Die Frösche führen Kriege, die Mäuse leisten in verschiedenen Gefahrensituationen
+                  Widerstand, überall stürzt die marsische Schar dahin. Neulich hast du, gelehrter
+                  Dichter, zur Genüge erfahren, wie viele Wunden die Namen vom pathetischen Wort
+                  davontragen können. Freilich quält diese heftige Freiheit die Erde, jene erhebt
+                  die Schlechten, die Guten unterdrückt sie. Aber wer dürfte Hähne und die
+                  schneeweißen Schwestern, und deren Töchter, runde Eier nicht eher gutheißen? Wer
+                  dürfte jene nicht den grässlichen Mäusen und den geschwätzigen Fröschen vorziehen?
+                  Wer möchte satt sein?</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

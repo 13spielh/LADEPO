@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 16 (Melchior Watt)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_16</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1517" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Ekloge</item>
+                  <item>Bukolik</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Lob</term>
+               <term>Hirten</term>
+               <term>Sizilien</term>
+               <term>Spiel</term>
+               <term>Lied</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_16">
+         <graphic url="facs/facs_vadi_16.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_16" source="lists.xml#vadi-1517" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_16"/>
+               <head><persName ref="#vad2" type="author" ana="#pers"><forename>Melchior</forename>
+                     <surname>Vadianus</surname></persName>.</head>
+               <lg>
+                  <l>Accipe <placeName ref="#sici" ana="#place">Trinacrios</placeName> quae possint
+                     vincere lusus</l>
+                  <l>Pastorum, tanto carmina digna viro.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_16" xml:lang="de">
+               <head><persName><forename>Melchior</forename>
+                     <surname>Watt</surname></persName>.</head>
+               <p>Höre, was die <placeName>sizilischen</placeName> Spiele der Hirten übertreffen
+                  kann, Lieder, die einem so großen Mann würdig sind.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

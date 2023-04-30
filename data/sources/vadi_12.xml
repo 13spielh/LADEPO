@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 12 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_12</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1514" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Satire</item>
+                  <item>Drama</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Aufforderung zum Lesen</term>
+               <term>Spaß</term>
+               <term>Recht</term>
+               <term>Hahn</term>
+               <term>Humor</term>
+               <term>Cato</term>
+               <term>Exemplum</term>
+               <term>Kyniker</term>
+               <term>Speise</term>
+               <term>Lucretia</term>
+               <term>Gelehrtheit</term>
+               <term>Sittlichkeit</term>
+               <term>Genuss</term>
+               <term>Talent</term>
+               <term>Stil</term>
+               <term>Lob</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_12">
+         <graphic url="facs/facs_vadi_12.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_12" source="lists.xml#vadi-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_12"/>
+               <head><persName ref="#gund" type="author" ana="#pers"><forename>Philippus</forename>
+                     <surname>Gundelius</surname>
+                     <addName>Boius</addName></persName>
+                  <persName ref="#lect">Lectori</persName>.</head>
+               <lg>
+                  <l>Gallos Causidicos, amice <persName ref="#lect">Lector</persName>,</l>
+                  <l>Plenum suaviloquo iocum lepore:</l>
+                  <l>Inventuque novum poema sume:</l>
+                  <l>Nec semper stomacho severiori</l>
+                  <l>Pones tristia, sis <persName ref="#cato">Cato</persName> licebit.</l>
+                  <l>Nam numquam dare delicatiora</l>
+                  <l>Pulmenta est Cynici trucis, sed illa</l>
+                  <l>Cum sint ingenuis pudica nugis,</l>
+                  <l>Quas <persName ref="#lucr">Lucretia</persName>, quas <persName ref="#cato"
+                        >Catonis</persName> uxor,</l>
+                  <l>Nequaquam facie legat rubenti,</l>
+                  <l>Nil est, quod fugias: sed et legenti,</l>
+                  <l>Fructus: Ingenium, stilus: placebunt.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_12" xml:lang="de">
+               <head><persName><addName>Der Boier</addName>
+                     <forename>Philipp</forename>
+                     <surname>Gundel</surname></persName> an den <persName>Leser</persName>.</head>
+               <p>Rechtsprechende Hähne, geneigter <persName>Leser</persName>, einen Scherz voll süß
+                  gesprochenem Humor: Nimm das neue Gedicht, um &lt;es&gt; zu entdecken: Und nicht
+                  wirst du immer mit ernster Kehle etwas Trauriges äußern, wenn's beliebt,
+                     <persName>Cato</persName>. Denn niemals ist es &lt;Gewohnheit&gt; des trotzigen
+                  Kynikers, feinere Speisen zu geben, sondern jene, die, weil sie durch geistreiche
+                  Spielereien sittsam sind, <persName>Lucretia</persName> und die
+                     <persName>Catos</persName> Frau mit überhaupt keinem erröteten Gesicht liest.
+                  Es gibt nichts, wovor du fliehen müsstest: Im Gegenteil &lt;hat&gt; auch der Leser
+                  Genuss: Das Talent und der Stil wird gefallen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

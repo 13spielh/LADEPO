@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 24 (Rudolf Ambühl)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_24</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1518" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Fachschriftstellerei</item>
+                  <item>Poetik</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Mythologie</term>
+               <term>Athene</term>
+               <term>Muse</term>
+               <term>Poetologie</term>
+               <term>Dichtkunst</term>
+               <term>Dichtung</term>
+               <term>Verfall</term>
+               <term>Italien</term>
+               <term>Herkules</term>
+               <term>Schweiz</term>
+               <term>Alpen</term>
+               <term>Kunst</term>
+               <term>Lob</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_24_1">
+         <graphic url="facs/facs_vadi_24_1.jpg"/>
+      </surface>
+      <surface start="#facs_vadi_24_2">
+         <graphic url="facs/facs_vadi_24_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_24" source="lists.xml#vadi-1518" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_24_1"/>
+               <head><persName ref="#cliv" type="author" ana="#pers"><forename>Rudolphus</forename>
+                     <surname>Clivanus</surname>
+                     <addName>Lucernanus</addName></persName>.</head>
+               <lg>
+                  <l>Barbarie dudum spurca regnante latebat</l>
+                  <l>Oblita pulverea sacra Poesis humo.</l>
+                  <l>Tristis inornatos <persName ref="#athe">Pallas</persName> diffusa capillos</l>
+                  <l>Errabat <persName ref="#musa">Musis</persName> concomitata novem.</l>
+                  <l><placeName ref="#auso" ana="#place">Ausoniam</placeName> lustrans miserae si
+                     forte virorum</l>
+                  <l><persName ref="#herc">Herculea</persName> quisquam dexter adesset ope.</l>
+                  <pb xml:id="facs_vadi_24_2"/>
+                  <l>Venit ad <placeName ref="#helv" ana="#place">Helveticas</placeName> longis
+                     erroribus <placeName ref="#alpe" ana="#place">Alpes</placeName>.</l>
+                  <l>Et dedit haec sociis verba benigna suis.</l>
+                  <l>Me coluit iustis semperque virilibus armis</l>
+                  <l>Haec gens, nunc artes addidit illa bonas.</l>
+                  <l>Eia vel hic quidam nostrae qui tanta Poesis,</l>
+                  <l>Vel nusquam certe, damna levabit, erit.</l>
+                  <l>Certe erat <placeName ref="#helv" ana="#place">Helvetiae</placeName> gratus
+                        <persName ref="#vadi" ana="#pers">Vadianus</persName> alumnus</l>
+                  <l>Et decus Aonii, <persName ref="#musa">Pieriique chori</persName>.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_24" xml:lang="de">
+               <head><persName><forename>Rudolf</forename>
+                     <surname>Ambühl</surname>
+                     <addName>aus Luzern</addName></persName>.</head>
+               <p>Längst lag die heilige Dichtung versteckt, bedeckt mit staubiger Erde, während
+                  schmutzige Barbarei herrschte. Traurig irrte Pallas, zerzaust mit ungeordneten
+                  Haaren, umher, begleitet von den neun Musen. Sie durchwandelte Ausonien, ob der
+                  Armen vielleicht ein Mensch gnädig mit herkuleischer Stärke beistünde. Nach langen
+                  Irrungen kam sie zu den schweizer Alpen. Und sie gab ihren Gefährtinnen die
+                  folgenden gütigen Worte: "Dieses Volk verehrte mich mit gerechten und immer
+                  kräftigen Waffen, jetzt fügte jenes schöne Künste hinzu. Los, entweder wird es
+                  hier jemanden geben, der den so großen Schaden unserer Dichtung mildern wird, oder
+                  sicherlich nirgendwo." Sicherlich gab es Watt, den der Schweiz lieben Zögling und
+                  die Zier der aonischen und pierischen Schar.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 13 (Rudolf Baumann)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_13</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-515a" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Elegie</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Lob</term>
+               <term>Tugend</term>
+               <term>Blut</term>
+               <term>Zier</term>
+               <term>Gott</term>
+               <term>Glück</term>
+               <term>Segen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_13">
+         <graphic url="facs/facs_vadi_13.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_13" source="lists.xml#vadi-515a" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_13"/>
+               <head><persName ref="#agri" type="author" ana="#pers"><forename>Rudolphi</forename>
+                     <surname>Agricolae</surname>
+                     <addName><placeName ref="#rhae" ana="#place"
+                     >Rheti</placeName></addName></persName> ad <persName ref="#vadi" ana="#pers"
+                        ><forename>Ioachimum</forename>
+                     <nameLink>von</nameLink>
+                     <surname>Watt</surname>, <addName>alias Vadianum</addName></persName>,
+                  Carmen.</head>
+               <lg>
+                  <l>Bina homini prosunt caelesti praestita nutu</l>
+                  <l>Virtutis clarum sanguinis atque decus.</l>
+                  <l>Quae duo, si fuerit quisquam sortitus, abunde</l>
+                  <l>Faustus, et ad normam rite beatus erit.</l>
+                  <l>Anne utrumque tuum est? Certe non ullius umquam</l>
+                  <l>Indigus, utrumque hoc <persName ref="#vadi" ana="#pers">mi Vadiane</persName>
+                     tenes.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_13" xml:lang="de">
+               <head>Gedicht des <persName><forename>Rudolf</forename>
+                     <surname>Baumann</surname>
+                     <addName>aus Rätien</addName></persName> an
+                           <persName><persName><forename>Joachim</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Watt</surname>, <addName>sonst
+                     Vadian</addName></persName></persName>.</head>
+               <p>Durch göttlichen Willen nützen dem Menschen je zwei &lt;Dinge&gt;, die sie
+                  auszeichnen, die berühmte Zier der Tugend und des Blutes. Wenn irgendjemand diese
+                  beiden zufällig erhält, wird er übermäßig gesegnet und nach Maßstab mit Recht
+                  glücklich sein. Ob beide dein sind? Sicherlich hast du niemals an irgendeinem
+                  Mangel, du hast beide inne, mein <persName><surname>Watt</surname></persName>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

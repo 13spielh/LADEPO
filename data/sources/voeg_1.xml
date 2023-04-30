@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vögelin 1 (Gerhard Geldenhauer)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">voeg_1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#voeg-1529" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Fachschriftstellerei</item>
+                  <item>Lehrbuch</item>
+                  <item>Geometrie</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Geometrie</term>
+               <term>Punkt</term>
+               <term>Linie</term>
+               <term>Kreis</term>
+               <term>Winkel</term>
+               <term>Fläche</term>
+               <term>Astronomie</term>
+               <term>Sterne</term>
+               <term>Gott</term>
+               <term>Erde</term>
+               <term>Himmel</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_voeg_1">
+         <graphic url="facs/facs_voeg_1.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="voeg_1" source="lists.xml#voeg-1529" type="text" xml:lang="la">
+               <pb xml:id="facs_voeg_1"/>
+               <head><persName ref="#novi" type="author" ana="#pers"><forename>Gerardus</forename>
+                     <surname>Noviomagus</surname></persName>
+                  <persName ref="#lect">Lectori</persName>.</head>
+               <lg>
+                  <l>Quid punctum, quid linea, circulus, angulus, orbis</l>
+                  <l>Designet, paucis haec elementa docent.</l>
+                  <l>Sidereos cursus hinc disces, ut venerere</l>
+                  <l>Patrem, qui terras condidit, astra, polos.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#voeg_1" xml:lang="de">
+               <head><persName><forename>Gerhard</forename>
+                     <surname>Geldenhauer</surname></persName> an den
+                  <persName>Leser</persName>.</head>
+               <p>Was der Punkt, die Linie, der Kreis, der Winkel und die runde Fläche darstellen,
+                  lehren diese Grundbausteine in wenigen &lt;Worten&gt;. Hierdurch wirst du die
+                  Bahnen der Sterne lernen, damit du den Vater verehrst, der die Erde, die Sterne
+                  und das Himmelsgewölbe erschaffen hat.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

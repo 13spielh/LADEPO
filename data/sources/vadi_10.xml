@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 10 (Ludwig Restio)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_10</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1514" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Satire</item>
+                  <item>Drama</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Krieg</term>
+               <term>Friede</term>
+               <term>Streit</term>
+               <term>Hahn</term>
+               <term>Henne</term>
+               <term>Geschlecht</term>
+               <term>Spaß</term>
+               <term>Spiel</term>
+               <term>Gelehrsamkeit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_10">
+         <graphic url="facs/facs_vadi_10.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_10" source="lists.xml#vadi-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_10"/>
+               <head><persName ref="#rest" type="author" ana="#pers"><forename>Ludovici</forename>
+                     <surname>Restionis</surname>
+                     <addName>Vordingani</addName></persName>, Octosticon.</head>
+               <lg>
+                  <l>Qualia non umquam (nec enim pax ulla per orbem</l>
+                  <l>Usquam est) si forsan bella videre cupis.</l>
+                  <l>Quae neque Sulphureis flammis, trucibusve Boardis,</l>
+                  <l>Nec bovis horribili conficiuntur ope.</l>
+                  <l>Sed quae non segni Gallus nil territus ore,</l>
+                  <l>Non bene cum sponsa conveniente, gerit.</l>
+                  <l>Quae discernit avis neque mas neque femina, doctos</l>
+                  <l>Cerne iocos noster quos <persName ref="#vadi" ana="#pers">Vadianus</persName>
+                     agit.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_10" xml:lang="de">
+               <head>Achtzeiler des <persName><forename>Ludwig</forename>
+                     <surname>Restio</surname>
+                     <addName>Vordinganus</addName></persName>.</head>
+               <p>Wenn du vielleicht begehrst, solche Kriege irgendwann zu sehen (denn kein Friede
+                  herrscht irgendwo über dem Erdkreis), die weder durch schweflige Flammen oder
+                  wilde ???, noch durch die Hilfe eines schrecklichen Rinds verursacht werden,
+                  sondern &lt;solche&gt;, die der gar nicht eingeschüchterte Hahn mit seinem nicht
+                  langsamen Schnabel, der sich nicht gut mit der Braut einigt, führt und die weder
+                  ein männlicher noch weiblicher Vogel unterscheiden kann, &lt;dann&gt;, sieh die
+                  gelehrten Späße, die unser <persName><surname>Watt</surname></persName>
+                  treibt.</p>
+               <!-- Überarbeiten!-->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

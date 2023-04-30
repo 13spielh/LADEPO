@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Watt 7 (Ambrus Szilágyi)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">vadi_7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#vadi-1514" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Satire</item>
+                  <item>Drama</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Mythologie</term>
+               <term>Exemplum</term>
+               <term>Jupiter</term>
+               <term>Pluto</term>
+               <term>Herrschaft</term>
+               <term>Unterwelt</term>
+               <term>Apoll</term>
+               <term>Sol</term>
+               <term>Adynata</term>
+               <term>Indus</term>
+               <term>Ganges</term>
+               <term>Edelsteine</term>
+               <term>Bernstein</term>
+               <term>Lob</term>
+               <term>Ruhm</term>
+               <term>Buch</term>
+               <term>Nachruhm</term>
+               <term>Heimat</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_vadi_7">
+         <graphic url="facs/facs_vadi_7.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="vadi_7" source="lists.xml#vadi-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_vadi_7"/>
+               <head><persName ref="#zila" type="author" ana="#pers"><forename>Ambrosii</forename>
+                     <surname>Zilagii</surname>, <roleName>reverendissimi cardinalis <placeName
+                           ref="#stri">Strigoniensis</placeName>, et <placeName ref="#cons"
+                           ana="#place">Constantinopolitani</placeName> Patriarchae,
+                        Nepotis</roleName></persName>, Ad <persName ref="#vadi" ana="#pers"
+                        ><forename>Ioachimum</forename>
+                     <surname>Vadianum</surname>
+                     <roleName>Praeceptorem unice dilectum</roleName></persName>,
+                  Decastichon.</head>
+               <lg>
+                  <l><persName ref="#iupp">Iuppiter</persName> ante sui <persName ref="#plut"
+                        >Diti</persName> fastigia regni</l>
+                  <l>Reddet, <placeName ref="#taen" ana="#place">Taenareas</placeName> et reget ipse
+                     Domos.</l>
+                  <l><persName ref="#apol">Phoebus</persName> et occasu sudantes ante Caballos</l>
+                  <l>Retrahet in duplicem sole manente diem.</l>
+                  <l>Ante <placeName ref="#caly" ana="#place">Calydonio</placeName> venient a litore
+                     gemmae</l>
+                  <l>Quas niger Eois colligit <placeName ref="#indu" ana="#place">Indus</placeName>
+                     aquis.</l>
+                  <l>Inque vicem albentis mittet <placeName ref="#gang" ana="#place"
+                        >Gangetica</placeName> Glaesi</l>
+                  <l>Terra globos, illuc qua Cynosura nitet.</l>
+                  <l>Quam tua de hoc facili decedat fama libello,</l>
+                  <l><persName ref="#vadi" ana="#pers">Praeceptor</persName>, patriae lausque
+                     decusque tuae.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#vadi_7" xml:lang="de">
+               <head>Zehnzeiler des <persName><forename>Ambrus</forename>
+                     <surname>Szilágyi</surname>, <roleName>des Enkels des verehrtesten Kardinals
+                        von Esztergom und des Patriarchen von Konstantinopel</roleName></persName>,
+                  auf <persName><forename>Joachim</forename>
+                     <surname>Watt</surname></persName>, den einzigartig geschätzten Lehrer.</head>
+               <p><persName>Jupiter</persName> wird <persName>Pluto</persName> vorher die Würden
+                  seiner Herrschaft zurückgeben und selbst die Häuser der Unterwelt beherrschen.
+                     <persName>Phoebus</persName> wird vorher die Pferde, die sich beim
+                  &lt;Sonnen&gt;untergang abmühen, zurück zu einem zweifachen Tag führen, wobei die
+                  Sonne bleibt. Vorher werden von der kalydonischen Küste Edelsteine kommen, die der
+                  schwarze Indus in seinen östlichen Wässern sammelt. Und im Gegenzug wird das Land
+                  des Ganges Klumpen von strahlendem Bernstein dorthin schicken, wo der kleine Bär
+                  strahlt. &lt;All dies wird vorher geschehen&gt; als dass dein Ruhm von diesem
+                  gefälligen Büchlein vergeht, <persName>Lehrer</persName>, und das Lob und der
+                  Stolz deiner Heimat.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
