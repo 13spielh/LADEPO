@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 11 (Thomas Resch)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_11</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#celt-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Lyrik</item>
+                  <item>Oden</item>
+                  <item>Epoden</item>
+                  <item>Carmen saeculare</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Tod</term>
+               <term>Nachruhm</term>
+               <term>Dichterkrone</term>
+               <term>Muse</term>
+               <term>Unsterblichkeit</term>
+               <term>Grab</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_11">
+         <graphic url="facs/facs_celt_11.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_11" source="lists.xml#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_11"/>
+               <head><persName ref="#velo" type="author" ana="#pers"><forename>Thomas</forename>
+                     <surname>Velocianus</surname></persName> in busta <persName ref="#celt"
+                     ana="#pers">Celtica</persName>.</head>
+               <lg>
+                  <l>Quas <persName ref="#iupp">Iovis</persName> ira ferox metuit contingere
+                     lauros</l>
+                  <l>Fulmine, proh nimium mors truculenta rapis.</l>
+                  <l>Attamen excelsae surgent de stipite frondes,</l>
+                  <l>Dulcius ac solito <persName ref="#celt" ana="#pers">Celtica</persName>
+                     <persName ref="#musa">musa</persName> canet.</l>
+                  <l>Dum nisi corporeos potuisti solvere nexus,</l>
+                  <l>Aeternum vivet carmine partus honos.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_11" xml:lang="de">
+               <head><persName><forename>Thomas</forename>
+                     <surname>Resch</surname></persName> auf die Büste des
+                        <persName><surname>Celtis</surname></persName>.</head>
+               <p> Welche Lorbeeren der wilde Zorn des <persName>Jupiters</persName> mit dem Blitz
+                  zu berühren fürchtete, oh, die raubst du, allzu finsterer Tod. Aber dennoch wird
+                  sich vom Stamm hochragendes Laub erheben, und die <persName>Muse</persName> des
+                        <persName><surname>Celtis</surname></persName> wird &lt;noch&gt; süßer als
+                  gewöhnlich singen. Wenn du die körperlichen Verbindungen nicht lösen konntest,
+                  wird die durch das Lied geborene Ehre ewig leben.</p>
+               <!-- Überarbeiten!-->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

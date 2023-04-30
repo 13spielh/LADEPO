@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 8 (Matthias Ringmann)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#peut-1506" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Tischgespräche</item>
+                  <item>Symposiumsliteratur</item>
+                  <item>Rhetorik</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Epigramm</term>
+               <term>Iamben</term>
+               <term>Lob</term>
+               <term>Germania</term>
+               <term>Deutschland</term>
+               <term>Kupferstich</term>
+               <term>Illustration</term>
+               <term>Langes Leben</term>
+               <term>Wolff</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_8">
+         <graphic url="facs/facs_peut_8.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_8" source="lists.xml#peut-1506" type="text" xml:lang="la">
+               <pb xml:id="facs_peut_8"/>
+               <head><persName ref="#ring" type="author" ana="#pers"><surname>Ringmanni</surname>
+                     <forename>Philesii</forename>
+                     <addName>Vog.</addName></persName> Iambi cum Sen. Hypo. ad <persName
+                     ref="#lect">Lectores</persName> Epigramma.</head>
+               <lg>
+                  <l><persName ref="#peut" ana="#pers"><forename>Conradus</forename> haec
+                           <surname>Pytingerus</surname></persName> docta manu</l>
+                  <l>Opem ferens Germanicae scripsit rei</l>
+                  <l>Mandavit eadem <persName ref="#vuol" ana="#pers">Vuolphius post
+                        Iunior</persName></l>
+                  <l>Insignibus chalcographi ut typis premant</l>
+                  <l>Tanti precemini ut viri vivant diu</l>
+                  <l>Et vos amatores beate vivite</l>
+               </lg>
+               <note>Comite Virtute</note>
+            </div>
+            <div type="translation" corresp="#peut_8" xml:lang="de">
+               <head>Epigramm des <persName>Matthias Ringmann</persName> &lt;aus&gt; Iamben mit
+                  hypokatalektischen Senaren an die <persName>Leser</persName>.</head>
+               <p><persName><forename>Konrad</forename>
+                     <surname>Peutinger</surname></persName>, der der deutschen Sache Kraft brachte,
+                  schrieb dies mit gelehrter Hand. Danach wies Wolff der Jüngere an, dass
+                  Kupferstecher dasselbe mit auffallenden Bildern beprägen. Möget ihr bitten, dass
+                  so große Männer lange leben und ihr Liebhaber, lebt glücklich!</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

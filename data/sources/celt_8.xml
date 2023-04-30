@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 8 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#celt-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Lyrik</item>
+                  <item>Oden</item>
+                  <item>Epoden</item>
+                  <item>Carmen saeculare</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Poetologie</term>
+               <term>Nachruhm</term>
+               <term>Unsterblichkeit</term>
+               <term>Dichtung</term>
+               <term>Nationalstolz</term>
+               <term>Theben</term>
+               <term>aemulatio</term>
+               <term>Pindar</term>
+               <term>Rom</term>
+               <term>Ennius</term>
+               <term>Ausonien</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_8">
+         <graphic url="facs/facs_celt_8.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_8" source="lists.xml#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_8"/>
+               <head><persName ref="#gund" type="author" ana="#pers">Eiusdem</persName> ad <persName
+                     ref="#lect">lectorem</persName> epigramma.</head>
+               <lg>
+                  <l><persName ref="#pind">Pindarico</persName> tumeant non solae carmine <placeName
+                        ref="#theb" ana="#place">Thebae</placeName>,</l>
+                  <l>Nec nimium Calabris Martia <placeName ref="#roma" ana="#place">Roma</placeName>
+                     modis.</l>
+                  <l>Tertia surrexit <persName ref="#apol">Phoebei</persName> gloria plectri,</l>
+                  <l><placeName ref="#auso" ana="#place">Ausoniae</placeName>
+                     <persName ref="#celt" ana="#pers">Celtis</persName> fama secunda lyrae.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_8" xml:lang="de">
+               <head>Ein Epigramm <persName>desselben</persName> an den
+                  <persName>Leser</persName>.</head>
+               <p>Nicht nur <placeName>Theben</placeName> ist voller Stolz über das
+                     <persName>pindarische</persName> Lied, noch allzu sehr das marsische
+                     <placeName>Rom</placeName> über die kalabrischen Melodien (=Lieder des
+                     <persName>Ennius</persName>). Zum dritten Mal hat sich der Ruhm des Plektrons
+                  des <persName>Phoebus</persName> erhoben, <persName>Celtis</persName> ist der
+                  zweite Ruhm der <placeName>ausonischen</placeName> Lyra.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

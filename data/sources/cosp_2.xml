@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cospi 2 (Joachim Watt)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cosp_2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#cosp-1514" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Edition</item>
+                  <item>Edition von Peri apiston historion des Palaiphatos</item>
+                  <item>Mythographie</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Tadel</term>
+               <term>Spott</term>
+               <term>Latein</term>
+               <term>Lateinische Übersetzung</term>
+               <term>Lob</term>
+               <term>Bologna</term>
+               <term>Apoll</term>
+               <term>Poetologie</term>
+               <term>Medizin</term>
+               <term>Sterne</term>
+               <term>Schwelle</term>
+               <term>Kritik</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cosp_2">
+         <graphic url="facs/facs_cosp_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cosp_2" source="lists.xml#cosp-1514" type="text" xml:lang="la">
+               <pb xml:id="facs_cosp_2"/>
+               <head><persName ref="#vadi" type="author" ana="#pers"><forename>Ioachimi</forename>
+                     <surname>Vadiani</surname>
+                     <addName>Helvetii</addName>
+                     <roleName>Poetae Laureati</roleName></persName> in Idiotam Vatum detractorem:
+                  Epigramma.</head>
+               <lg>
+                  <l>Qui Vatum nugas, pensataque carmina vero</l>
+                  <l>Inflatus rides: huc Idiota veni.</l>
+                  <l>Et lege quae Latio nunc ore <persName ref="#pala">Palaephatus</persName>
+                     edit</l>
+                  <l>Quem voluit <persName ref="#cosp" ana="#pers">Cospus</persName> Romula verba
+                     loqui.</l>
+                  <l><persName ref="#cosp" ana="#pers">Cospus</persName>
+                     <placeName ref="#fels" ana="#place">Felsineae</placeName> decus et nova gloria
+                     terrae</l>
+                  <l>Dum nitet et Graecis artibus et Latiis.</l>
+                  <l>Invenies certe quo, si velit Augur <persName ref="#apol">Apollo</persName>:</l>
+                  <l>Et tenebris poscis cernere mente diem.</l>
+                  <l>Et turpes animi naevos, errataque longae</l>
+                  <l>Invidiae: sensu vel removere novo.</l>
+                  <l>Quod si nulla tibi poterit Medicina furorem</l>
+                  <l>Demere, et hoc agitant astra maligna nefas,</l>
+                  <l>Ut neque Divorum summa ornamenta Poetas</l>
+                  <l>Nec dulces capias, suaviloquosque iocos.</l>
+                  <l>Et sterili semper verseris limine rerum</l>
+                  <l>Quo nullus veri commoda sudor habet.</l>
+                  <l>Cessabis saltem buccas inflare popello,</l>
+                  <l>Inque modum fandi guttur abibit iners.</l>
+                  <l>Fabula grandiloquos gremio fovet apta recessus</l>
+                  <l>Et succum in viridi cortice semper habet.</l>
+                  <l>Seu de divinis seu de terrestribus orta est</l>
+                  <l>Causa decens, verax fabula Vatis erit.</l>
+                  <l>Hanc tua Lethaeo stillantia lumina tabo:</l>
+                  <l>Si non discernunt, culpa ferenda malo est.</l>
+                  <l>Si vulgo ceves et vis te scire videri</l>
+                  <l>Ut tibi displiceas huc Idiota veni.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cosp_2" xml:lang="de">
+               <head>Epigramm des <persName><forename>Joachim</forename>
+                     <surname>Watt</surname></persName> gegen den Stümper, der Sänger
+                  schmälert.</head>
+               <p>Du Aufgeblasener, der du tatsächlich die Spielereien und wohlüberlegten Gedichte
+                  der Sänger verlachst: komm hierher, du Stümper! Und lies, was
+                     <persName>Palaiphatos</persName> nun aus lateinischem Munde von sich gibt, von
+                  dem <persName><surname>Cospi</surname></persName> wollte, dass er römische Worte
+                  spricht. <persName><surname>Cospi</surname></persName> ist die Zier und die neue
+                  Ehre <placeName>Bolognas</placeName>, während er sowohl in griechischen als auch
+                  lateinischen Künsten glänzt. Sicherlich wirst du herausfinden, wodurch, wenn der
+                  Seher <persName>Apollo</persName> es möchte: Du forderst, sowohl in der Dunkelheit
+                  den Tag im Geiste zu erkennen als auch die schändlichen Male des Geistes und die
+                  Irrungen eines langandauernden Neids. Oder &lt;du forderst&gt;, &lt;dies&gt; mit
+                  einer neuen Wahrnehmung zu entfernen. Denn wenn keine Medizin dir die Wut nehmen
+                  kann, dann treiben böswillige Sterne dieses Unrecht an, dass du weder die höchsten
+                  Zierden der göttlichen Dichter noch die süßen und süßklingenden Späße erhaschst.
+                  Und immer sollst du dich auf der ertraglosen Schwelle der Dinge aufhalten, auf der
+                  keine Mühe den Nutzen der Wahrheit hat. Wenigstens wirst du aufhören, dem Pöbel
+                  die Backen aufzublasen, und bei sprachlicher Einschränkung wird die Kehle untätig
+                  vergehen. Eine passende Story fördert Rückzugsorte für Großkotze in ihrem Schoß
+                  und hat immer Saft in ihrer frischen Rinde. Sei es, dass das passende Thema aus
+                  göttlichen oder irdischen Dingen entstanden ist, die wahre Erzählung wird jene des
+                  Sängers sein. Diese erkennen deine Augen, die von Vergessenheit bringendem Gift
+                  triefen: Wenn sie sie nicht erkennen, muss man dem Bösen die Schuld geben. Wenn du
+                  für den Pöbel mit dem Hintern wackelst und du wissen willst, dass es scheint, dass
+                  du dir selbst missfällst, dann komm hierher, du Stümper!</p>
+               <!-- überarbeiten!-->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

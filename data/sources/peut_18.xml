@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 18 (Anton Niger)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_18</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#peut-1529" xml:lang="la">Quorundam iuris scientia illustratorum
+                  iudicium ex praeceptoribus meis collectum, Wien 1529</bibl>
+               <list type="keywords_genre">
+                  <item>Fachschriftstellerei</item>
+                  <item>Rechtsgeschichte</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Hendekasyllabi</term>
+               <term>Elfsilbler</term>
+               <term>Recht</term>
+               <term>Bitte um Wohlwollen</term>
+               <term>Musen</term>
+               <term>Frucht</term>
+               <term>Acker</term>
+               <term>Poetologie</term>
+               <term>Lyra</term>
+               <term>Apoll</term>
+               <term>Merkur</term>
+               <term>Forum</term>
+               <term>Rhetorik</term>
+               <term>Atlas</term>
+               <term>Hieronymus Hauser</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_18">
+         <graphic url="facs/facs_peut_18.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_18" source="lists.xml#peut-1529" type="text" xml:lang="la">
+               <pb xml:id="facs_peut_18"/>
+               <head>Ad <persName ref="#haus" ana="#pers">Doctorem Hieronymum Hauser</persName>
+                  <persName ref="#mela" type="author" ana="#pers">Antonii Melae</persName>,
+                  Hendecasyllabi.</head>
+               <lg>
+                  <l>Consultissime Iuris, et Patrone</l>
+                  <l>Tot causarum <persName ref="#haus" ana="#pers">Hieronyme</persName>
+                     arduarum</l>
+                  <l>Summus te rogat ex tuis amicis</l>
+                  <l><persName ref="#peut" ana="#pers"><surname>Peutinerus</surname></persName>, ut
+                     hoc suum explicata</l>
+                  <l>Carmen fronte legas, ut solebas</l>
+                  <l>Iam multo ante suis favere <persName ref="#musa">Musis</persName>,</l>
+                  <l>Hunc Cordum tibi de suis agellis</l>
+                  <l>Fructum mittere cogitavit, ante</l>
+                  <l>Quam sese omnibus abdicare pergat</l>
+                  <l>(Ut iam nunc animatus est) <persName ref="#musa">camenis</persName>.</l>
+                  <l>Rebus nunc gravioribus vacare</l>
+                  <l>Vult, et digna cupit Toga virili</l>
+                  <l>Exercere, <persName ref="#apol">Deo suum canoro</persName></l>
+                  <l>Linquens Barbiton, Eloquentiamque</l>
+                  <l>Unam <persName ref="#merc">Mercurii</persName>, et forum secutus.</l>
+                  <l>Hoc tu iure voles et approbabis</l>
+                  <l>Facundus volet hoc <persName ref="#merc">nepos <persName ref="#atla"
+                           >Atlantis</persName></persName>.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#peut_18" xml:lang="de">
+               <head>Elfsilbler des <persName><forename>Anton</forename>
+                     <surname>Niger</surname></persName> an <persName><roleName>Doktor</roleName>
+                     <forename>Hieronymus</forename>
+                     <surname>Hauser</surname></persName>.</head>
+               <p>Hieronymus, du aller Rechtskundigster und Anwalt so vieler schwieriger Fälle, von
+                  deinen Freunden bittet dich der oberste, Peutinger, dass du dieses sein Gedicht
+                  mit nicht gerunzelter Stirn liest, wie du schon lange vorher seinen Musen wie
+                  gewohnt geneigt warst. Diese späte Frucht gedachte er dir von seinen Äckerlein zu
+                  schicken, bevor er sich aufmacht, sich von allen Musen loszusagen (wie er nunmehr
+                  eingestellt ist). Nun will er Platz machen für bedeutendere Dinge und begehrt,
+                  Angemessenes in der Toga virilis auszuführen. Seine Lyra hinterließ er dem
+                  wohlklingenden Gott und strebte nach der einzigartigen Redegewandtheit des Merkur
+                  und dem Forum. Dies wirst du zu Recht wollen und gutheißen, dies wird der beredte
+                  Enkel des Atlas wollen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

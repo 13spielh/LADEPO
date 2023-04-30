@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perlach 3 (Johannes Rosinus)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">perl_3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#perl-1528" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>astronomische Berechnungen</item>
+                  <item>Voraussagen für das kommende Jahr</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Astronomie</term>
+               <term>Sterne</term>
+               <term>Strahl</term>
+               <term>Feuer</term>
+               <term>Himmel</term>
+               <term>Kunst</term>
+               <term>Wetter</term>
+               <term>Jupiter</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_perl_3">
+         <graphic url="facs/facs_perl_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="perl_3" source="lists.xml#perl-1528" type="text" xml:lang="la">
+               <pb xml:id="facs_perl_3"/>
+               <head><persName ref="#rosi" type="author" ana="#pers"><forename>Ioannes</forename>
+                     <surname>Rosinus</surname></persName>.</head>
+               <lg>
+                  <l>Aurea convexo surgant quae sidera mundo,</l>
+                  <l>Quaeve obeant, varia praecipitata vice.</l>
+                  <l>Quo ruat errantum discrimine quaeque, trahatque</l>
+                  <l>Quos ignes secum, qua radietve mora,</l>
+                  <l>Haec licet illustri fatorum nosse tabella,</l>
+                  <l>Arte nova, certis indubitata notis.</l>
+                  <l>Hinc habitus caeli pluvios, ventosque nivesque,</l>
+                  <l>Discet, ab irato missaque tela <persName ref="#iupp">Iove</persName></l>
+                  <l>Provida venturi quem tangit cura pericli,</l>
+                  <l>Et sapit: incautos plurima damna manent.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#perl_3" xml:lang="de">
+               <head><persName><forename>Johannes</forename>
+                     <surname>Rosinus</surname></persName>.</head>
+               <p>Welche goldenen Sterne am gewölbten Himmel aufgehen, und welche untergehen, jäh
+                  herabsinkend, im vielfältigen Wechsel. Wohin am Scheidepunkt ein jeder
+                  Umherwandernde stürzt und welches Feuer er mit sich zieht oder im welchem Zeitraum
+                  er strahlt, dies kann man mit der anschaulichen Spruchtafel erkennen, durch neue
+                  Kunst, unzweifelhaft bei sicheren und bekannten &lt;Dingen&gt;. Hierdurch wird er
+                  die Anzeichen für Regen am Himmel erfahren, die Winde und den Schnee und die
+                  Geschosse, die, vom zornigen <persName>Jupiter</persName> geschickt, vorhersehen,
+                  wen die Sorge um die kommende Gefahr berührt, und er weiß: Die Unvorsichtigen
+                  erwartet der meiste Schaden.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

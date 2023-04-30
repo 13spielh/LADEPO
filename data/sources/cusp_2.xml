@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spießheimer 2 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">cusp_2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#cusp-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Edition</item>
+                  <item>Panegyricus</item>
+                  <item>Deklamation</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Poetologie</term>
+               <term>Meer</term>
+               <term>Schiff</term>
+               <term>Felsen</term>
+               <term>Wind</term>
+               <term>Lob</term>
+               <term>Skylla</term>
+               <term>Charybdis</term>
+               <term>Ruder</term>
+               <term>Ufer</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_cusp_2">
+         <graphic url="facs/facs_cusp_2.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="cusp_2" source="lists.xml#cusp-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_cusp_2"/>
+               <head><persName ref="#gund" type="author" ana="#pers"><forename>Philippus</forename>
+                     <surname>Gundelius</surname>
+                     <addName>Boius</addName></persName>. Ad <persName ref="#lect"
+                     >lectorem</persName>.</head>
+               <lg>
+                  <l>Caesareas laudes qua dicere voce solebant</l>
+                  <l>Maiores, facile hinc <persName ref="#lect">lector</persName> habere potes,</l>
+                  <l>Non scopulis illisa ruet tibi naufraga puppis,</l>
+                  <l><persName ref="#lect">Lector</persName> quisquis in hoc aequore vela dabis.</l>
+                  <l>Non hic <persName ref="#scyl">Scylla</persName> latrat, furit hic non saeva
+                        <persName ref="#chay">Charybdis</persName>,</l>
+                  <l>Sustulit has valida <persName ref="#cusp" ana="#pers">Cuspinianus</persName>
+                     ope.</l>
+                  <l>Sed facili tutum remo se fregerit aequor</l>
+                  <l>Adveniet dextro ripa petita Notho.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#cusp_2" xml:lang="de">
+               <head><persName><addName>Der Boier</addName>
+                     <forename>Philipp</forename>
+                     <surname>Gundel</surname></persName> an den <persName>Leser</persName>.</head>
+               <p>Mit welcher Stimme die Vorfahren kaiserliche Lobeshymnen zu sprechen pflegten,
+                  kannst du, <persName>Leser</persName>, hiervon leicht erkennen, nicht wird dir der
+                  schiffbrüchige Kiel, an den Felsen zerschmettert, untergehen, welcher Leser auch
+                  immer du in diesem Gewässer Segel setzt. Hier tobt nicht
+                     <persName>Skylla</persName>, hier rast nicht die wilde
+                     <persName>Charybdis</persName>, diese hat
+                        <persName><surname>Spießheimer</surname></persName> mit seinem kräftigen
+                  Beistand beseitigt. Aber durch ein geschicktes Ruder wird sich das sichere Meer
+                  entkräften und das Ufer, das du anstrebst, wird durch günstigen Südwind näher
+                  kommen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

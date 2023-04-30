@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 3 (Giovanni Camers)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#celt-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Lyrik</item>
+                  <item>Oden</item>
+                  <item>Epoden</item>
+                  <item>Carmen saeculare</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Tod</term>
+               <term>Nachruhm</term>
+               <term>Tugend</term>
+               <term>kurzes Leben</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_3">
+         <graphic url="facs/facs_celt_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_3" source="lists.xml#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_3"/>
+               <head><persName ref="#came" type="author" ana="#pers"><forename>Ioannis</forename>
+                     <surname>Camertis</surname>, <roleName>ordinis Minorum</roleName>, et
+                        <roleName>theologiae professoris</roleName></persName> eulogium.</head>
+               <lg>
+                  <l>Vita brevis quamvis homini sit lege tributa,</l>
+                  <l>Casibus et variis praecipitata ruat.</l>
+                  <l>Quod natura negat (mirum) tamen ardua virtus</l>
+                  <l>Exhibet, haec vitam non periisse sinit.</l>
+                  <l>Abstulit umbriferam <persName ref="#celt" ana="#pers"
+                        ><surname>Celti</surname></persName> mors invida formam,</l>
+                  <l>Inclita sed virtus reddidit astra viro.</l>
+                  <l>Illam mortales nato tradidere parentes,</l>
+                  <l><persName ref="#iupp">Iupiter</persName> haec vati non peritura dedit.</l>
+                  <l>Si post fata cupis meliorem vivere vitam,</l>
+                  <l>Sola comes virtus id tibi, posce, dabit.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_3" xml:lang="de">
+               <head>Lobrede des <persName><forename>Giovanni</forename>
+                     <surname>Camers</surname>, <roleName>aus dem Orden der Minoriten</roleName>,
+                        <roleName>eines Professors der Theologie</roleName></persName>.</head>
+               <p>Obwohl dem Menschen nach Gesetz nur ein kurzes Leben zugeteilt ist, stürzt es jäh
+                  dahin durch verschiedene Schicksalsfälle. Was die Natur verwehrt (wundersam ist
+                  es), das gewährt dennoch die hohe Tugend, diese lässt nich zu, dass das Leben
+                  vergeht. Der neidische Tod hat <persName><surname>Celtis</surname></persName>
+                  seine schattige Gestalt geraubt, aber seine berühmte Tugend hat dem Mann die
+                  Sterne zurückgegeben. Jene übergaben die sterblichen Eltern ihrem Sohn, dies, das
+                  nicht vergehen wird, gab <persName>Jupiter</persName> dem Seher. Wenn du begehrst,
+                  nach deinem Tod ein bessseres Leben zu leben, wird nur die Tugend als Begleiter
+                  dir dies geben, fordere &lt;sie&gt;!</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

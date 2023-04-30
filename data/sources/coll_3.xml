@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tannstetter Collimitius 3 (Ulrich von Hutten)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">coll_3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#coll-1512" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>astronomische Berechnungen</item>
+                  <item>Voraussagen für das kommende Jahr</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Buch</term>
+               <term>Geheimnis</term>
+               <term>Wissen</term>
+               <term>Natur</term>
+               <term>Wetter</term>
+               <term>Meer</term>
+               <term>Medizin</term>
+               <term>Voraussehung</term>
+               <term>Landbau</term>
+               <term>Krieg</term>
+               <term>Krankheit</term>
+               <term>Sterne</term>
+               <term>Astronomie</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_coll_3">
+         <graphic url="facs/facs_coll_3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="coll_3" source="lists.xml#coll-1512" type="text" xml:lang="la">
+               <pb xml:id="facs_coll_3"/>
+               <head><persName ref="#hurt" type="author" ana="#pers"><forename>Ulricus</forename>
+                     <surname>Hurtenus</surname></persName>
+                  <persName ref="#lect">Lectori</persName>.</head>
+               <lg>
+                  <l>Huc ocius <persName ref="#lect">lector</persName> pedibus contendet manuque</l>
+                  <l>Res est hic oculis grata futura tuis</l>
+                  <l>Scire cupis, qua sol radiis velit esse serenis</l>
+                  <l>Quae pluviamque sit nubem habitura dies</l>
+                  <l>Quando levem deceat committere fluctibus alvum</l>
+                  <l>Quae ratio terraeque sit habenda maris</l>
+                  <l>Quando herbas possit plantare et ponere vites</l>
+                  <l>Tempore quo medicam sis aditurus opem</l>
+                  <l>Quando sit apta dies tumidas incidere venas</l>
+                  <l>Fumida qua melius balnea luce petas</l>
+                  <l>Unguere quando pedes studeas: et solvere ventrem</l>
+                  <l>Quando magis cures ilia quando caput</l>
+                  <l>Denique quid frugum venturus conferat annus</l>
+                  <l>Quid cuius populo quaelibet astra ferant</l>
+                  <l>Quo pacem: quo bella loco <persName ref="#mars">Mars</persName> destinet
+                     acer</l>
+                  <l>Quae loca morborum sint dolitura malum</l>
+                  <l>Ut tibi praecaveas: ut te tuaque omnia cures</l>
+                  <l>Per <persName ref="#coll" ana="#pers"><surname>Collimitium</surname></persName>
+                     singula scire potes</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#coll_3" xml:lang="de">
+               <head><persName><forename>Ulrich</forename>
+                     <nameLink>von</nameLink>
+                     <surname>Hutten</surname></persName> an den <persName>Leser</persName>.</head>
+               <p>Hierhin soll der <persName>Leser</persName> schneller mit Füßen und der Hand
+                  eilen. Hier ist eine Sache, die deinen Augen genehm sein wird. Du begehrst zu
+                  wissen, wo die Sonne mit heiteren Strahlen sein möchte, welcher Tag Wolken und
+                  Regen haben wird, wann es sich ziemt, den leichten Schiffsbauch den Fluten
+                  anzuvertrauen und welche Kenntnis von Meer und Land man haben muss, wann man
+                  Kräuter und Wein pflanzen kann, zu welcher Zeit du medizinische Hilfe aufsuchen
+                  sollst, wann der Tag passend ist, geschwollene Adern aufzuschneiden, zu welcher
+                  Tageszeit du dampfende Bäder anstreben sollst, wann du danach streben sollst,
+                  deine Beine einzuschmieren und den Darm zu entleeren, wann du dich mehr um die
+                  Eingeweide, wann um den Kopf kümmern sollst, schließlich was das kommende Jahr an
+                  Frucht bringen wird, was dessen beliebige Sterne dem Volk bringen werden, an
+                  welchem Ort der wilde <persName>Mars</persName> Frieden, an welchem Kriege
+                  beschließt und welche Orte Übel von Krankheiten erleiden werden. Damit du dich
+                  hütest &lt;und&gt; dich um dich und alle deine Dinge sorgst, kannst du &lt;diese
+                  Dinge&gt; einzeln durch <persName><surname>Tannstetter</surname></persName>
+                  wissen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

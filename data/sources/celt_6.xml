@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 6 (Gilberto Barbetta)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#celt-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Lyrik</item>
+                  <item>Oden</item>
+                  <item>Epoden</item>
+                  <item>Carmen saeculare</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Poetologie</term>
+               <term>Widmung</term>
+               <term>Korrektur</term>
+               <term>Muse</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_6">
+         <graphic url="facs/facs_celt_6.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_6" source="lists.xml#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_6"/>
+               <head>Ad <persName ref="#celt" ana="#pers"><forename>Conradum</forename>
+                     <surname>Celtem</surname>
+                     <addName>Protucium</addName>, <roleName>poetam Germanum
+                        excellentissimum</roleName></persName>, <persName ref="#barb" type="author"
+                     ana="#pers"><forename>Giberti</forename>
+                     <surname>Barbettae</surname>
+                     <roleName>Mirandulani Cancellarii</roleName></persName> Carmen.</head>
+               <lg>
+                  <l>Debeo multa tibi certe doctissime <persName ref="#celt" ana="#pers"
+                           ><surname>Celtis</surname></persName>,</l>
+                  <l>Censurae subigis qui tua metra meae.</l>
+                  <l>Hoc est quod de me plusquam meruisse videmur</l>
+                  <l>Praesentis, facit hoc non simulatus amor.</l>
+                  <l>Sese ipsum commendat opus mirabile, multis</l>
+                  <l><persName ref="#musa">Musarum</persName> strophis, dulcisonosque melo.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_6" xml:lang="de">
+               <head>Ein Lied an <persName><forename>Konrad</forename>
+                     <surname>Celtis</surname>
+                     <addName>Protucius</addName>, <roleName>den vortrefflichsten deutschen
+                        Dichter</roleName></persName>, von <persName><forename>Gilberto</forename>
+                     <surname>Barbetta</surname>, <roleName>Kanzleivorsteher von
+                        Mirandola</roleName></persName></head>
+               <p>Sicherlich schulde ich dir vieles, gelehrtester
+                        <persName><surname>Celtis</surname></persName>, der du deine Versmaße meiner
+                  Kontrolle unterjochst. Dies kommt, weil wir uns um mich mehr verdient gemacht zu
+                  haben scheinen als um Anwesenheit (????), dies macht eine nicht vorgetäuschte
+                  Liebe. Das wunderbare Werk empfiehlt sich selbst, mit vielen Strophen der
+                     <persName>Musen</persName> und mit süßklingendem Lied.</p>
+               <!-- korrigieren! -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

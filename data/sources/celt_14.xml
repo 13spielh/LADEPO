@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Celtis 14 (Giovanni Camers)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">celt_14</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#celt-1513" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Lyrik</item>
+                  <item>Oden</item>
+                  <item>Epoden</item>
+                  <item>Carmen saeculare</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Tod</term>
+               <term>Grab</term>
+               <term>Nachruhm</term>
+               <term>Unsterblichkeit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_celt_14">
+         <graphic url="facs/facs_celt_14.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="celt_14" source="lists.xml#celt-1513" type="text" xml:lang="la">
+               <pb xml:id="facs_celt_14"/>
+               <head><persName ref="#came" type="author" ana="#pers">Eiusdem</persName>
+                  distichon.</head>
+               <lg>
+                  <l>Hic reliquum <persName ref="#celt" ana="#pers"
+                        ><surname>Celtis</surname></persName> tegitur, nam cetera servant</l>
+                  <l>Caelum animam, famam pectora docta virum.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#celt_14" xml:lang="de">
+               <head>Ein Zweizeiler <persName>desselben</persName>.</head>
+               <p>Hier liegt der Rest des <persName><surname>Celtis</surname></persName>
+                  begraben, denn das übrige bewahren sie - der Himmel seine Seele, seinen Ruhm die
+                  gelehrten Herzen der Menschen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

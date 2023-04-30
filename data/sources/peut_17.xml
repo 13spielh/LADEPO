@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peutinger 17 (Johannes Rosinus)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">peut_17</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#peut-1529" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>Fachschriftstellerei</item>
+                  <item>Rechtsgeschichte</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8">Latin</language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Recht</term>
+               <term>Forum</term>
+               <term>Rhetorik</term>
+               <term>Täuschung</term>
+               <term>Betrug</term>
+               <term>Astraeus</term>
+               <term>Astraea</term>
+               <term>Rede</term>
+               <term>Harpyien</term>
+               <term>Götter</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_peut_17">
+         <graphic url="facs/facs_peut_17.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="peut_17" source="lists.xml#peut-1529" type="text" xml:lang="la">
+               <pb xml:id="facs_peut_17"/>
+               <head><persName ref="#rosi" type="author" ana="#pers">Idem</persName></head>
+               <lg>
+                  <l>Cum foret eloquio convicta scientia iuris</l>
+                  <l>Fraude, dolo, et tristi libera barbarie,</l>
+                  <l>Extulit os terris solito formosius illa</l>
+                  <l><persName ref="#ast1">Astraei</persName> quondam filia magnanimi.</l>
+                  <l>Inde fames quos dira foro servire coegit,</l>
+                  <l>Harpyae infames, indomiti rabulae.</l>
+                  <l><persName ref="#ast2">Astraeae</persName> vim ferre parant nihil illa
+                     morata</l>
+                  <l>Migravit terris, ad superos rediit.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#peut_17" xml:lang="de">
+               <head><persName>Derselbe</persName></head>
+               <p>Als die Rechtswissenschaft durch die Redegewandtheit offen des Betrugs, der
+                  Täuschung und der abstoßenden Grausamkeit überführt wurde, erhob jene ihr Gesicht,
+                  das schöner als auf der Erde gewöhnlich war, die Tochter des einst edlen Astraeus.
+                  Seitdem &lt;gibt es&gt; die verrufenen Harpyien, die zügellosen Rechtsverdreher,
+                  die der schreckliche Hunger dazu zwang, dem Forum zu dienen. Sie schicken sich an,
+                  die Macht der Astraea zu führen, jene &lt;aber&gt; verweilte nicht, zog von der
+                  Erde fort und kehrte zu den Göttern zurück.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

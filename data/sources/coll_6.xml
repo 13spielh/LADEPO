@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tannstetter Collimitius 6 (Philipp Gundel)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <distributor/>
+            <date/>
+            <availability>
+               <p/>
+            </availability>
+            <idno type="PID">coll_6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
+                  corresp="lists.xml#coll-1518" xml:lang="la"/>
+               <list type="keywords_genre">
+                  <item>astronomische Berechnungen</item>
+                  <item>Vorlesungsmitschrift</item>
+               </list>
+            </ab>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la" ana="https://d-nb.info/gnd/4120281-8"> Latin </language>
+            <language ident="el">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Astronomie</term>
+               <term>Geheimnis</term>
+               <term>Sterne</term>
+               <term>Landbau</term>
+               <term>Buch</term>
+               <term>Musen</term>
+               <term>Urania</term>
+               <term>Lob</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#facs_coll_6">
+         <graphic url="facs/facs_coll_6.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div xml:id="coll_6" source="lists.xml#coll-1518" type="text" xml:lang="la">
+               <pb xml:id="facs_coll_6"/>
+               <head><persName ref="#gund" type="author" ana="#pers"><forename>Philippus</forename>
+                     <surname>Gundelius</surname></persName>
+                  <persName ref="#lect">Lectori</persName>.</head>
+               <lg>
+                  <l>Commoda multiiugi ne sint obscura laboris,</l>
+                  <l>Exhausti in doctas nuper Ephemerides.</l>
+                  <l>Neve ignorato vanescat in ordine fruges,</l>
+                  <l>Dat labor hic mira <persName ref="#perl" ana="#pers">Perlachianus</persName>
+                     ope.</l>
+                  <l>Quem, cui <persName ref="#musa">Pieridum</persName> Princeps <persName
+                        ref="#uran">Urania</persName> cordi est,</l>
+                  <l>Perlege formosae <persName ref="#lect">lector</persName> amore deae.</l>
+                  <l>Sic sua diva tibi facilis penetralia pandat,</l>
+                  <l>Et mentem recto ducat in astra gradu.</l>
+               </lg>
+            </div>
+            <div type="translation" corresp="#coll_6" xml:lang="de">
+               <head><persName><forename>Philipp</forename>
+                     <surname>Gundel</surname></persName> an den <persName>Leser</persName>.</head>
+               <p>Damit die angemessenen Dinge der vielfältigen Arbeit nicht verborgen sind, wurden
+                  sie nun neu in den gelehrten Wirtschaftsbüchern ausführlich behandelt. Und dass
+                  die Frucht nicht in einer unbekannten Reihe(nfolge) verschwindet, dafür sorgt
+                  diese Arbeit <persName><surname>Perlachs</surname></persName> mit bewundernswertem
+                  Beistand. Diese, der <persName>Urania</persName>, die Anführerin der
+                     <persName>Pieriden</persName>, am Herzen liegt, lese genau,
+                     <persName>Leser</persName>, aus Liebe zur schönen Göttin. So dürfte sie dir
+                  bereitwillig ihre innersten göttlichen Geheimnisse offenbaren und den Geist mit
+                  geradem Schritt zu den Sternen führen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

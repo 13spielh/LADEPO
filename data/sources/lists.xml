@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listBibl type="Textgrundlage">
+         <bibl xml:id="celt-1502" ana="https://www.digitale-sammlungen.de/view/bsb00007499?page=1"
+            >Conradi Celtis Protucii Primi inter Germanos Imperatoriis Manibus Poetae Laureati
+            Quattuor Libri Amorum Secundum Quattuor Latera Germaniae Feliciter Incipiunt, Nürnberg
+            1502</bibl>
+         <bibl xml:id="celt-1513" ana="https://www.digitale-sammlungen.de/view/bsb00007493?page=1"
+            >Conradi Celtis Protucii, primi in Germania poetae coronati, libri Odarum quattuor, cum
+            Epodo, et saeculari carmine diligenter et accurate impressi, et hoc primum typo in
+            studiosorum emolumentum editi, Straßburg 1513</bibl>
+         <bibl xml:id="coll-1512" ana="https://www.digitale-sammlungen.de/view/bsb00002864?page=1"
+            >Iudicium viennense. Anni Millesimi quingentesimi duodecimi, Wien 1512</bibl>
+         <bibl xml:id="coll-1513" ana="https://www.digitale-sammlungen.de/view/bsb00002537?page=1"
+            >Iudicium astronomicum pro anno Ch. M.ccccc.xiii. per Magistrum Georgium Tannstetter
+            collimitium astronomiae professorem Viennae Pannoniae editum, Nürnberg 1513</bibl>
+         <bibl xml:id="coll-1518" ana="https://www.digitale-sammlungen.de/view/bsb11130164?page=1"
+            >Usus almanach. seu Ephemeridum: ex commentariis Georgii Tannsteter Colimitii,
+            Praeceptoris sui decerpti, et in quinquaginta propositiones, per Magistrum Andream
+            perlachium stirum Redacti, Wien 1518</bibl>
+         <bibl xml:id="coll-1523" ana="https://www.digitale-sammlungen.de/view/bsb10198658?page=1"
+            >In gratiam serenissimi ac potentissimi principis et domini, domini Ferdinandi Principis
+            Hispaniarum, Archiducis Austriae, ducis Burgundiae, et ceterea. Caesaris et catholicae
+            Maiestatis locum tenentis generalis et cetera et ad consolationem populorum suae. S. ac
+            po. do. ditioni subiectorum Georgii Tannstetter Collimitii Lycoripensis Medici et
+            Mathematici libellus consolatorius, quo, opinionem iam dudum annis hominum ex quorundam
+            Astrologastrorum divinatione insidentem, de futuro diluvio et multis aliis horrendis
+            periculis. XXIIII. anni a fundamentis extirpare conatur, Wien 1523</bibl>
+         <bibl xml:id="cosp-1514" ana="https://www.digitale-sammlungen.de/view/bsb00002126?page=1"
+            >Libellus Palaephati Graeci Authoris quo aliquot veteres fabulae, unde tractae sint
+            narrat, studiosi hominibus apprime utilis, Wien 1514</bibl>
+         <bibl xml:id="cusp-1509" ana="http://data.onb.ac.at/rep/1074A17F">Missale Pataviense, Wien
+            1509</bibl>
+         <bibl xml:id="cusp-1513" ana="https://www.digitale-sammlungen.de/view/bsb10981535?page=1"
+            >Panaegyrici Variorum Autorum et Declamationes Nonnullae perquam eruditae hactenus non
+            impressae, Wien 1513</bibl>
+         <bibl xml:id="cusp-1526" ana="https://www.digitale-sammlungen.de/view/bsb00011600?page=1"
+            >Oratio Protreptica Ioannis Cuspiniani ad sacri Romani Imperii Principes et proceres, ut
+            bellum suscipiant contra Turcum cum descriptione conflictus, nuper in Hungaria facti,
+            quo periit Rex Hungariae Ludovicus. Et qua via Turcus Solomet ad Budam usque pervenerit
+            ex Albagraeca, Cum enumeratione clara dotium, quibus a natura dotata est Hungaria, cum
+            insertione multarum rerum annotatu dignissimarum. Lege lector et iudica in quam miseriam
+            hodie Christianitas est coniecta, Wien 1526</bibl>
+         <bibl xml:id="gund-1518" ana="http://data.onb.ac.at/rep/10ADC8C4">Claudii Claudiani poetae
+            candidissimi in Ruffinum libri duo, Wien 1518</bibl>
+         <bibl xml:id="perl-1518" ana="http://data.onb.ac.at/rep/1058CFAC">Almanach novum super anno
+            Christi salvatoris nostri: M.D.XVIII. Ex tabulis doctissimi viri magistri Joannis de
+            Gmunden studii quondam Viennensis alumni in officina Collimitiana per Magistrum Andream
+            Perlachium Stirum ad Meridianum Viennensem diligentissime supputatum, Wien 1518</bibl>
+         <bibl xml:id="perl-1519" ana="https://www.digitale-sammlungen.de/view/bsb10199946?page=1"
+            >Almanach novum super anno Christi salvatoris nostri M.D.XVIIII. Ex tabulis doctissimi
+            viri magistri Joannis de Gmunden studii quondam Viennensis alumni in officina
+            Collimitiana per Magistrum Andream Perlachium Stirum ad Meridianum Viennensem
+            diligentissime supputatum, Wien 1519</bibl>
+         <bibl xml:id="perl-1528" ana="https://www.digitale-sammlungen.de/view/bsb10199958?page=1"
+            >Ephemerides Andree Perlachii Stiri ex Witscheyn, Artium et Philosophiae magistri
+            magnificae Urbis Viennensis collegae, pro Anno domini et Salvatoris nostri Iesu Christi
+            M.D.XXIX. cum configurationibus et habitudinibus planetarum inter se et cum stellis
+            fixis utique insignioribus cum ex secundo tum ex primo mobili contingentibus, sub tali
+            forma hactenus nemini visae, Wien 1528</bibl>
+         <bibl xml:id="peut-1505" ana="https://www.digitale-sammlungen.de/view/bsb11195342?page=2,3"
+            >Romanae Vetustatis Fragmenta in Augusta Vindelicorum et eius Dioecesi, Augsburg
+            1505</bibl>
+         <bibl xml:id="peut-1506" ana="https://www.digitale-sammlungen.de/view/bsb10860482?page=1"
+            >Sermones conviviales Conradi peutingeri: de mirandis Germaniae antiquitatibus,
+            Straßburg 1506</bibl>
+         <bibl xml:id="peut-1515"
+            ana="https://collections.thulb.uni-jena.de/rsc/viewer/HisBest_derivate_00000998/BE_0415_0421.tif"
+            >Iordanes, Gotus: De rebus Gothorum et Pauli Warnefridi historia Longobardiae libri,
+            Augsburg 1515</bibl>
+         <bibl xml:id="peut-1529" ana="https://digitale-sammlungen.de/view/bsb10202123?page=1"
+            >Quorundam iuris scientia illustratorum iudicium ex praeceptoribus meis collectum, Wien
+            1529</bibl>
+         <bibl xml:id="vadi-1511" ana="https://digitale-sammlungen.de/view/bsb00003774?page=1"
+            >Ioachimi Vadiani: Oratio de Jesu Christi die natali, Wien 1511</bibl>
+         <bibl xml:id="vadi-1514" ana="https://digitale-sammlungen.de/view/bsb11217149?page=1"
+            >Ioachimi Vadiani Helvetii Mythicum Syntagma, Cui Titulus Gallus Pugnans, Wien
+            1514</bibl>
+         <bibl xml:id="vadi-515a" ana="https://digitale-sammlungen.de/view/bsb00003775?page=1">De
+            Vadianorum familiae insignibus, Wien 1515</bibl>
+         <bibl xml:id="vadi-515b" ana="https://digitale-sammlungen.de/view/bsb00013120?page=1"
+            >Oratio coram invictissimo Sigismundo rege Poloniae, Wien 1515</bibl>
+         <bibl xml:id="vadi-1517" ana="https://www.digitale-sammlungen.de/view/bsb00004072?page=1"
+            >Ioachimi Vadiani Helvetii Aegloga, cui titulus Faustus, Wien 1517</bibl>
+         <bibl xml:id="vadi-1518" ana="https://www.digitale-sammlungen.de/view/bsb00014600?page=1"
+            >De poetica et Carminis ratione liber ad M. Vad. fratrem, Wien 1518</bibl>
+         <bibl xml:id="voeg-1529" ana="https://www.digitale-sammlungen.de/view/bsb00015431?page=1"
+            >Elementale Geometricum, ex Euclidis Geometria, a Ioanne Voegelin, Haylpronnensi, ad
+            omnium Mathematices studiosorum utilitatem decerptum, Straßburg 1529</bibl>
+      </listBibl>
+      <listPlace type="fictional">
+         <place xml:id="elys">
+            <placeName xml:lang="la">Elysium</placeName>
+            <placeName xml:lang="de">Elysium</placeName>
+         </place>
+         <place xml:id="styg">
+            <placeName xml:lang="la">Styx</placeName>
+            <placeName xml:lang="de">Styx</placeName>
+         </place>
+      </listPlace>
+      <listPlace type="real">
+         <place type="river" xml:id="aenu">
+            <placeName xml:lang="la">Aenus</placeName>
+            <placeName xml:lang="de">Inn</placeName>
+         </place>
+         <place type="mountain" xml:id="alpe">
+            <placeName xml:lang="la">Alpes</placeName>
+            <placeName xml:lang="de">Alpen</placeName>
+         </place>
+         <place type="region" xml:id="apul">
+            <placeName xml:lang="la">Apulia</placeName>
+            <placeName xml:lang="de">Apulien</placeName>
+         </place>
+         <place type="city" xml:id="aqui">
+            <placeName xml:lang="la">Aquinum</placeName>
+            <placeName xml:lang="de">Aquino</placeName>
+         </place>
+         <place type="city" xml:id="argo">
+            <placeName xml:lang="la">Argos</placeName>
+            <placeName xml:lang="de">Argos</placeName>
+         </place>
+         <place type="region" xml:id="atti">
+            <placeName xml:lang="la">Attica</placeName>
+            <placeName xml:lang="de">Attika</placeName>
+         </place>
+         <place type="city" xml:id="augu">
+            <placeName xml:lang="la">Augusta</placeName>
+            <placeName xml:lang="de">Augsburg</placeName>
+         </place>
+         <place type="region" xml:id="auso">
+            <placeName xml:lang="la">Ausonia</placeName>
+            <placeName xml:lang="de">Ausonien</placeName>
+         </place>
+         <place type="country" xml:id="aust">
+            <placeName xml:lang="la">Austria</placeName>
+            <placeName xml:lang="de">Österreich</placeName>
+         </place>
+         <place type="lake" xml:id="aver">
+            <placeName xml:lang="la">Avernus</placeName>
+            <placeName xml:lang="de">Avernersee</placeName>
+         </place>
+         <place type="city" xml:id="bata">
+            <placeName xml:lang="la">Batavia</placeName>
+            <placeName xml:lang="de">Passau</placeName>
+         </place>
+         <place type="region" xml:id="bava">
+            <placeName xml:lang="la">Bavaria</placeName>
+            <placeName xml:lang="de">Bayern</placeName>
+         </place>
+         <place type="city" xml:id="bilb">
+            <placeName xml:lang="la">Bilbilis</placeName>
+            <placeName xml:lang="de">Bilbilis</placeName>
+         </place>
+         <place type="river" xml:id="bory">
+            <placeName xml:lang="la">Borysthenes</placeName>
+            <placeName xml:lang="de">Dnjepr</placeName>
+         </place>
+         <place type="region" xml:id="cala">
+            <placeName xml:lang="la">Calabria</placeName>
+            <placeName xml:lang="de">Kalabrien</placeName>
+         </place>
+         <place type="city" xml:id="caly">
+            <placeName xml:lang="la">Calydon</placeName>
+            <placeName xml:lang="de">Kalydon</placeName>
+         </place>
+         <place type="city" xml:id="cart">
+            <placeName xml:lang="la">Carthago</placeName>
+            <placeName xml:lang="de">Karthago</placeName>
+         </place>
+         <place type="spring" xml:id="cast">
+            <placeName xml:lang="la">Castalia</placeName>
+            <placeName xml:lang="de">Kastalische Quelle am Parnass</placeName>
+         </place>
+         <place type="island" xml:id="chio">
+            <placeName xml:lang="la">Chios</placeName>
+            <placeName xml:lang="de">Chios</placeName>
+         </place>
+         <place type="city" xml:id="colo">
+            <placeName xml:lang="la">Colophon</placeName>
+            <placeName xml:lang="de">Kolophon</placeName>
+         </place>
+         <place type="city" xml:id="cons">
+            <placeName xml:lang="la">Constantinopolis</placeName>
+            <placeName xml:lang="de">Konstantinopel/Istanbul</placeName>
+         </place>
+         <place type="city" xml:id="cord">
+            <placeName xml:lang="la">Corduba</placeName>
+            <placeName xml:lang="de">Cordoba</placeName>
+         </place>
+         <place type="island" xml:id="cret">
+            <placeName xml:lang="la">Creta</placeName>
+            <placeName xml:lang="de">Kreta</placeName>
+         </place>
+         <place type="city" xml:id="cyre">
+            <placeName xml:lang="la">Cyrenae</placeName>
+            <placeName xml:lang="de">Kyrene</placeName>
+         </place>
+         <place type="island" xml:id="delo">
+            <placeName xml:lang="la">Delos</placeName>
+            <placeName xml:lang="de">Delos</placeName>
+         </place>
+         <place type="city" xml:id="delp">
+            <placeName xml:lang="la">Delphi</placeName>
+            <placeName xml:lang="de">Delphi</placeName>
+         </place>
+         <place type="region" xml:id="emat">
+            <placeName xml:lang="la">Emathia</placeName>
+            <placeName xml:lang="de">Emathia</placeName>
+         </place>
+         <place type="city" xml:id="ephe">
+            <placeName xml:lang="la">Ephesus</placeName>
+            <placeName xml:lang="de">Ephesos</placeName>
+         </place>
+         <place type="city" xml:id="fels">
+            <placeName xml:lang="la">Felsina</placeName>
+            <placeName xml:lang="de">Bologna</placeName>
+         </place>
+         <place type="city" xml:id="gall">
+            <placeName xml:lang="la">Sanctus Gallus</placeName>
+            <placeName xml:lang="de">Sankt Gallen</placeName>
+         </place>
+         <place type="river" xml:id="gang">
+            <placeName xml:lang="la">Ganges</placeName>
+            <placeName xml:lang="de">Ganges</placeName>
+         </place>
+         <place type="country" xml:id="germ">
+            <placeName xml:lang="la">Germania</placeName>
+            <placeName xml:lang="de">Deutschland</placeName>
+         </place>
+         <place type="mountain" xml:id="heli">
+            <placeName xml:lang="la">Helicon</placeName>
+            <placeName xml:lang="de">Helikon</placeName>
+         </place>
+         <place type="sea" xml:id="hell">
+            <placeName xml:lang="la">Hellespontus</placeName>
+            <placeName xml:lang="de">Hellespont</placeName>
+         </place>
+         <place type="country" xml:id="helv">
+            <placeName xml:lang="la">Helvetia</placeName>
+            <placeName xml:lang="de">Schweiz</placeName>
+            <location>
+               <geo>###</geo>
+            </location>
+         </place>
+         <place type="region" xml:id="herc">
+            <placeName xml:lang="la">Hercynia silva</placeName>
+            <placeName xml:lang="de">Schwarzwald</placeName>
+         </place>
+         <place type="mountain" xml:id="ida">
+            <placeName xml:lang="la">Ida</placeName>
+            <placeName xml:lang="de">Idagebirge</placeName>
+         </place>
+         <place type="river" xml:id="indu">
+            <placeName xml:lang="la">Indus</placeName>
+            <placeName xml:lang="de">Indus</placeName>
+         </place>
+         <place type="city" xml:id="ion">
+            <placeName xml:lang="la">Ion</placeName>
+            <placeName xml:lang="de">Ion</placeName>
+         </place>
+         <place type="river" xml:id="isar">
+            <placeName xml:lang="la">Isar</placeName>
+            <placeName xml:lang="de">Isar</placeName>
+         </place>
+         <place type="river" xml:id="iste">
+            <placeName xml:lang="la">Ister</placeName>
+            <placeName xml:lang="de">Donau</placeName>
+         </place>
+         <place type="region" xml:id="lati">
+            <placeName xml:lang="la">Latium</placeName>
+            <placeName xml:lang="de">Latium</placeName>
+         </place>
+         <place type="island" xml:id="leso">
+            <placeName xml:lang="la">Lesbos</placeName>
+            <placeName xml:lang="de">Lesbos</placeName>
+         </place>
+         <place type="river" xml:id="licu">
+            <placeName xml:lang="la">Licus</placeName>
+            <placeName xml:lang="de">Lech</placeName>
+         </place>
+         <place type="country" xml:id="lith">
+            <placeName xml:lang="la">Lithuania</placeName>
+            <placeName xml:lang="de">Litauen</placeName>
+         </place>
+         <place type="city" xml:id="lube">
+            <placeName xml:lang="la">Lubecum</placeName>
+            <placeName xml:lang="de">Lübeck</placeName>
+         </place>
+         <place type="city" xml:id="mant">
+            <placeName xml:lang="la">Mantua</placeName>
+            <placeName xml:lang="de">Mantua</placeName>
+         </place>
+         <place type="city" xml:id="mogu">
+            <placeName xml:lang="la">Moguntia</placeName>
+            <placeName xml:lang="de">Mainz</placeName>
+         </place>
+         <place type="city" xml:id="neap">
+            <placeName xml:lang="la">Neapolis</placeName>
+            <placeName xml:lang="de">Neapel</placeName>
+         </place>
+         <place type="river" xml:id="necc">
+            <placeName xml:lang="la">Neccarus</placeName>
+            <placeName xml:lang="de">Neckar</placeName>
+         </place>
+         <place type="river" xml:id="obri">
+            <placeName xml:lang="la">Obrincus</placeName>
+            <placeName xml:lang="de">Mosel</placeName>
+         </place>
+         <place type="mountain" xml:id="olym">
+            <placeName xml:lang="la">Olympus</placeName>
+            <placeName xml:lang="de">Olymp</placeName>
+         </place>
+         <place type="region" xml:id="pann">
+            <placeName xml:lang="la">Pannonia</placeName>
+            <placeName xml:lang="de">Pannonien</placeName>
+         </place>
+         <place type="mountain" xml:id="parn">
+            <placeName xml:lang="la">Parnassus</placeName>
+            <placeName xml:lang="de">Parnass</placeName>
+         </place>
+         <place type="city" xml:id="parr">
+            <placeName xml:lang="la">Parrhasia</placeName>
+            <placeName xml:lang="de">Parrhasia</placeName>
+         </place>
+         <place type="river" xml:id="perm">
+            <placeName xml:lang="la">Permessus</placeName>
+            <placeName xml:lang="de">Permessus</placeName>
+         </place>
+         <place type="region" xml:id="pers">
+            <placeName xml:lang="la">Persis</placeName>
+            <placeName xml:lang="de">Persien</placeName>
+         </place>
+         <place type="region" xml:id="phry">
+            <placeName xml:lang="la">Phrygia</placeName>
+            <placeName xml:lang="de">Phrygien</placeName>
+         </place>
+         <place type="mountain" xml:id="pinu">
+            <placeName xml:lang="la">Pindus</placeName>
+            <placeName xml:lang="de">Pindos</placeName>
+         </place>
+         <place type="country" xml:id="polo">
+            <placeName xml:lang="la">Polonia</placeName>
+            <placeName xml:lang="de">Polen</placeName>
+         </place>
+         <place type="country" xml:id="prus">
+            <placeName xml:lang="la">Prussia</placeName>
+            <placeName xml:lang="de">Preußen</placeName>
+         </place>
+         <place type="city" xml:id="rati">
+            <placeName xml:lang="la">Ratispona</placeName>
+            <placeName xml:lang="de">Regensburg</placeName>
+         </place>
+         <place type="region" xml:id="rhae">
+            <placeName xml:lang="la">Rhaetia</placeName>
+            <placeName xml:lang="de">Rätien</placeName>
+         </place>
+         <place type="river" xml:id="rhen">
+            <placeName xml:lang="la">Rhenus</placeName>
+            <placeName xml:lang="de">Rhein</placeName>
+         </place>
+         <place type="island" xml:id="rhod">
+            <placeName xml:lang="la">Rhodos</placeName>
+            <placeName xml:lang="de">Rhodos</placeName>
+         </place>
+         <place type="city" xml:id="roma">
+            <placeName xml:lang="la">Roma</placeName>
+            <placeName xml:lang="de">Rom</placeName>
+         </place>
+         <place type="city" xml:id="rudi">
+            <placeName xml:lang="la">Rudiae</placeName>
+            <placeName xml:lang="de">Rudiae</placeName>
+         </place>
+         <place type="country" xml:id="russ">
+            <placeName xml:lang="la">Russia</placeName>
+            <placeName xml:lang="de">Russland</placeName>
+         </place>
+         <place type="region" xml:id="saba">
+            <placeName xml:lang="la">Sabaea</placeName>
+            <placeName xml:lang="de">Sabaea (ca. Jemen)</placeName>
+         </place>
+         <place type="island" xml:id="sala">
+            <placeName xml:lang="la">Salamis</placeName>
+            <placeName xml:lang="de">Salamis</placeName>
+         </place>
+         <place type="country" xml:id="scan">
+            <placeName xml:lang="la">Scandia</placeName>
+            <placeName xml:lang="de">Skandinavien</placeName>
+         </place>
+         <place type="region" xml:id="sici">
+            <placeName xml:lang="la">Sicilia</placeName>
+            <placeName xml:lang="de">Sizilien</placeName>
+         </place>
+         <place type="region" xml:id="sile">
+            <placeName xml:lang="la">Silesia</placeName>
+            <placeName xml:lang="de">Schlesien</placeName>
+         </place>
+         <place type="city" xml:id="smyr">
+            <placeName xml:lang="la">Smyrna</placeName>
+            <placeName xml:lang="de">Izmir</placeName>
+         </place>
+         <place type="city" xml:id="spar">
+            <placeName xml:lang="la">Sparta</placeName>
+            <placeName xml:lang="de">Sparta</placeName>
+         </place>
+         <place type="city" xml:id="stri">
+            <placeName xml:lang="la">Strigonium</placeName>
+            <placeName xml:lang="de">Esztergom/Gran</placeName>
+         </place>
+         <place type="city" xml:id="stud">
+            <placeName xml:lang="la">Studtgardia</placeName>
+            <placeName xml:lang="de">Stuttgart</placeName>
+         </place>
+         <place type="city" xml:id="sulm">
+            <placeName xml:lang="la">Sulmo</placeName>
+            <placeName xml:lang="de">Sulmona</placeName>
+         </place>
+         <place type="city" xml:id="taen">
+            <placeName xml:lang="la">Taenarum</placeName>
+            <placeName xml:lang="de">Taenarum</placeName>
+         </place>
+         <place type="city" xml:id="tare">
+            <placeName xml:lang="la">Tarentum</placeName>
+            <placeName xml:lang="de">Tarent</placeName>
+         </place>
+         <place type="city" xml:id="theb">
+            <placeName xml:lang="la">Thebae</placeName>
+            <placeName xml:lang="de">Theben</placeName>
+         </place>
+         <place type="region" xml:id="thra">
+            <placeName xml:lang="la">Thracia</placeName>
+            <placeName xml:lang="de">Thrakien</placeName>
+         </place>
+         <place type="city" xml:id="tigu">
+            <placeName xml:lang="la">Tigurum</placeName>
+            <placeName xml:lang="de">Zürich</placeName>
+            <location>
+               <geo/>
+            </location>
+         </place>
+         <place type="country" xml:id="turc">
+            <placeName xml:lang="la">Turcia</placeName>
+            <placeName xml:lang="de">Türkei</placeName>
+         </place>
+         <place type="region" xml:id="umbr">
+            <placeName xml:lang="la">Umbria</placeName>
+            <placeName xml:lang="de">Umbrien</placeName>
+         </place>
+         <place type="city" xml:id="veno">
+            <placeName xml:lang="la">Venusia</placeName>
+            <placeName xml:lang="de">Venosa</placeName>
+         </place>
+         <place type="city" xml:id="vero">
+            <placeName xml:lang="la">Verona</placeName>
+            <placeName xml:lang="de">Verona</placeName>
+         </place>
+         <place type="city" xml:id="vien">
+            <placeName xml:lang="la">Vienna</placeName>
+            <placeName xml:lang="de">Wien</placeName>
+         </place>
+         <place type="river" xml:id="vist">
+            <placeName xml:lang="la">Vistula</placeName>
+            <placeName xml:lang="de">Weichsel</placeName>
+         </place>
+      </listPlace>
+      <listPerson type="fictional">
+         <person xml:id="achi">
+            <persName xml:lang="de">Achilles</persName>
+         </person>
+         <person xml:id="aene">
+            <persName xml:lang="de">Aeneas</persName>
+         </person>
+         <person xml:id="agam">
+            <persName xml:lang="de">Agamemnon</persName>
+         </person>
+         <person xml:id="agen">
+            <persName xml:lang="de">Agenor</persName>
+         </person>
+         <person xml:id="anol">
+            <persName xml:lang="de">Der fiktive Kritiker Anolbus</persName>
+         </person>
+         <person xml:id="ante">
+            <persName xml:lang="de">Antenor</persName>
+         </person>
+         <person xml:id="apol">
+            <persName xml:lang="de">Apoll</persName>
+         </person>
+         <person xml:id="ascl">
+            <persName xml:lang="de">Asklepios</persName>
+         </person>
+         <person xml:id="ast1">
+            <persName xml:lang="de">Astraeus</persName>
+         </person>
+         <person xml:id="ast2">
+            <persName xml:lang="de">Astraea</persName>
+         </person>
+         <person xml:id="athe">
+            <persName xml:lang="de">Athene</persName>
+         </person>
+         <person xml:id="atla">
+            <persName xml:lang="de">Atlas</persName>
+         </person>
+         <person xml:id="bacc">
+            <persName xml:lang="de">Bacchus</persName>
+         </person>
+         <person xml:id="cadm">
+            <persName xml:lang="la">Cadmus</persName>
+            <persName xml:lang="de">Kadmos</persName>
+         </person>
+         <person xml:id="kall">
+            <persName xml:lang="de">Kalliope</persName>
+         </person>
+         <person xml:id="cerb">
+            <persName xml:lang="la">Cerberus</persName>
+            <persName xml:lang="de">Kerberos</persName>
+         </person>
+         <person xml:id="cere">
+            <persName xml:lang="de">Ceres</persName>
+         </person>
+         <person xml:id="char">
+            <persName xml:lang="de">Chariten</persName>
+         </person>
+         <person xml:id="chay">
+            <persName xml:lang="de">Charybdis</persName>
+         </person>
+         <person xml:id="chei">
+            <persName xml:lang="de">Cheiron</persName>
+         </person>
+         <person xml:id="cori">
+            <persName xml:lang="de">Corinna</persName>
+         </person>
+         <person xml:id="cynt">
+            <persName xml:lang="de">Cynthia</persName>
+         </person>
+         <person xml:id="deli">
+            <persName xml:lang="de">Delia</persName>
+         </person>
+         <person xml:id="deuc">
+            <persName xml:lang="de">Deukalion</persName>
+         </person>
+         <person xml:id="dian">
+            <persName xml:lang="de">Diana</persName>
+         </person>
+         <person xml:id="diom">
+            <persName xml:lang="de">Diomedes</persName>
+         </person>
+         <person xml:id="elsu">
+            <persName xml:lang="de">Elsula</persName>
+         </person>
+         <person xml:id="erec">
+            <persName xml:lang="de">Erechtheus</persName>
+         </person>
+         <person xml:id="eury">
+            <persName xml:lang="de">Eurydike</persName>
+         </person>
+         <person xml:id="foci">
+            <persName xml:lang="de">Focilla</persName>
+         </person>
+         <person xml:id="hasi">
+            <persName xml:lang="de">Hasilina</persName>
+         </person>
+         <person xml:id="herc">
+            <persName xml:lang="de">Hercules</persName>
+         </person>
+         <person xml:id="home">
+            <persName xml:lang="de">Homer</persName>
+         </person>
+         <person xml:id="iupp">
+            <persName xml:lang="de">Jupiter</persName>
+         </person>
+         <person xml:id="lect">
+            <persName xml:lang="de">Leser</persName>
+         </person>
+         <person xml:id="lesb">
+            <persName xml:lang="de">Lesbia</persName>
+         </person>
+         <person xml:id="linu">
+            <persName xml:lang="de">Linos</persName>
+         </person>
+         <person xml:id="livi">
+            <persName xml:lang="de">Livia</persName>
+         </person>
+         <person xml:id="lucr">
+            <persName xml:lang="de">Lucretia</persName>
+         </person>
+         <person xml:id="lycu">
+            <persName xml:lang="de">Lykurg</persName>
+         </person>
+         <person xml:id="mach">
+            <persName xml:lang="de">Machaon</persName>
+         </person>
+         <person xml:id="mars">
+            <persName xml:lang="de">Mars</persName>
+         </person>
+         <person xml:id="melp">
+            <persName xml:lang="de">Melpomene</persName>
+         </person>
+         <person xml:id="merc">
+            <persName xml:lang="de">Merkur</persName>
+         </person>
+         <person xml:id="momu">
+            <persName xml:lang="de">Momus</persName>
+         </person>
+         <person xml:id="musa">
+            <persName xml:lang="de">Muse</persName>
+         </person>
+         <person xml:id="muso">
+            <persName xml:lang="de">Musaios</persName>
+         </person>
+         <person xml:id="neme">
+            <persName xml:lang="de">Nemesis</persName>
+         </person>
+         <person xml:id="nest">
+            <persName xml:lang="de">Nestor</persName>
+         </person>
+         <person xml:id="odys">
+            <persName xml:lang="de">Odysseus</persName>
+         </person>
+         <person xml:id="ores">
+            <persName xml:lang="de">Orestes</persName>
+         </person>
+         <person xml:id="orph">
+            <persName xml:lang="de">Orpheus</persName>
+         </person>
+         <person xml:id="pan">
+            <persName xml:lang="de">Pan</persName>
+         </person>
+         <person xml:id="patr">
+            <persName xml:lang="de">Patroklos</persName>
+         </person>
+         <person xml:id="pele">
+            <persName xml:lang="de">Peleus</persName>
+         </person>
+         <person xml:id="piri">
+            <persName xml:lang="de">Peirithoos</persName>
+         </person>
+         <person xml:id="plut">
+            <persName xml:lang="de">Pluto</persName>
+         </person>
+         <person xml:id="poda">
+            <persName xml:lang="de">Podaleirios</persName>
+         </person>
+         <person xml:id="pria">
+            <persName xml:lang="de">Priamos</persName>
+         </person>
+         <person xml:id="pyla">
+            <persName xml:lang="de">Pylades</persName>
+         </person>
+         <person xml:id="pyrr">
+            <persName xml:lang="de">Pyrrha</persName>
+         </person>
+         <person xml:id="satu">
+            <persName xml:lang="de">Saturn</persName>
+         </person>
+         <person xml:id="siby" ana="http://viaf.org/viaf/376145857906023021280">
+            <persName xml:lang="de">Sibylle v. Cumae</persName>
+         </person>
+         <person xml:id="sisy">
+            <persName xml:lang="de">Sisyphus</persName>
+         </person>
+         <person xml:id="scyl">
+            <persName xml:lang="de">Skylla</persName>
+         </person>
+         <person xml:id="thal">
+            <persName xml:lang="de">Thalia</persName>
+         </person>
+         <person xml:id="thes">
+            <persName xml:lang="de">Theseus</persName>
+         </person>
+         <person xml:id="tita">
+            <persName xml:lang="de">Titan</persName>
+         </person>
+         <person xml:id="uran">
+            <persName xml:lang="de">Urania</persName>
+         </person>
+         <person xml:id="ursu">
+            <persName xml:lang="de">Ursula</persName>
+         </person>
+         <person xml:id="venu">
+            <persName xml:lang="de">Venus</persName>
+         </person>
+      </listPerson>
+      <listPerson type="real">
+         <person xml:id="abha" ana="http://viaf.org/viaf/54960880">
+            <persName xml:lang="la"><forename>Joannes</forename>
+               <surname>Abhauser</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Abhauser</surname></persName>
+         </person>
+         <person xml:id="aeso" ana="http://viaf.org/viaf/64013451">
+            <persName xml:lang="la">Aesopus</persName>
+            <persName xml:lang="de">Aesop</persName>
+         </person>
+         <person xml:id="agri" ana="http://viaf.org/viaf/20829792">
+            <persName xml:lang="la"><forename>Rudolphus</forename>
+               <surname>Agricola</surname></persName>
+            <persName xml:lang="de"><forename>Rudolf</forename>
+               <surname>Baumann</surname></persName>
+         </person>
+         <person xml:id="albi" ana="http://viaf.org/viaf/12693394">
+            <persName xml:lang="la"><forename>Decimus Iunius</forename>
+               <surname>Brutus Albinus</surname></persName>
+            <persName xml:lang="de"><forename>Decimus Iunius</forename>
+               <surname>Brutus Albinus</surname></persName>
+         </person>
+         <person xml:id="alca" ana="http://viaf.org/viaf/228050642">
+            <persName xml:lang="la">Alcaeus</persName>
+            <persName xml:lang="de">Alkaios</persName>
+         </person>
+         <person xml:id="alch" ana="http://viaf.org/viaf/303811737">
+            <persName xml:lang="de"><forename>Michael</forename>
+               <surname>Alchover</surname></persName>
+            <persName xml:lang="la"><forename>Michael</forename>
+               <surname>Alchophorus</surname></persName>
+         </person>
+         <person xml:id="alex" ana="http://viaf.org/viaf/88742742">
+            <persName xml:lang="de"><forename>Alexander</forename>
+               <roleName>der Große</roleName></persName>
+         </person>
+         <person xml:id="andr" ana="http://viaf.org/viaf/32016421">
+            <persName xml:lang="la"><forename>Publius Faustus</forename>
+               <surname>Andrelinus</surname></persName>
+            <persName xml:lang="de"><forename>Publio Fausto</forename>
+               <surname>Andrelini</surname></persName>
+         </person>
+         <person xml:id="anna" ana="http://viaf.org/viaf/70125542">
+            <persName xml:lang="de"><forename>Anna</forename>
+               <roleName>von Böhmen und Ungarn</roleName></persName>
+         </person>
+         <person xml:id="anto" ana="http://viaf.org/viaf/88759462">
+            <persName xml:lang="la"><forename>Marcus</forename>
+               <surname>Antonius</surname></persName>
+            <persName xml:lang="de"><forename>Mark</forename>
+               <surname>Anton</surname></persName>
+         </person>
+         <person xml:id="aper" ana="http://viaf.org/viaf/33133959">
+            <persName xml:lang="la"><forename>Petreius</forename>
+               <surname>Aperbacchus</surname></persName>
+            <persName xml:lang="de"><forename>Peter</forename>
+               <surname>Eberbach</surname></persName>
+         </person>
+         <person xml:id="arch" ana="http://viaf.org/viaf/161630631">
+            <persName xml:lang="la">Archilochus</persName>
+            <persName xml:lang="de">Archilochos</persName>
+         </person>
+         <person xml:id="aris" ana="http://viaf.org/viaf/43254199">
+            <persName xml:lang="la">Aristarchus Samothracenus</persName>
+            <persName xml:lang="de">Aristarch von Samothrake</persName>
+         </person>
+         <person xml:id="asel">
+            <persName xml:lang="la"><forename>Asellius</forename>
+               <surname>Sabinus</surname></persName>
+            <persName xml:lang="de"><forename>Asellius</forename>
+               <surname>Sabinus</surname></persName>
+         </person>
+         <person xml:id="aucu" ana="http://viaf.org/viaf/48392499">
+            <persName xml:lang="la"><forename>Thomas</forename>
+               <surname>Aucuparius</surname></persName>
+            <persName xml:lang="de"><forename>Thomas</forename>
+               <surname>Vogler</surname></persName>
+         </person>
+         <person xml:id="barb" ana="http://viaf.org/viaf/5744172">
+            <persName xml:lang="la"><forename>Gilbertus</forename>
+               <surname>Barbetta</surname></persName>
+            <persName xml:lang="de"><forename>Gilberto</forename>
+               <surname>Barbetta</surname></persName>
+         </person>
+         <person xml:id="bart" ana="http://viaf.org/viaf/15583224">
+            <persName xml:lang="la"><forename>Riccardus</forename>
+               <surname>Bartholinus</surname></persName>
+            <persName xml:lang="de"><forename>Riccardo</forename>
+               <surname>Bartolini</surname></persName>
+         </person>
+         <person xml:id="bind" ana="http://viaf.org/viaf/81412640">
+            <persName xml:lang="la"><forename>Georgius</forename>
+               <surname>Binderus</surname></persName>
+            <persName xml:lang="de">
+               <forename>Georg</forename>
+               <surname>Binder</surname>
+            </persName>
+            <nationality xml:lang="la" ref="#helv"> Helvetius</nationality>
+            <nationality xml:lang="de" ref="#helv">Schweiz</nationality>
+            <residence xml:lang="la" ref="#tigu">Tigurinus</residence>
+            <residence xml:lang="de" ref="#tigu">Zürich</residence>
+         </person>
+         <person xml:id="bran" ana="http://viaf.org/viaf/29530930">
+            <persName xml:lang="la"><forename>Sebastianus</forename>
+               <surname>Brant</surname></persName>
+            <persName xml:lang="de"><forename>Sebastian</forename>
+               <surname>Brant</surname></persName>
+         </person>
+         <person xml:id="bras" ana="http://viaf.org/viaf/9899294">
+            <persName xml:lang="la"><forename>Joannes Alexander</forename>
+               <surname>Brassicanus</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Köll</surname></persName>
+         </person>
+         <person xml:id="bund" ana="http://viaf.org/viaf/71825864">
+            <persName xml:lang="la"><forename>M. Sebatianus</forename>
+               <surname>Bunderlius</surname></persName>
+            <persName xml:lang="de"><forename>Sebastian</forename>
+               <surname>Winderl</surname></persName>
+         </person>
+         <person xml:id="caes" ana=" http://viaf.org/viaf/286265178">
+            <persName xml:lang="la"><forename>Gaius Iulius</forename>
+               <surname>Caesar</surname></persName>
+            <persName xml:lang="de"><forename>Gaius Iulius</forename>
+               <surname>Caesar</surname></persName>
+         </person>
+         <person xml:id="call" ana="http://viaf.org/viaf/227445321">
+            <persName xml:lang="la">Callimachus</persName>
+            <persName xml:lang="de">Kallimachos</persName>
+         </person>
+         <person xml:id="came" ana="http://viaf.org/viaf/88564441">
+            <persName xml:lang="la"><forename>Ioannes</forename>
+               <surname>Camers</surname></persName>
+            <persName xml:lang="de"><forename>Giovanni</forename>
+               <surname>Camers</surname></persName>
+         </person>
+         <person xml:id="cati" ana="http://viaf.org/viaf/84032760">
+            <persName xml:lang="la"><forename>Lucius Sergius</forename>
+               <surname>Catilina</surname></persName>
+            <persName xml:lang="de"><forename>Lucius Sergius</forename>
+               <surname>Catilina</surname></persName>
+         </person>
+         <person xml:id="cato" ana="http://viaf.org/viaf/99852885">
+            <persName xml:lang="la">Marcus Porcius Cato</persName>
+            <persName xml:lang="de">Marcus Porcius Cato</persName>
+         </person>
+         <person xml:id="catu" ana="http://viaf.org/viaf/100218993">
+            <persName xml:lang="la"><forename>Gaius Valerius</forename>
+               <surname>Catullus</surname></persName>
+            <persName xml:lang="de"><forename>Gaius Valerius</forename>
+               <surname>Catullus</surname></persName>
+         </person>
+         <person xml:id="celt" ana="http://viaf.org/viaf/64142723">
+            <persName xml:lang="la"><forename>Conradus</forename>
+               <surname>Celtis</surname></persName>
+            <persName xml:lang="de"><forename>Konrad</forename>
+               <surname>Celtis</surname></persName>
+         </person>
+         <person xml:id="cice" ana="http://viaf.org/viaf/78769600">
+            <persName xml:lang="la"><forename>Marcus</forename>
+               <surname>Tullius Cicero</surname></persName>
+            <persName xml:lang="de"><forename>Marcus</forename>
+               <surname>Tullius Cicero</surname></persName>
+         </person>
+         <person xml:id="ccla" ana="http://viaf.org/viaf/87172361">
+            <persName xml:lang="la"><forename>Claudius</forename></persName>
+            <persName xml:lang="de"><roleName>Kaiser</roleName>
+               <forename>Claudius</forename></persName>
+         </person>
+         <person xml:id="clau" ana="http://viaf.org/viaf/246763674">
+            <persName xml:lang="la"><forename>Claudius</forename>
+               <surname>Claudianus</surname></persName>
+            <persName xml:lang="de"><forename>Claudius</forename>
+               <surname>Claudianus</surname></persName>
+         </person>
+         <person xml:id="cleo" ana="http://viaf.org/viaf/67762941">
+            <persName xml:lang="la">Cleopatra</persName>
+            <persName xml:lang="de">Kleopatra</persName>
+         </person>
+         <person xml:id="cliv" ana="http://viaf.org/viaf/53772990">
+            <persName xml:lang="la"><forename>Rudolphus</forename>
+               <surname>Clivanus</surname></persName>
+            <persName xml:lang="de"><forename>Rudolf</forename>
+               <surname>Ambühl</surname></persName>
+         </person>
+         <person xml:id="coll" ana="http://viaf.org/viaf/10655430">
+            <persName xml:lang="la"><forename>Georgius</forename>
+               <surname>Collimitius</surname></persName>
+            <persName xml:lang="de"><forename>Georg</forename>
+               <surname>Tannstetter</surname></persName>
+         </person>
+         <person xml:id="cosp" ana="http://viaf.org/viaf/47814086">
+            <persName xml:lang="la">Angelus Cospus</persName>
+            <persName xml:lang="de">Angelo Cospi</persName>
+         </person>
+         <person xml:id="cras" ana="http://viaf.org/viaf/57701279">
+            <persName xml:lang="la"><forename>Christophorus</forename>
+               <surname>Crassus</surname>
+               <addName>Gallensis</addName></persName>
+            <persName xml:lang="de"><forename>Christoph</forename>
+               <surname>Crassus</surname></persName>
+         </person>
+         <person xml:id="cusp" ana="http://viaf.org/viaf/56145857800523020145">
+            <persName xml:lang="la"><forename>Joannes</forename>
+               <surname>Cuspinianus</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Spießheimer</surname></persName>
+         </person>
+         <person xml:id="dant" ana="http://viaf.org/viaf/5031671">
+            <persName xml:lang="la"><forename>Ioannes</forename>
+               <surname>Dantiscus</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Danziger</surname></persName>
+         </person>
+         <person xml:id="diac" ana="http://viaf.org/viaf/40174477">
+            <persName xml:lang="la"><forename>Paulus</forename>
+               <surname>Diaconus</surname></persName>
+            <persName xml:lang="de"><forename>Paul</forename>
+               <surname>Warnefried</surname></persName>
+         </person>
+         <person xml:id="eck" ana="http://viaf.org/viaf/27885714">
+            <persName xml:lang="la"><forename>Andreas</forename>
+               <surname>Eck</surname></persName>
+            <persName xml:lang="de"><forename>Andreas</forename>
+               <surname>Egg</surname></persName>
+         </person>
+         <person xml:id="enni" ana="http://viaf.org/viaf/84976347">
+            <persName xml:lang="la"><forename>Quintus</forename>
+               <surname>Ennius</surname></persName>
+            <persName xml:lang="de"><forename>Quintus</forename>
+               <surname>Ennius</surname></persName>
+         </person>
+         <person xml:id="foen" ana="http://viaf.org/viaf/96942940">
+            <persName xml:lang="la"><forename>Joannes</forename>
+               <surname>Foeniseca</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Mader</surname></persName>
+         </person>
+         <person xml:id="galb" ana="http://viaf.org/viaf/27034761">
+            <persName xml:lang="la"><forename>Servius Sulpicius</forename>
+               <surname>Galba</surname></persName>
+            <persName xml:lang="de"><roleName>Kaiser</roleName>
+               <forename>Servius Sulpicius</forename>
+               <surname>Galba</surname></persName>
+         </person>
+         <person xml:id="gerb" ana="http://viaf.org/viaf/60906847">
+            <persName xml:lang="la"><forename>Nicolaus</forename>
+               <surname>Gerbellius</surname></persName>
+            <persName xml:lang="de"><forename>Nikolaus</forename>
+               <surname>Gerbel</surname></persName>
+         </person>
+         <person xml:id="gund" ana="http://viaf.org/viaf/3286047">
+            <persName xml:lang="la"><forename>Philippus</forename>
+               <surname>Gundelius</surname></persName>
+            <persName xml:lang="de"><forename>Philipp</forename>
+               <surname>Gundel</surname></persName>
+         </person>
+         <person xml:id="hali" ana="http://viaf.org/viaf/10661357">
+            <persName xml:lang="la"><forename>Volfgangus</forename>
+               <surname>Halimarius</surname></persName>
+            <persName xml:lang="de"><forename>Wolfgang</forename>
+               <surname>Heiligmeier</surname></persName>
+         </person>
+         <person xml:id="haus" ana="http://viaf.org/viaf/5097152932554109830008">
+            <persName xml:lang="de"><forename>Hieronymus</forename>
+               <surname>Hauser</surname></persName>
+         </person>
+         <person xml:id="hora" ana="http://viaf.org/viaf/100227522">
+            <persName xml:lang="la"><forename>Quintus Horatius</forename>
+               <surname>Flaccus</surname></persName>
+            <persName xml:lang="de"><forename>Quintus Horatius</forename>
+               <surname>Flaccus</surname></persName>
+         </person>
+         <person xml:id="hurt" ana="http://viaf.org/viaf/95193756">
+            <persName xml:lang="la"><forename>Ulricus</forename>
+               <surname>Hurtenus</surname></persName>
+            <persName xml:lang="de"><forename>Ulrich</forename>
+               <addName>von</addName>
+               <surname>Hutten</surname></persName>
+         </person>
+         <person xml:id="iorn" ana="http://viaf.org/viaf/268814081">
+            <persName xml:lang="la">Iornandes</persName>
+            <persName xml:lang="de">Iornandes</persName>
+         </person>
+         <person xml:id="iuve" ana="http://viaf.org/viaf/83985148">
+            <persName xml:lang="la"><forename>Decimus Iunius</forename>
+               <surname>Iuvenalis</surname></persName>
+            <persName xml:lang="de"><forename>Decimus Iunius</forename>
+               <surname>Iuvenalis</surname></persName>
+         </person>
+         <person xml:id="kuni" ana="http://viaf.org/viaf/45184858">
+            <persName xml:lang="de">Kunigunde von Österreich</persName>
+         </person>
+         <person xml:id="lene" ana="http://viaf.org/viaf/74669441">
+            <persName xml:lang="la"><forename>Ulricus</forename>
+               <surname>Lener</surname></persName>
+            <persName xml:lang="de"><forename>Ulrich</forename>
+               <surname>Lener</surname></persName>
+         </person>
+         <person xml:id="lepi" ana="http://viaf.org/viaf/35272659">
+            <persName xml:lang="la"><forename>Adam</forename>
+               <surname>Lepidus Necharanus</surname></persName>
+            <persName xml:lang="de"><forename>Adam</forename>
+               <surname>Lepidus Necharanus</surname></persName>
+         </person>
+         <person xml:id="logu" ana="http://viaf.org/viaf/100199045">
+            <persName xml:lang="la"><forename>Georgius</forename>
+               <surname>Logus</surname></persName>
+            <persName xml:lang="de"><forename>Georg</forename>
+               <surname>von Logau</surname></persName>
+         </person>
+         <person xml:id="long" ana="http://viaf.org/viaf/49659875">
+            <persName xml:lang="la"><forename>Vincencius</forename>
+               <surname>Longinus</surname></persName>
+            <persName xml:lang="de"><forename>Vincenz</forename>
+               <surname>Lang</surname></persName>
+         </person>
+         <person xml:id="luca" ana="http://viaf.org/viaf/100902938">
+            <persName xml:lang="la"><forename>Marcus Annaeus</forename>
+               <surname>Lucanus</surname></persName>
+            <persName xml:lang="de"><forename>Marcus Annaeus</forename>
+               <surname>Lucanus</surname></persName>
+         </person>
+         <person xml:id="lukr" ana="http://viaf.org/viaf/106388020">
+            <persName xml:lang="la"><forename>Titus</forename>
+               <surname>Lucretius Carus</surname></persName>
+            <persName xml:lang="de"><forename>Titus</forename>
+               <surname>Lucretius Carus</surname></persName>
+         </person>
+         <person xml:id="lucu" ana="http://viaf.org/viaf/50021288">
+            <persName xml:lang="la"><forename>Lucius Licinius</forename>
+               <surname>Lucullus</surname></persName>
+            <persName xml:lang="de"><forename>Lucius Licinius</forename>
+               <surname>Lucullus</surname></persName>
+         </person>
+         <person xml:id="lu10" ana="http://viaf.org/viaf/264152041">
+            <persName xml:lang="de"><forename>Ludwig</forename> X. <roleName>Herzog von
+                  Bayern</roleName></persName>
+         </person>
+         <person xml:id="lud2" ana="http://viaf.org/viaf/58988207">
+            <persName xml:lang="de"><forename>Ludwig</forename>
+               <addName>II.</addName>
+               <roleName>König von Ungarn</roleName></persName>
+         </person>
+         <person xml:id="mari" ana="http://viaf.org/viaf/77119805">
+            <persName xml:lang="de"><forename>Maria</forename>
+               <roleName>von Ungarn</roleName></persName>
+         </person>
+         <person xml:id="mart" ana="http://viaf.org/viaf/8099277">
+            <persName xml:lang="la"><forename>Marcus Valerius</forename>
+               <surname>Martialis</surname></persName>
+            <persName xml:lang="de"><forename>Marcus Valerius</forename>
+               <surname>Martialis</surname></persName>
+         </person>
+         <person xml:id="maus" ana="http://viaf.org/viaf/232149196510774791913">
+            <persName xml:lang="de">Mausolos II.</persName>
+         </person>
+         <person xml:id="max1" ana="http://viaf.org/viaf/293727145">
+            <persName xml:lang="de"><roleName>Kaiser</roleName>
+               <forename>Maximilian</forename>
+               <addName>I.</addName></persName>
+         </person>
+         <person xml:id="mela" ana="http://viaf.org/viaf/56595112">
+            <persName xml:lang="la"><forename>Antonius</forename>
+               <surname>Niger</surname>
+               <surname>Mela</surname></persName>
+            <persName xml:lang="de"><forename>Anton</forename>
+               <surname>Niger</surname></persName>
+         </person>
+         <person xml:id="murr" ana="http://viaf.org/viaf/60015679">
+            <persName xml:lang="la"><surname>Murrho</surname>
+               <addName>iunior</addName></persName>
+            <persName xml:lang="de"><forename>Sebastian</forename>
+               <surname>Murrho</surname>
+               <addName>der Jüngere</addName></persName>
+         </person>
+         <person xml:id="novi" ana="http://viaf.org/viaf/12331377">
+            <persName xml:lang="la"><forename>Gerardus</forename>
+               <surname>Noviomagus</surname></persName>
+            <persName xml:lang="de"><forename>Gerhard</forename>
+               <surname>Geldenhauer</surname></persName>
+         </person>
+         <person xml:id="otto" ana="http://viaf.org/viaf/1466145857144622922976">
+            <persName xml:lang="la"><forename>Bernhardus</forename>
+               <surname>Otto</surname>
+               <addName>Studtgardinus</addName></persName>
+            <persName xml:lang="de"><forename>Bernhard</forename>
+               <surname>Otto</surname>
+               <addName>von Stuttgart</addName></persName>
+         </person>
+         <person xml:id="ovid" ana="http://viaf.org/viaf/88342447">
+            <persName xml:lang="la"><forename>Publius</forename>
+               <surname>Ovidius Naso</surname></persName>
+            <persName xml:lang="de"><forename>Publius</forename>
+               <surname>Ovidius Naso</surname></persName>
+         </person>
+         <person xml:id="pala" ana="http://viaf.org/viaf/100181721">
+            <persName xml:lang="la">Palaephatus</persName>
+            <persName xml:lang="de">Palaiphatos</persName>
+         </person>
+         <person xml:id="paul" ana="http://viaf.org/viaf/20498333">
+            <persName xml:lang="la">Matthias Paulinus</persName>
+            <persName xml:lang="de">Matthias Paulinus</persName>
+         </person>
+         <person xml:id="perl" ana="http://viaf.org/viaf/10679935">
+            <persName xml:lang="la"><forename>Andreas</forename>
+               <surname>Perlachius</surname></persName>
+            <persName xml:lang="de"><forename>Andreas</forename>
+               <surname>Perlach</surname></persName>
+         </person>
+         <person xml:id="peri" ana="http://viaf.org/viaf/100198157">
+            <persName xml:lang="la"><forename>Aulus</forename>
+               <surname>Persius Flaccus</surname></persName>
+            <persName xml:lang="de"><forename>Aulus</forename>
+               <surname>Persius Flaccus</surname></persName>
+         </person>
+         <person xml:id="peut" ana="http://viaf.org/viaf/56776766">
+            <persName xml:lang="la"><forename>Conradus</forename>
+               <surname>Peutinger</surname></persName>
+            <persName xml:lang="de"><forename>Konrad</forename>
+               <surname>Peutinger</surname></persName>
+         </person>
+         <person xml:id="phil" ana="http://viaf.org/viaf/70733943">
+            <persName xml:lang="la">Philetas Cous</persName>
+            <persName xml:lang="de">Philetas von Kos</persName>
+         </person>
+         <person xml:id="pind" ana="http://viaf.org/viaf/100181310">
+            <persName xml:lang="la">Pindarus</persName>
+            <persName xml:lang="de">Pindar</persName>
+         </person>
+         <person xml:id="pini" ana="http://viaf.org/viaf/102328872">
+            <persName xml:lang="la"><forename>Ioannes</forename>
+               <surname>Pinicianus</surname></persName>
+            <persName xml:lang="de"><forename>Johann</forename>
+               <surname>Pinicianus</surname></persName>
+         </person>
+         <person xml:id="plat" ana="http://viaf.org/viaf/303814984">
+            <persName xml:lang="la">Plato</persName>
+            <persName xml:lang="de">Platon</persName>
+         </person>
+         <person xml:id="pluh" ana="http://viaf.org/viaf/268955446">
+            <persName xml:lang="la">Plutarchus</persName>
+            <persName xml:lang="de">Plutarch</persName>
+         </person>
+         <person xml:id="pont" ana="http://viaf.org/viaf/9919481">
+            <persName xml:lang="la"><forename>Ioannes Iovianus</forename>
+               <surname>Pontanus</surname></persName>
+            <persName xml:lang="de"><forename>Giovanni Gioviano</forename>
+               <surname>Pontano</surname></persName>
+         </person>
+         <person xml:id="ptol" ana="http://viaf.org/viaf/54152998">
+            <persName xml:lang="la"><forename>Claudius</forename>
+               <surname>Ptolemaeus</surname></persName>
+            <persName xml:lang="de"><forename>Claudius</forename>
+               <surname>Ptolemaeus</surname></persName>
+         </person>
+         <person xml:id="prop" ana="http://viaf.org/viaf/100907186">
+            <persName xml:lang="la"><forename>Sextus</forename>
+               <surname>Propertius</surname></persName>
+            <persName xml:lang="de"><forename>Sextus</forename>
+               <surname>Propertius</surname></persName>
+         </person>
+         <person xml:id="quin" ana="http://viaf.org/viaf/34451872">
+            <persName xml:lang="la"><forename>Marcus Fabius</forename>
+               <surname>Quintilianus</surname></persName>
+            <persName xml:lang="de"><forename>Marcus Fabius</forename>
+               <surname>Quintilianus</surname></persName>
+         </person>
+         <person xml:id="rein" ana="http://viaf.org/viaf/25420641">
+            <persName xml:lang="la"><forename>Sebastianus</forename>
+               <surname>Reinaldus</surname></persName>
+            <persName xml:lang="de"><forename>Sebastian</forename>
+               <surname>Reinald</surname></persName>
+         </person>
+         <person xml:id="rest" ana="http://viaf.org/viaf/301075418">
+            <persName xml:lang="la"><forename>Ludovicus</forename>
+               <surname>Restio</surname>
+               <addName>Vordinganus</addName></persName>
+            <persName xml:lang="de"><forename>Ludwig</forename>
+               <surname>Restio</surname>
+               <addName>Vordinganus</addName></persName>
+         </person>
+         <person xml:id="ring" ana="http://viaf.org/viaf/34466424">
+            <persName xml:lang="la"><forename>Philesius</forename>
+               <addName>Vogesigena</addName>
+               <surname>Ringmannus</surname></persName>
+            <persName xml:lang="de"><forename>Matthias</forename>
+               <surname>Ringmann</surname></persName>
+         </person>
+         <person xml:id="rosi" ana="http://viaf.org/viaf/37991609">
+            <persName xml:lang="la"><forename>Ioannes</forename>
+               <surname>Rosinus</surname></persName>
+            <persName xml:lang="de"><forename>Johannes</forename>
+               <surname>Rosinus</surname></persName>
+         </person>
+         <person xml:id="rufi" ana="http://viaf.org/viaf/14591091">
+            <persName xml:lang="la"><forename>Flavius</forename>
+               <surname>Rufinus</surname></persName>
+            <persName xml:lang="de"><forename>Flavius</forename>
+               <surname>Rufinus</surname></persName>
+         </person>
+         <person xml:id="sapp" ana="http://viaf.org/viaf/78770488">
+            <persName xml:lang="la">Sapphus</persName>
+            <persName xml:lang="de">Sappho</persName>
+         </person>
+         <person xml:id="saur" ana="http://viaf.org/viaf/3153530843548700804">
+            <persName xml:lang="la"><forename>Laurentius</forename>
+               <surname>Saurer</surname></persName>
+            <persName xml:lang="de"><forename>Laurenz</forename>
+               <surname>Saurer</surname></persName>
+         </person>
+         <person xml:id="sigi" ana="http://viaf.org/viaf/84145052">
+            <persName xml:lang="la"><forename>Sigismundus</forename>
+               <roleName>Poloniae Rex</roleName></persName>
+            <persName xml:lang="de"><forename>Sigismund</forename>
+               <addName>I.</addName>
+               <roleName>König von Polen</roleName></persName>
+         </person>
+         <person xml:id="sili" ana="http://viaf.org/viaf/27071645">
+            <persName xml:lang="la"><forename>Tiberius Catius</forename>
+               <surname>Silius Italicus</surname></persName>
+            <persName xml:lang="de"><forename>Tiberius Catius</forename>
+               <surname>Silius Italicus</surname></persName>
+         </person>
+         <person xml:id="stat" ana="http://viaf.org/viaf/100904338">
+            <persName xml:lang="la"><forename>Publius Papinius</forename>
+               <surname>Statius</surname></persName>
+            <persName xml:lang="de"><forename>Publius Papinius</forename>
+               <surname>Statius</surname></persName>
+         </person>
+         <person xml:id="stes" ana="http://viaf.org/viaf/79398301">
+            <persName xml:lang="la">Stesichorus</persName>
+            <persName xml:lang="de">Stesichoros</persName>
+         </person>
+         <person xml:id="stil" ana="http://viaf.org/viaf/38569929">
+            <persName xml:lang="la">Flavius Stilicho</persName>
+            <persName xml:lang="de">Flavius Stilicho</persName>
+            </person>
+         <person xml:id="sulp" ana="http://viaf.org/viaf/10638837">
+            <persName xml:lang="la"><forename>Servius</forename>
+               <surname>Sulpicius Rufus</surname></persName>
+            <persName xml:lang="de"><forename>Servius</forename>
+               <surname>Sulpicius Rufus</surname></persName>
+         </person>
+         <person xml:id="tibu" ana="http://viaf.org/viaf/100219266">
+            <persName xml:lang="la"><forename>Albius</forename>
+               <surname>Tibullus</surname></persName>
+            <persName xml:lang="de"><forename>Albius</forename>
+               <surname>Tibullus</surname></persName>
+         </person>
+         <person xml:id="timo" ana="http://viaf.org/viaf/20551328">
+            <persName xml:lang="la">Timon</persName>
+            <persName xml:lang="de">Timon von Athen</persName>
+         </person>
+         <person xml:id="ulse" ana="http://viaf.org/viaf/42640866">
+            <persName xml:lang="la"><forename>Theodoricus</forename>
+               <surname>Ulsenius</surname></persName>
+            <persName xml:lang="de"><forename>Dietrich</forename>
+               <surname>Ulsen</surname></persName>
+         </person>
+         <person xml:id="ursi" ana="http://viaf.org/viaf/79441643">
+            <persName xml:lang="la"><forename>Caspar</forename>
+               <surname>Ursinus Velius</surname></persName>
+            <persName xml:lang="de"><forename>Kaspar</forename>
+               <surname>Ursinus Vel</surname></persName>
+         </person>
+         <person xml:id="vadi" ana="http://viaf.org/viaf/29572382">
+            <persName xml:lang="la"><forename>Joachim</forename>
+               <surname>Vadianus</surname></persName>
+            <persName xml:lang="de"><forename>Joachim</forename>
+               <surname>Watt</surname></persName>
+         </person>
+         <person xml:id="vad2" ana="http://viaf.org/viaf/22572265">
+            <persName xml:lang="la"><forename>Melchior</forename>
+               <surname>Vadianus</surname></persName>
+            <persName xml:lang="de"><forename>Melchior</forename>
+               <surname>Watt</surname></persName>
+         </person>
+         <person xml:id="velo" ana="http://viaf.org/viaf/305464622">
+            <persName xml:lang="la"><forename>Thomas</forename>
+               <surname>Roscius</surname></persName>
+            <persName xml:lang="la"><forename>Thomas</forename>
+               <surname>Velocianus</surname></persName>
+            <persName xml:lang="de"><forename>Thomas</forename>
+               <surname>Resch</surname></persName>
+         </person>
+         <person xml:id="verg" ana="http://viaf.org/viaf/8194433">
+            <persName xml:lang="la"><forename>Publius</forename>
+               <surname>Vergilius Maro</surname></persName>
+            <persName xml:lang="de"><forename>Publius</forename>
+               <surname>Vergilius Maro</surname></persName>
+         </person>
+         <person xml:id="vite" ana="http://viaf.org/viaf/16012563">
+            <persName xml:lang="la"><forename>Aulus</forename>
+               <surname>Vitellius</surname></persName>
+            <persName xml:lang="de"><roleName>Kaiser</roleName>
+               <forename>Aulus</forename>
+               <surname>Vitellius</surname></persName>
+         </person>
+         <person xml:id="vlad" ana="http://viaf.org/viaf/35999262">
+            <persName xml:lang="de"><forename>Vladislav</forename>
+               <addName>II.</addName>
+               <roleName>König von Böhmen und Ungarn</roleName></persName>
+         </person>
+         <person xml:id="voeg" ana="http://viaf.org/viaf/7736627">
+            <persName xml:lang="la">Ioannes Voegelin</persName>
+            <persName xml:lang="de">Johannes Vögelin</persName>
+         </person>
+         <person xml:id="vuol" ana="http://viaf.org/viaf/52785724">
+            <persName xml:lang="la"><forename>Thomas</forename>
+               <surname>Vuolphius</surname>
+               <addName>Iunior</addName></persName>
+            <persName xml:lang="de"><forename>Thomas</forename>
+               <surname>Wolff</surname>
+               <addName>der Jüngere</addName></persName>
+         </person>
+         <person xml:id="xerx" ana="http://viaf.org/viaf/282770127">
+            <persName xml:lang="la"><forename>Xerxes</forename></persName>
+            <persName xml:lang="de"><roleName>König</roleName>
+               <forename>Xerxes</forename>
+               <addName>I.</addName></persName>
+         </person>
+         <person xml:id="zasi" ana="http://viaf.org/viaf/61645489">
+            <persName xml:lang="la"><forename>Uldaricus</forename>
+               <surname>Zasius</surname></persName>
+            <persName xml:lang="de"><forename>Ulrich</forename>
+               <surname>Zasius</surname></persName>
+         </person>
+         <person xml:id="zila" ana="http://viaf.org/viaf/54967628">
+            <persName xml:lang="la"><forename>Ambrosius</forename>
+               <surname>Zilagius</surname></persName>
+            <persName xml:lang="de"><forename>Ambrus</forename>
+               <surname>Szilágyi</surname></persName>
+         </person>
+      </listPerson>
+   </standOff>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
