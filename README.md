@@ -1,5 +1,7 @@
 # LADEPO
 
+1. Deutsch
+
 ## Ziele:
 Die vorliegende Edition (Arbeitstitel: "LADEPO - Latin Dedicatory Poems of the early modern period") verfolgt vor allem das Ziel, lateinische carmina liminaria (sog. "Schwellengedichte", metrische Paratexte, die zunächst in Handschriften, später in Drucken gemeinsam mit dem Hauptwerk veröffentlicht wurden) in gesammelter Form darstell- und für geisteswissenschaftliche Analysen verwendbar zu machen. Der Fokus liegt dabei einerseits auf der Zurverfügungstellung der Texte in digitaler Form und andererseits auf ihrer inhaltlichen Erschließung im Sinne der Aufbereitung und Strukturierung der in ihnen enthaltenen bzw. paratextuell vorliegenden Informationen bezüglich der Beziehungen der einzelnen Gelehrten zueinander. Dies betrifft vor allem die Annotation von Personen, Orten und Schlagworten sowie eine Anreicherung durch offen verfügbare Normdaten (Linked open data).
 
