@@ -15,7 +15,7 @@ Eine ausführliche Darstellung der Hintergründe, Umsetzung und Potenziale der E
 Die primäre Kodierung der Gedichte wurde im Format TEI/XML umgesetzt. Aus diesen XML-Kodierungen wurden durch die Einbindung von XSLT-Stylesheets Transformationen in die Formate HTML und RDF durchgeführt. Weitere verwendete Technologien umfassen CSS für das Stylesheet der HTML-Transformationen sowie SPARQL als Abfragesprache der Graphdatenbank.
 
 
-
+----------------------
 
 
 2. English
