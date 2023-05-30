@@ -11,17 +11,13 @@
          xml:lang="en">
    <rdf:Description rdf:about="#peut_16">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:Poem/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/37991609"/>
       <gndo:broaderTermPartitive rdf:resource="#peut-1529"/>
    </rdf:Description>
    <rdf:Description rdf:about="#peut-1529">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:PrintObject/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
       <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/37991609"/>
    </rdf:Description>

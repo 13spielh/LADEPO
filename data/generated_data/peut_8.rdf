@@ -11,17 +11,13 @@
          xml:lang="en">
    <rdf:Description rdf:about="#peut_8">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:Poem/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/34466424"/>
       <gndo:broaderTermPartitive rdf:resource="#peut-1506"/>
    </rdf:Description>
    <rdf:Description rdf:about="#peut-1506">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:PrintObject/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
       <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/34466424"/>
    </rdf:Description>
@@ -37,6 +33,7 @@
       <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
       <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
       <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:XX"/>
       <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
       <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/gmh"/>
    </rdf:Description>

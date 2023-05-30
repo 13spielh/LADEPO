@@ -11,17 +11,13 @@
          xml:lang="en">
    <rdf:Description rdf:about="#vadi_5">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:Poem/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/1466145857144622922976"/>
       <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
    </rdf:Description>
    <rdf:Description rdf:about="#vadi-1514">
       <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
-      <frbr:exemplarOf>
-         <fabio:PrintObject/>
-      </frbr:exemplarOf>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
       <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
       <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/1466145857144622922976"/>
    </rdf:Description>
