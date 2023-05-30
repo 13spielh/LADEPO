@@ -22,9 +22,11 @@
                         <xsl:value-of select="//t:language/@ana"/>
                     </xsl:attribute>
                 </gndo:language>
-                <frbr:exemplarOf>
-                    <fabio:Poem/>
-                </frbr:exemplarOf>
+                <rdf:type>
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:text>http://purl.org/spar/fabio/Poem</xsl:text>
+                    </xsl:attribute>
+                </rdf:type>
                 <gndo:author>
                     <xsl:variable name="author">
                         <xsl:value-of select="//t:persName[@type = 'author']/substring(@ref, 2, 4)"
@@ -57,9 +59,11 @@
                         <xsl:value-of select="//t:language[@ident = $lang]/@ana"/>
                     </xsl:attribute>
                 </gndo:language>
-                <frbr:exemplarOf>
-                    <fabio:PrintObject/>
-                </frbr:exemplarOf>
+                <rdf:type>
+                    <xsl:attribute name="rdf:resource">
+                        <xsl:text>http://purl.org/spar/fabio/PrintObject</xsl:text>
+                    </xsl:attribute>
+                </rdf:type>
                 <gndo:author>
                     <xsl:variable name="author_cont">
                         <xsl:value-of select="//t:ab/t:bibl/substring(@corresp, 11, 4)"/>
