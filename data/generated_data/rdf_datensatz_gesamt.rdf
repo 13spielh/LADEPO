@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF
+  SYSTEM "about:legacy-compat">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:gndo="https://d-nb.info/standards/elementset/gnd#" xmlns:viaf="http://viaf.org/viaf/terms#"
+   xmlns:fabio="http://purl.org/spar/fabio#" xmlns:frbr="http://purl.org/vocab/frbr/core#"
+   xmlns:t="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <rdf:Description rdf:about="#celt_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/49659875"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1502"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1502">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/49659875"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/49659875"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/49659875">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_3">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/88564441"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/88564441"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/88564441"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/88564441">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_4">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/60906847"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/60906847"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/60906847"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/60906847">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_5">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/42640866"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/42640866"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/42640866"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/42640866">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/und"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_6">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/5744172"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/5744172"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/5744172"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/5744172">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_8">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_9">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_10">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/60015679"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/60015679"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/60015679"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/60015679">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_11">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/305464622"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/305464622"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/305464622"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/305464622">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_12">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_13">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/88564441"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/88564441"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/88564441"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/88564441">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt_14">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/88564441"/>
+      <gndo:broaderTermPartitive rdf:resource="#celt-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#celt-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/64142723"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/88564441"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/64142723">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/88564441"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/88564441">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/64142723"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1512"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1512">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/33133959"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1512"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1512">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/33133959"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/33133959"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/33133959">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_3">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/95193756"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1512"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1512">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/95193756"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/95193756"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/95193756">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/deu"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_4">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_5">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/54960880"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/54960880"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/54960880"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/54960880">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_6">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#coll-1523"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#coll-1523">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10655430"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10655430">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10655430"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cosp_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/88564441"/>
+      <gndo:broaderTermPartitive rdf:resource="#cosp-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cosp-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/47814086"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/88564441"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/47814086">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/88564441"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/88564441">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/47814086"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cosp_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:broaderTermPartitive rdf:resource="#cosp-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cosp-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/47814086"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/47814086">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/47814086"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1509"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1509">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_4">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_5">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/35272659"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/35272659"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/35272659"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/35272659">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_6">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1513"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1513">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1526"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1526">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp_8">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/9899294"/>
+      <gndo:broaderTermPartitive rdf:resource="#cusp-1526"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#cusp-1526">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/9899294"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56145857800523020145">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/9899294"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/9899294">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56145857800523020145"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#gund_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/303811737"/>
+      <gndo:broaderTermPartitive rdf:resource="#gund-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#gund-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/303811737"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/303811737"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/303811737">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#perl-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10679935"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10679935">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SI"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10679935"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#perl-1519"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl-1519">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10679935"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10679935">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SI"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10679935"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl_3">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/37991609"/>
+      <gndo:broaderTermPartitive rdf:resource="#perl-1528"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#perl-1528">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10679935"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/37991609"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10679935">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/37991609"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:SI"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10679935"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/96942940"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1505"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1505">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/96942940"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/96942940"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/96942940">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1505"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1505">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/56776766"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_4">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/61645489"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1506"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1506">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/61645489"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/61645489"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/61645489">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_6">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29530930"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1506"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1506">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/29530930"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29530930"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29530930">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:BE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/gmh"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/deu"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/48392499"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1506"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1506">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/48392499"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/48392499"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/48392499">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_8">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/34466424"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1506"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1506">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/34466424"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/34466424"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/34466424">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:FR"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/gmh"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_9">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/15583224"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/15583224"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/15583224"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/15583224">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_10">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/15583224"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/15583224"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/15583224"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/15583224">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:IT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_11">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_12">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_13">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/79441643"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/79441643"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/79441643"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/79441643">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_14">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/102328872"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/102328872"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/102328872"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/102328872">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_15">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/96942940"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1515"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1515">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/96942940"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/96942940"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/96942940">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_16">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/37991609"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1529"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1529">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/37991609"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/37991609"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_17">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/37991609"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1529"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1529">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/37991609"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/37991609"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/37991609">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut_18">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56595112"/>
+      <gndo:broaderTermPartitive rdf:resource="#peut-1529"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#peut-1529">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/56776766"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/56595112"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56776766">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56595112"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DX"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/56595112">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/56776766"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/deu"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1511"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1511">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_2">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/305464622"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/305464622"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/305464622"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/305464622">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_3">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/71825864"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/71825864"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/71825864"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/71825864">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_4">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/60906847"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/60906847"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/60906847"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/60906847">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_5">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/1466145857144622922976"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/1466145857144622922976"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/1466145857144622922976"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/1466145857144622922976">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_6">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/54960880"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/54960880"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/54960880"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/54960880">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_7">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/54967628"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/54967628"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/54967628"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/54967628">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_8">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_9">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/57701279"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/57701279"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/57701279"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/57701279">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_10">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/301075418"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/301075418"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/301075418"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/301075418">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_11">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/74669441"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/74669441"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/74669441"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/74669441">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_12">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1514"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1514">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_13">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/20829792"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-515a"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-515a">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/20829792"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/20829792"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/20829792">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_14">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/5031671"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-515b"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-515b">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/5031671"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/5031671"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/5031671">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:PL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/pol"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_15">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/81412640"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1517"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1517">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/81412640"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/81412640"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/81412640">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_16">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/22572265"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1517"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1517">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/22572265"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/22572265"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/22572265">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_17">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/20498333"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1517"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1517">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/20498333"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/20498333"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/20498333">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_18">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/27885714"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1517"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1517">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/27885714"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/27885714"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/27885714">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_19">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/20498333"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1517"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1517">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/20498333"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/20498333"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/20498333">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_20">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/25420641"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/25420641"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/25420641"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/25420641">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_21">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/3286047"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/3286047"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/3286047"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/3286047">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_22">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/10661357"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/10661357"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/10661357"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/10661357">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_23">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/100199045"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/100199045"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/100199045"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/100199045">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:GW"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_24">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/53772990"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/53772990"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/53772990"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/53772990">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_25">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/81412640"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/81412640"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/81412640"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/81412640">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi_26">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/303811737"/>
+      <gndo:broaderTermPartitive rdf:resource="#vadi-1518"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#vadi-1518">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/29572382"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/303811737"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/29572382">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/303811737"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:CH"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/ger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/303811737">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/29572382"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#voeg_1">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/Poem"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/12331377"/>
+      <gndo:broaderTermPartitive rdf:resource="#voeg-1529"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="#voeg-1529">
+      <gndo:language rdf:resource="https://d-nb.info/gnd/4120281-8"/>
+      <rdf:type rdf:resource="http://purl.org/spar/fabio/PrintObject"/>
+      <gndo:author rdf:resource="http://viaf.org/viaf/7736627"/>
+      <gndo:contributingPerson rdf:resource="http://viaf.org/viaf/12331377"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/7736627">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/12331377"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:AT"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://viaf.org/viaf/12331377">
+      <gndo:acquaintanceshipOrFriendship rdf:resource="http://viaf.org/viaf/7736627"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:NL"/>
+      <viaf:nationalityOfEntity rdf:resource="https://www.iso.org/obp/ui/#iso:code:3166:DE"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/lat"/>
+      <viaf:languageOfEntity rdf:resource="https://iso639-3.sil.org/code/deu"/>
+   </rdf:Description>
+</rdf:RDF>
