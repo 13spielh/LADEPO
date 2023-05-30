@@ -15,6 +15,9 @@ Eine ausführliche Darstellung der Hintergründe, Umsetzung und Potenziale der E
 Die primäre Kodierung der Gedichte wurde im Format TEI/XML umgesetzt. Aus diesen XML-Kodierungen wurden durch die Einbindung von XSLT-Stylesheets Transformationen in die Formate HTML und RDF durchgeführt. Weitere verwendete Technologien umfassen CSS für das Stylesheet der HTML-Transformationen sowie SPARQL als Abfragesprache der Graphdatenbank.
 
 
+
+
+
 2. English
 ## Objectives:
 The present edition (working title: "LADEPO - Latin Dedicatory Poems of the early modern period") aims to present Latin carmina liminaria (so-called "threshold poems", metrical paratexts that were first published in manuscripts and later in print together with the main work) in collected form and to make them accessible for humanities research. The focus is on making the texts available in a digital, researchable form, and on preparing and structuring the textual or paratextual information with regard to the relationships of the individual scholars to one another. This concerns above all the annotation of persons, places and keywords as well as an enrichment by openly available norm data (linked open data).
