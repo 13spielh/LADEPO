@@ -6,6 +6,8 @@
 
     <xsl:output method="xml" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes"/>
 
+    <!-- this stylesheet was created by Lukas Spielhofer. In this edition, it can be used to conduct transformations from xml to rdf. The latest version was updated on 31/05/2023. -->
+
     <!-- this template creates the basic structure of the rdf document -->
     <xsl:template name="content" match="/">
         <rdf:RDF xml:lang="en" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"

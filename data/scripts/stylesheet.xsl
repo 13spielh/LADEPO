@@ -6,6 +6,8 @@
 
     <xsl:output method="xml" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes"/>
 
+    <!-- this stylesheet was created by Lukas Spielhofer. It is based on the default stylesheet of the GAMS repository of the Austrian Centre for Digital Humanities (ZIM-ACDH) in Graz, Austria. In this edition, it can be used to conduct transformations from xml to html. The latest version was updated on 31/05/2023. -->
+
     <!-- this template creates the basic structure of the html document including facsimile, text/translation, and metadata -->
     <xsl:template name="content" match="/">
         <html>
