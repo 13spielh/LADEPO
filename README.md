@@ -1,4 +1,4 @@
-# LADEPO
+# LADEPO (Latin Dedicatory Poems of the early modern period)
 
 1. Deutsch
 
