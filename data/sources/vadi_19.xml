@@ -7,6 +7,12 @@
       <fileDesc>
          <titleStmt>
             <title>Watt 19 (Matthias Paulinus)</title>
+            <respStmt>
+               <persName ana="https://d-nb.info/gnd/1213309719">Lukas Spielhofer</persName>
+               <resp from="2021-06" to="2023-05">Herausgeber</resp>
+               <resp from="2021-06" to="2023-05">Textgrundlage und Aufbereitung</resp>
+               <resp from="2021-06" to="2023-05">Encoding</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher/>
@@ -18,6 +24,8 @@
             <idno type="PID">vadi_19</idno>
          </publicationStmt>
          <sourceDesc>
+            <ab>Born Digital-Aufbereitung frühneuzeitlicher Textquellen, deren Endprodukt eine
+               digitale 'assertive' Edition darstellt.</ab>
             <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
                   corresp="lists.xml#vadi-1517" xml:lang="la"/>
                <list type="keywords_genre">
@@ -90,8 +98,7 @@
                </postscript>
             </div>
             <div type="translation" corresp="#vadi_19" xml:lang="de">
-               <head>Gegen <persName>Anolbus</persName> für den
-                        <persName><roleName>Herrn</roleName>
+               <head>Gegen <persName>Anolbus</persName> für den <persName><roleName>Herrn</roleName>
                      <surname>Watt</surname>, den <roleName>Dichter und
                   Arzt</roleName></persName>.</head>
                <p>Was &lt;ist da zwischen&gt; dir, gelehrtester Sänger, und dem rasenden Monster,
