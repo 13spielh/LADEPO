@@ -6,6 +6,7 @@
 
     <xsl:output method="xml" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes"/>
 
+    <!-- this template creates the basic structure of the html document including facsimile, text/translation, and metadata -->
     <xsl:template name="content" match="/">
         <html>
             <head>
@@ -43,6 +44,7 @@
             </head>
             <body>
                 <header>
+                    <!-- title of document -->
                     <div class="container">
                         <div class="row flex">
                             <div class="col-xs-8">
@@ -66,6 +68,7 @@
                         </div>
                     </div>
                 </header>
+                <!-- navigation bar -->
                 <nav class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
                     <div class="container">
                         <div class="navbar-header">
@@ -153,6 +156,7 @@
                     }
                     });
                 </script>
+                <!-- main display area -->
                 <main class="container">
                     <section class="row equalheight">
                         <article class="col-md-12" style="margin-bottom:30px;">
@@ -232,6 +236,8 @@
                         <!--          <h2 class="panel-heading" style="font-weight: bold; font-style: normal;">
                             <xsl:value-of select="//t:title"/>
                         </h2> -->
+
+                        <!-- facsimile area -->
                         <article class="col-md-6 equal">
                             <div class="panel">
                                 <div class="panel-heading" style="padding-bottom: 0px;">
@@ -251,6 +257,8 @@
                                 </div>
                             </div>
                         </article>
+
+                        <!-- transcription and translation of the poem -->
                         <article class="col-md-6 equal">
                             <div class="panel">
                                 <h3 class="objekt">Transkription</h3>
@@ -265,6 +273,8 @@
                                 </p>
                             </div>
                         </article>
+
+                        <!-- metadata -->
                         <article class="col-md-6 equal" style="float: right;">
                             <div class="panel">
                                 <h3 class="objekt">Metadaten</h3>
@@ -374,11 +384,15 @@
             </body>
         </html>
     </xsl:template>
+
+    <!-- this template displays the heading of the text -->
     <xsl:template match="//t:div[@type = 'text']/t:head">
         <h4>
             <xsl:apply-templates/>
         </h4>
     </xsl:template>
+
+    <!-- these two templates display the transcription of the text -->
     <xsl:template match="//t:div[@type = 'text']/t:lg/t:l">
         <p class="line">
             <xsl:apply-templates/>
@@ -389,16 +403,22 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+
+    <!-- this template displays the heading of the translation of the text -->
     <xsl:template match="//t:div[@type = 'translation']/t:head">
         <h5>
             <xsl:apply-templates/>
         </h5>
     </xsl:template>
+
+    <!-- this template displays the translation of the text -->
     <xsl:template match="//t:div[@type = 'translation']/t:p">
         <p class="translation">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+
+    <!-- this template displays the name of a person taken from the glossary as a tooltip in the main text -->
     <xsl:template match="t:persName">
         <a style="text-decoration: none; color: #336354;" href="#" data-toggle="tooltip">
             <xsl:attribute name="title">
@@ -412,6 +432,8 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
+
+    <!-- this template displays the name of a place taken from the glossary as a tooltip in the main text -->
     <xsl:template match="t:placeName">
         <a style="text-decoration: none; color: #336354;" href="#" data-toggle="tooltip">
             <xsl:attribute name="title">
