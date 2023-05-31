@@ -6,12 +6,15 @@
 
     <xsl:output method="xml" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes"/>
 
+    <!-- this template creates the basic structure of the rdf document -->
     <xsl:template name="content" match="/">
         <rdf:RDF xml:lang="en" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
             xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
             xmlns:viaf="http://viaf.org/viaf/terms#" xmlns:fabio="http://purl.org/spar/fabio#"
             xmlns:frbr="http://purl.org/vocab/frbr/core#">
+            
+            <!-- this creates an rdf expression regarding the poem including information about the language, class, author, and corresponding container work -->
             <rdf:Description>
                 <xsl:attribute name="rdf:about">
                     <xsl:text>#</xsl:text>
@@ -46,6 +49,7 @@
                 </gndo:broaderTermPartitive>
             </rdf:Description>
 
+            <!-- this creates an rdf expression regarding the container work including information about the language, class, author, and contributors -->
             <rdf:Description>
                 <xsl:attribute name="rdf:about">
                     <xsl:text>#</xsl:text>
@@ -87,6 +91,7 @@
                 </gndo:contributingPerson>
             </rdf:Description>
 
+            <!-- this creates an rdf expression regarding the author of the container work including information about his language, nationality, and acquaintanceship to the author of the poem -->
             <rdf:Description>
                 <xsl:variable name="author_cont">
                     <xsl:value-of select="//t:ab/t:bibl/substring(@corresp, 11, 4)"/>
@@ -137,6 +142,7 @@
                 </xsl:for-each>
             </rdf:Description>
 
+            <!-- this creates an rdf expression regarding the author of the poem including information about his language, nationality, and acquaintanceship to the author of the container work -->
             <rdf:Description>
                 <xsl:variable name="author">
                     <xsl:value-of select="//t:persName[@type = 'author']/substring(@ref, 2, 4)"/>
