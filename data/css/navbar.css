@@ -1,4 +1,7 @@
-/*Farbschema fÃ¼r Navbar:*/
+
+/* This stylesheet is based on the default css-navbar stylesheet of the GAMS repository of the Austrian Centre for Digital Humanities (ZIM-ACDH) in Graz, Austria. The latest version was updated on 31/05/2023.*/
+
+/*colour scheme for navbar:*/
 .navbar-default {
   background-color: #475862;
   
@@ -63,7 +66,7 @@
   }  
 }
 
- /*Eckige Searchbox:*/
+ /*Squared Searchbox:*/
  nav#nav .input-group .form-control {
      border-radius:0;
  }
@@ -71,16 +74,11 @@
      border-radius:0;
  }
  
-/* Eckige Navbar*/
+/*Squared Navbar*/
 .navbar{
     border-radius:0;
 }
 
-/*Anpassung padding*/
-/*.navbar > div.container:first-child{
-    padding-left:10px;
-    padding-right:10px;
-}*/
 .navbar{
     margin-bottom:30px;
     border:none;

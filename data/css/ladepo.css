@@ -2,6 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600);
 
+/* This stylesheet is based on the default css-stylesheet of the GAMS repository of the Austrian Centre for Digital Humanities (ZIM-ACDH) in Graz, Austria. The latest version was updated on 31/05/2023. */
+
 /*
 ###### Typography
 */
@@ -35,7 +37,7 @@ h2{
 }
 
 h3{    
-    color:#336354; /*projektfarbe!*/
+    color:#336354; /*project colour!*/
     font-size:130%;
     line-height:1.8em;
     text-align: center;
@@ -75,7 +77,7 @@ q{
 }
 
 a{
-    color:#336354; /*projektfarbe!*/
+    color:#336354; /*project colour!*/
 }
 
 a:hover,
@@ -85,12 +87,13 @@ a:focus{
 }
 
 .color{
-    color:#336354; /*projektfarbe!*/
+    color:#336354; /*project colour!*/
 }
 
 /*
 ###### Header
 */
+
 @media (max-width: 768px){
     header h1{
         font-size: 160%; 
@@ -121,7 +124,7 @@ div a.unilogo {
 }
 
 header {
-    background-color: #336354;/*projektfarbe!*/
+    background-color: #336354;/*project colour!*/
     overflow: hidden;
      height: 125px;
    
@@ -147,7 +150,7 @@ div.language a, div.language a:hover, div.language a:focus {
 
 /*
 ###### Navigation
-siehe navbar.css
+cf. navbar.css
 */
 
 
@@ -157,7 +160,7 @@ siehe navbar.css
 */
 main a:hover, main a:focus {
     background-color:transparent;
-    color:#336354; /*projektfarbe!*/
+    color:#336354; /*project colour!*/
 }
 
 
@@ -203,7 +206,7 @@ img.footer_icons{
 
 
 /*
-###### Boxen
+###### Boxes
 */
 
 
@@ -216,7 +219,7 @@ img.footer_icons{
 }
 
 /*
-###### Bilder
+###### Images
 */
 
 .thumbnail{
@@ -226,7 +229,7 @@ img.footer_icons{
 .panel-with-image{
     padding-right:0;
     padding-left:0;
-    background-color:#336354; /*projektfarbe*/
+    background-color:#336354; /*project colour*/
     border:none;
 }
 
@@ -359,7 +362,7 @@ img.footer_icons{
 
 
 /*
-###### Suche und Kontextliste
+###### Search and context list
 */
 
 .list-group-submenu {
@@ -371,7 +374,7 @@ img.footer_icons{
 }
 .context-item-number{
     float:right;
-    color:#336354; /*projektfarbe*/
+    color:#336354; /*project colour*/
 }
 
 p.results{
@@ -411,7 +414,7 @@ span.icon-span{
 #search p, #results p {margin-bottom:5px;}
 
 #search-navi a, #search-navi a:hover, #search-navi a:focus {
-color:#336354;/*projektfarbe!*/
+color:#336354;/*project colour!*/
 }
 
 
