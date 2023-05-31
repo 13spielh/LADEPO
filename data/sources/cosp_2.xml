@@ -7,6 +7,12 @@
       <fileDesc>
          <titleStmt>
             <title>Cospi 2 (Joachim Watt)</title>
+            <respStmt>
+               <persName ana="https://d-nb.info/gnd/1213309719">Lukas Spielhofer</persName>
+               <resp from="2021-06" to="2023-05">Herausgeber</resp>
+               <resp from="2021-06" to="2023-05">Textgrundlage und Aufbereitung</resp>
+               <resp from="2021-06" to="2023-05">Encoding</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher/>
@@ -18,6 +24,8 @@
             <idno type="PID">cosp_2</idno>
          </publicationStmt>
          <sourceDesc>
+            <ab>Born Digital-Aufbereitung frühneuzeitlicher Textquellen, deren Endprodukt eine
+               digitale 'assertive' Edition darstellt.</ab>
             <ab>Die Primärtexte sind aus den zitierten Quellen bezogen. <bibl
                   corresp="lists.xml#cosp-1514" xml:lang="la"/>
                <list type="keywords_genre">
